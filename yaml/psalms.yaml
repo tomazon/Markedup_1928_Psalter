@@ -6,13 +6,13 @@ psalm:
         greek_number: ''
         latin_name: Beatus vir qui non abiit.
         tone:
-          from_dunstan: ''
+          from_dunstan: '1 B 1'
         verse:
-          '001': 'BLESSED is the man that hath not walked in the counsel of the ungodly, nor stood in the way of sinners, * and hath not sat in the seat of the scornful.'
-          '002': But his delight is in the law of the <SC>Lord</SC>; * and in his law will he exercise himself day and night.
-          '003': 'And he shall be like a tree planted by the water-side, * that will bring forth his fruit in due season.'
-          '004': 'His leaf also shall not wither; * and look, whatsoever he doeth, it shall prosper.'
-          '005': 'As for the ungodly, it is not so with them; * but they are like the chaff, which the wind scattereth away from the face of the earth.'
+          '001': 'BLESSED is the man that hath not walk{d-}ed in the counsel of the ungodl{dv}y, {df} nor stood in the {d.} way of sinners, * and hath not sat in the seat {d.} of the scornful.'
+          '002': But his delight is in {d.} the law of the <SC>Lord</SC>; * and in his law will he exercise {d.} himself day and night.
+          '003': 'And he shall be like a tree planted {d.} by the water-side, * that will bring forth his fruit {d.} in due season.'
+          '004': 'His leaf also {d.} shall not wither; * and look, whatsoever he doeth{dx}, {d.} it shall prosper.'
+          '005': 'As for the ungodly{dx}, it {d.} is not so with them; * but they are like the chaff{dx}, which the wind scattereth away from the {d.} face of the earth.'
           '006': 'Therefore the ungodly shall not be able to stand in the judgment, * neither the sinners in the congregation of the righteous.'
           '007': But the <SC>Lord</SC> knoweth the way of the righteous; * and the way of the ungodly shall perish.
         verse_history_refs: {}
@@ -25,21 +25,25 @@ psalm:
         greek_number: ''
         latin_name: Quare fremuerunt gentes?
         tone:
-          from_dunstan: ''
+          from_dunstan: 'III A 4'
         verse:
-          '001': 'WHY do the heathen so furiously rage together? * and why do the people imagine a vain thing?'
-          '002': 'The kings of the earth stand up, and the rulers take counsel together * against the <SC>Lord</SC>, and against his Anointed:'
-          '003': 'Let us break their bonds asunder, * and cast away their cords from us.'
-          '004': 'He that dwelleth in heaven shall laugh them to scorn: * the Lord shall have them in derision.'
-          '005': 'Then shall he speak unto them in his wrath, * and vex them in his sore displeasure:'
-          '006': Yet have I set my King * upon my holy hill of Sion.
-          '007': 'I will rehearse the decree; * the <SC>Lord</SC> hath said unto me, Thou art my Son, this day have I begotten thee.'
-          '008': 'Desire of me, and I shall give thee the nations for thine inheritance, * and the utmost parts of the earth for thy possession.'
-          '009': "Thou shalt bruise them with a rod of iron, * and break them in pieces like a potter's vessel."
-          '010': 'Be wise now therefore, O ye kings; * be instructed, ye that are judges of the earth.'
-          '011': 'Serve the <SC>Lord</SC> in fear, * and rejoice unto him with reverence.'
-          '012': 'Kiss the Son, lest he be angry, and so ye perish from the right way, if his wrath be kindled, yea but a little. * Blessed are all they that put their trust in him.'
-        verse_history_refs: {}
+          '001': 'WHY do the heathen so furiously {d.} rage together? * and why do the people imagine {d.} a vain thing?'
+          '002': 'The kings of the earth stand {dv}up{dx}, {df} and the rulers take {d.} counsel together * against the <SC>Lord</SC>{dx}, and against his {d.} Anointed:'
+          '003': 'Let us break their {dx} bonds asunder{dx}, * and cast away their {d.} cords from us.'
+          '004': 'He that dwelleth in heaven shall {d.} laugh them to scorn: * the Lord shall have them in {d.} derision.'
+          '005': 'Then shall he speak unto {d.} them in his wrath{dx}, * and vex them in his sore {d.} displeasure:'
+          '006': '{d.} Yet have I set my King * upon my holy hill {d.} of Sion.'
+          '007': 'I will re{d.}hearse the decree; * the <SC>Lord</SC> hath said unto me{dx}, Thou art my Son, this day have I {d.} begotten thee.{HN 1}'
+          '008': 'Desire of me{dx}, and I shall give thee the nations{HN 2} for {d.} thine inheritance{dx}, * and the utmost parts of the earth for thy {d.} possession.'
+          '009': "Thou shalt bruise them with a {d.} rod of i{d-}ron, * and break them in pieces like a pot{d.}ter's vessel."
+          '010': 'Be wise now {d.} therefore{dx}, O ye kings; * be instructed{HN 3}{dx}, ye that are judg{d.}es of the earth.'
+          '011': '{d.}Serve the <SC>Lord</SC> in fear{dx}, * and rejoice unto him {d.} with reverence.'
+          '012': 'Kiss the Son{dx}, lest he be angr{dv}y, {df} and so ye perish from the right way{dx}, if his wrath be kindl{d-}ed{dx}, {d.} yea but a little. * Bless{d-}ed{HN 4} are all they that put {d.} their trust in him.'
+        verse_history_refs: 
+           '1': 'I will preach the law, whereof the LORD ... | until 1928. | whole_verse'
+           '2': 'the heathen | until 1928.'
+           '3': 'be learned | until 1928.'
+           '4': 'blessed (i. e., not capitalized) | until 1845'
         verse_meta:
           '001':
             is_first_verse: 1
