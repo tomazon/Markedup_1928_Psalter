@@ -851,7 +851,7 @@ psalm:
           '009': 'For he spake, and it was done; * he commanded, and it stood fast.'
           '010': 'The <SC>Lord</SC> bringeth the counsel of the heathen to nought, * and maketh the devices of the people to be of none effect, and casteth out the counsels of princes.'
           '011': 'The counsel of the <SC>Lord</SC> shall endure for ever, * and the thoughts of his heart from generation to generation.'
-          '012': 'Blessed are the people whose God is the Lord JEHOVAH; * and blessed are the folk that he hath chosen to him, to be his inheritance.'
+          '012': 'Blessed are the people whose God is the Lord <TETRAGRAMMATON CATH2008="" DUNSTAN="JEHOVAH"><SC>JEHOVAH</SC></TETRAGRAMMATON>; * and blessed are the folk that he hath chosen to him, to be his inheritance.'
           '013': 'The <SC>Lord</SC> looketh down from heaven, and beholdeth all the children of men; * from the habitation of his dwelling, he considereth all them that dwell on the earth.'
           '014': 'He fashioneth all the hearts of them, * and understandeth all their works.'
           '015': There is no king that can be saved by the multitude of an host; * neither is any mighty man delivered by much strength.
@@ -1813,7 +1813,7 @@ psalm:
           '001': 'LET God arise, and let his enemies be scattered; * let them also that hate him flee before him.'
           '002': 'Like as the smoke vanisheth, so shalt thou drive them away; * and like as wax melteth at the fire, so let the ungodly perish at the presence of God.'
           '003': 'But let the righteous be glad, and rejoice before God; * let them also be merry and joyful.'
-          '004': 'O sing unto God, and sing praises unto his Name; magnify him that rideth upon the heavens; * praise him in his Name JAH, and rejoice before him.'
+          '004': 'O sing unto God, and sing praises unto his Name; magnify him that rideth upon the heavens; * praise him in his Name <DIGRAMMATON CATH2008="The Lord" DUNSTAN="JAH"><SC>JAH</SC></DIGRAMMATON>, and rejoice before him.'
           '005': 'He is a Father of the fatherless, and defendeth the cause of the widows; * even God in his holy habitation.'
           '006': 'He is the God that maketh men to be of one mind in an house, and bringeth the prisoners out of captivity; * but letteth the runagates continue in scarceness.'
           '007': 'O God, when thou wentest forth before the people; * when thou wentest through the wilderness,'
@@ -2354,7 +2354,7 @@ psalm:
           '015': 'Pursue them even so with thy tempest, * and make them afraid with thy storm.'
           '016': 'Make their faces ashamed, O <SC>Lord</SC>, * that they may seek thy Name.'
           '017': 'Let them be confounded and vexed ever more and more; * let them be put to shame, and perish.'
-          '018': 'And they shall know that thou, whose Name is JEHOVAH, * art only the Most Highest over all the earth.'
+          '018': 'And they shall know that thou, whose Name is <TETRAGRAMMATON CATH2008="The Lord" DUNSTAN="JEHOVAH"><SC>JEHOVAH</SC></TETRAGRAMMATON>, * art only the Most Highest over all the earth.'
         verse_history_refs: {}
         verse_meta:
           '001':
