@@ -1,0 +1,428 @@
+#! env perl 
+
+use strict;
+use warnings;
+
+use YAML;
+use feature 'say';
+
+my $state = 'pre';
+my $line_num = 0;
+my $k_num = 0;
+my @k_stack = ();
+my $out = {};
+while (my $line = (<DATA>)) {
+    $line_num++;
+    next if $line_num < 18;
+    $line =~ s/\s+/ /g;
+    $line =~ s/\s+$//;
+
+    $line =~ s/<br>//ig;
+    $line =~ s/&nbsp;//ig;
+    $line =~ s/<\/td>//ig;
+    $line =~ s/<\/tr>//ig;
+    $line =~ s/<td [^>]+>/<td>/gi;
+    $line =~ s/<div [^>]+>//gi;
+    $line =~ s/<\/div>//ig;
+    $line =~ s/<br \/>//ig;
+    $line =~ s/^\s+//;
+    next unless $line =~ /\S/;   
+
+    $line =~ s/4-5/4-6/;
+    $line =~ s/113-116:9/113-115/;
+    $line =~ s/116:10-118/116-118/;
+   
+#    print "| $line\n";
+
+    if ($line =~ s/^<td>//) {
+        push(@k_stack, $line);
+    } elsif ($line =~ /<tr>/ || $line =~ /<\/table>/) {
+        $k_num++;
+        $out->{kathisma}->{pad_num($k_num,2)}->{stasis}->{'1'} = decode_range($k_stack[4]);
+        $out->{kathisma}->{pad_num($k_num,2)}->{stasis}->{'2'} = decode_range($k_stack[5]);
+        $out->{kathisma}->{pad_num($k_num,2)}->{stasis}->{'3'} = decode_range($k_stack[6]);
+
+        add_greek_numbers($out, \@k_stack, 1, 0);
+        add_greek_numbers($out, \@k_stack, 2, 1);
+        add_greek_numbers($out, \@k_stack, 3, 2);
+
+        @k_stack = ();
+    }
+
+}
+
+write_yaml_file("./cache/kathisma_from_archpitt.yaml", $out);
+
+##########################################################################################
+
+sub add_greek_numbers {
+    my ($out, $k_stack, $s_num, $col) = @_;
+
+    my $tmp = decode_range($k_stack[$col]);
+    for (my $i=0; $i<int(@{$tmp}) ; $i++) {
+        $out->{kathisma}->{pad_num($k_num,2)}->{stasis}->{$s_num}->[$i]->{'greek_number'} = $tmp->[$i]->{'psalm'};
+    }
+
+}
+
+sub decode_range {
+    my ($range) = @_;
+    my @out = ();
+    my $tmp = {};
+
+    if ($range =~ /^\d+$/) {
+        $tmp = { psalm => pad_num($range,3), part => pad_num(0,2) };
+        push(@out, $tmp);
+    } elsif ($range =~ /^(\d+)-(\d+)$/) {
+        my ($first, $last) = ($1,$2);
+        for (my $num=$first; $num<=$last; $num++) {
+            $tmp = { psalm => pad_num($num,3), part => pad_num(0,2) };
+            push(@out, $tmp);
+        }
+    } elsif ($range =~ /^(\d+):(\d+)-(\d+)$/) {
+        my ($psalm, $first, $last) = ($1,$2,$3);
+        for (my $num=$first; $num<=$last; $num++) {
+            $tmp = { psalm => pad_num($psalm,3), part => pad_num($num,2) };
+            push(@out, $tmp);
+        }
+    }
+
+    \@out;
+}
+
+sub pad_num {
+    my ($num, $size) = @_;
+
+    my $fmt = "%0${size}d";
+    sprintf($fmt, $num);
+}
+
+sub write_yaml_file {
+    my ($file, $data) = @_;
+    local $YAML::QuoteNumericStrings = 1;
+    local $YAML::Stringify = 1;
+
+    say "Writing YAML to: $file";
+    YAML::DumpFile($file, $data);
+}
+    
+
+__DATA__
+# From https://mci.archpitt.org/liturgy/Reading_the_Psalter.html
+  <table width="85%" border="1" cellpadding=".1">
+    <tr>
+      <th colspan="3" scope="col"><div align="center">Greek number of the Psalms</div></th>
+      <th scope="col"><div align="center"></div></th>
+      <th colspan="3" scope="col"><div align="center">Hebrew number of the Psalms</div></th>
+      </tr>
+    <tr>
+      <th scope="col"><div align="center">First stasis</div></th>
+      <th scope="col"><div align="center">Second stasis</div></th>
+      <th scope="col"><div align="center">Third Stasis</div></th>
+      <th scope="col"><div align="center">Kathisma</div></th>
+      <th scope="col"><div align="center">First stasis</div></th>
+      <th scope="col"><div align="center">Second stasis</div></th>
+      <th scope="col"><div align="center">Third stasis</div></th>
+    </tr>
+    <tr>
+      <td><div align="center">1-3</div></td>
+      <td><div align="center">4-6</div></td>
+      <td><div align="center">7-8</div></td>
+      <td><div align="center">Kathisma 1</div></td>
+      <td><div align="center">1-3</div></td>
+      <td><div align="center">4-5</div></td>
+      <td><div align="center">7-8</div></td>
+    </tr>
+    <tr>
+      <td><div align="center">9-10</div></td>
+      <td><div align="center">11-13</div></td>
+      <td><div align="center">14-16</div></td>
+      <td><div align="center">Kathisma 2</div></td>
+      <td><div align="center">9-11</div></td>
+      <td><div align="center">12-14</div></td>
+      <td><div align="center">15-17</div></td>
+    </tr>
+    <tr>
+      <td><div align="center">17<br />
+      </div></td>
+      <td><div align="center">18-20<br />
+      </div></td>
+      <td><div align="center">21-23<br />
+      </div></td>
+      <td><div align="center">Kathisma 3<br />
+      </div></td>
+      <td><div align="center">18<br />
+      </div></td>
+      <td><div align="center">19-21<br />
+      </div></td>
+      <td><div align="center">22-24<br />
+      </div></td>
+    </tr>
+    <tr>
+      <td><div align="center">24-26<br />
+      </div></td>
+      <td><div align="center">27-29<br />
+      </div></td>
+      <td><div align="center">30-31<br />
+      </div></td>
+      <td><div align="center">Kathisma 4<br />
+      </div></td>
+      <td><div align="center">25-27<br />
+      </div></td>
+      <td><div align="center">28-30<br />
+      </div></td>
+      <td><div align="center">31-32<br />
+      </div></td>
+    </tr>
+    <tr>
+      <td><div align="center">32-33<br />
+      </div></td>
+      <td><div align="center">34-35<br />
+      </div></td>
+      <td><div align="center">36<br />
+      </div></td>
+      <td><div align="center">Kathisma 5<br />
+      </div></td>
+      <td><div align="center">33-34<br />
+      </div></td>
+      <td><div align="center">35-36<br />
+      </div></td>
+      <td><div align="center">37<br />
+      </div></td>
+    </tr>
+    <tr>
+      <td><div align="center">37-39<br />
+      </div></td>
+      <td><div align="center">40-42<br />
+      </div></td>
+      <td><div align="center">43-45<br />
+      </div></td>
+      <td><div align="center">Kathisma 6<br />
+      </div></td>
+      <td><div align="center">38-40<br />
+      </div></td>
+      <td><div align="center">41-43<br />
+      </div></td>
+      <td><div align="center">44-46<br />
+      </div></td>
+    </tr>
+    <tr>
+      <td><div align="center">46-48<br />
+      </div></td>
+      <td><div align="center">49-50<br />
+      </div></td>
+      <td><div align="center">51-54<br />
+      </div></td>
+      <td><div align="center">Kathisma 7<br />
+      </div></td>
+      <td><div align="center">47-49<br />
+      </div></td>
+      <td><div align="center">50-51<br />
+      </div></td>
+      <td><div align="center">52-55<br />
+      </div></td>
+    </tr>
+    <tr>
+      <td><div align="center">55-57<br />
+      </div></td>
+      <td><div align="center">58-60<br />
+      </div></td>
+      <td><div align="center">61-63<br />
+      </div></td>
+      <td><div align="center">Kathisma 8<br />
+      </div></td>
+      <td><div align="center">56-58<br />
+      </div></td>
+      <td><div align="center">59-61<br />
+      </div></td>
+      <td><div align="center">62-64<br />
+      </div></td>
+    </tr>
+    <tr>
+      <td><div align="center">64-66<br />
+      </div></td>
+      <td><div align="center">67<br />
+      </div></td>
+      <td><div align="center">68-69<br />
+      </div></td>
+      <td><div align="center">Kathisma 9<br />
+      </div></td>
+      <td><div align="center">65-67<br />
+      </div></td>
+      <td><div align="center">68<br />
+      </div></td>
+      <td><div align="center">69-70<br />
+      </div></td>
+    </tr>
+    <tr>
+      <td><div align="center">70-71<br />
+      </div></td>
+      <td><div align="center">72-73<br />
+      </div></td>
+      <td><div align="center">74-76<br />
+      </div></td>
+      <td><div align="center">Kathisma 10<br />
+      </div></td>
+      <td><div align="center">71-72<br />
+      </div></td>
+      <td><div align="center">73-74<br />
+      </div></td>
+      <td><div align="center">75-77<br />
+      </div></td>
+    </tr>
+    <tr>
+      <td><div align="center">77<br />
+      </div></td>
+      <td><div align="center">78-80<br />
+      </div></td>
+      <td><div align="center">81-84<br />
+      </div></td>
+      <td><div align="center">Kathisma 11<br />
+      </div></td>
+      <td><div align="center">78<br />
+      </div></td>
+      <td><div align="center">79-81<br />
+      </div></td>
+      <td><div align="center">82-85<br />
+      </div></td>
+    </tr>
+    <tr>
+      <td><div align="center">85-87<br />
+      </div></td>
+      <td><div align="center">88<br />
+      </div></td>
+      <td><div align="center">89-90<br />
+      </div></td>
+      <td><div align="center">Kathisma 12<br />
+      </div></td>
+      <td><div align="center">86-88<br />
+      </div></td>
+      <td><div align="center">89<br />
+      </div></td>
+      <td><div align="center">90-91<br />
+      </div></td>
+    </tr>
+    <tr>
+      <td><div align="center">91-93<br />
+      </div></td>
+      <td><div align="center">94-96<br />
+      </div></td>
+      <td><div align="center">97-100<br />
+      </div></td>
+      <td><div align="center">Kathisma 13<br />
+      </div></td>
+      <td><div align="center">92-94<br />
+      </div></td>
+      <td><div align="center">95-97<br />
+      </div></td>
+      <td><div align="center">98-101<br />
+      </div></td>
+    </tr>
+    <tr>
+      <td><div align="center">101-102<br />
+      </div></td>
+      <td><div align="center">103<br />
+      </div></td>
+      <td><div align="center">104<br />
+      </div></td>
+      <td><div align="center">Kathisma 14<br />
+      </div></td>
+      <td><div align="center">102-103</div></td>
+      <td><div align="center">104<br />
+      </div></td>
+      <td><div align="center">105<br />
+      </div></td>
+    </tr>
+    <tr>
+      <td><div align="center">105<br />
+      </div></td>
+      <td><div align="center">106<br />
+      </div></td>
+      <td><div align="center">107-108<br />
+      </div></td>
+      <td><div align="center">Kathisma 15<br />
+      </div></td>
+      <td><div align="center">106<br />
+      </div></td>
+      <td><div align="center">107<br />
+      </div></td>
+      <td><div align="center">108-109<br />
+      </div></td>
+    </tr>
+    <tr>
+      <td><div align="center">109-111<br />
+      </div></td>
+      <td><div align="center">112-114<br />
+      </div></td>
+      <td><div align="center">115-117<br />
+      </div></td>
+      <td><div align="center">Kathisma 16<br />
+      </div></td>
+      <td><div align="center">110-112<br />
+      </div></td>
+      <td><div align="center">113-116:9<br />
+      </div></td>
+      <td><div align="center">116:10-118<br />
+      </div></td>
+    </tr>
+    <tr>
+      <td><div align="center">118:1-72<br />
+      </div></td>
+      <td><div align="center">118:73-131<br />
+      </div></td>
+      <td><div align="center">118:132-176<br />
+      </div></td>
+      <td><div align="center">Kathisma 17<br />
+      </div></td>
+      <td><div align="center">119:1-72</div></td>
+      <td><div align="center">119:73-131</div></td>
+      <td><div align="center">119:132-176</div></td>
+    </tr>
+    <tr>
+      <td><div align="center">119-123<br />
+      </div></td>
+      <td><div align="center">124-128<br />
+      </div></td>
+      <td><div align="center">129-133<br />
+      </div></td>
+      <td><div align="center">Kathisma 18<br />
+      </div></td>
+      <td><div align="center">120-124<br />
+      </div></td>
+      <td><div align="center">125-129<br />
+      </div></td>
+      <td><div align="center">130-134<br />
+      </div></td>
+    </tr>
+    <tr>
+      <td><div align="center">134-136<br />
+      </div></td>
+      <td><div align="center">137-139<br />
+      </div></td>
+      <td><div align="center">140-142<br />
+      </div></td>
+      <td><div align="center">Kathisma 19<br />
+      </div></td>
+      <td><div align="center">135-137<br />
+      </div></td>
+      <td><div align="center">138-140<br />
+      </div></td>
+      <td><div align="center">141-143<br />
+      </div></td>
+    </tr>
+    <tr>
+      <td><div align="center">143-144<br />
+      </div></td>
+      <td><div align="center">145-147<br />
+      </div></td>
+      <td><div align="center">148-150<br />
+      </div></td>
+      <td><div align="center">Kathisma 20<br />
+      </div></td>
+      <td><div align="center">144-145<br />
+      </div></td>
+      <td><div align="center">146-147<br />
+      </div></td>
+      <td><div align="center">148-150</div></td>
+    </tr>
+    </table>

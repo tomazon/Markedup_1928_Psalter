@@ -1,0 +1,464 @@
+---
+day:
+  '01':
+    hour:
+      AM:
+        - part: '00'
+          psalm: '001'
+        - part: '00'
+          psalm: '002'
+        - part: '00'
+          psalm: '003'
+        - part: '00'
+          psalm: '004'
+        - part: '00'
+          psalm: '005'
+      PM:
+        - part: '00'
+          psalm: '006'
+        - part: '00'
+          psalm: '007'
+        - part: '00'
+          psalm: '008'
+  '02':
+    hour:
+      AM:
+        - part: '00'
+          psalm: '009'
+        - part: '00'
+          psalm: '010'
+        - part: '00'
+          psalm: '011'
+      PM:
+        - part: '00'
+          psalm: '012'
+        - part: '00'
+          psalm: '013'
+        - part: '00'
+          psalm: '014'
+  '03':
+    hour:
+      AM:
+        - part: '00'
+          psalm: '015'
+        - part: '00'
+          psalm: '016'
+        - part: '00'
+          psalm: '017'
+      PM:
+        - part: '00'
+          psalm: '018'
+  '04':
+    hour:
+      AM:
+        - part: '00'
+          psalm: '019'
+        - part: '00'
+          psalm: '020'
+        - part: '00'
+          psalm: '021'
+      PM:
+        - part: '00'
+          psalm: '022'
+        - part: '00'
+          psalm: '023'
+  '05':
+    hour:
+      AM:
+        - part: '00'
+          psalm: '024'
+        - part: '00'
+          psalm: '025'
+        - part: '00'
+          psalm: '026'
+      PM:
+        - part: '00'
+          psalm: '027'
+        - part: '00'
+          psalm: '028'
+        - part: '00'
+          psalm: '029'
+  '06':
+    hour:
+      AM:
+        - part: '00'
+          psalm: '030'
+        - part: '00'
+          psalm: '031'
+      PM:
+        - part: '00'
+          psalm: '032'
+        - part: '00'
+          psalm: '033'
+        - part: '00'
+          psalm: '034'
+  '07':
+    hour:
+      AM:
+        - part: '00'
+          psalm: '035'
+        - part: '00'
+          psalm: '036'
+      PM:
+        - part: '00'
+          psalm: '037'
+  '08':
+    hour:
+      AM:
+        - part: '00'
+          psalm: '038'
+        - part: '00'
+          psalm: '039'
+        - part: '00'
+          psalm: '040'
+      PM:
+        - part: '00'
+          psalm: '041'
+        - part: '00'
+          psalm: '042'
+        - part: '00'
+          psalm: '043'
+  '09':
+    hour:
+      AM:
+        - part: '00'
+          psalm: '044'
+        - part: '00'
+          psalm: '045'
+        - part: '00'
+          psalm: '046'
+      PM:
+        - part: '00'
+          psalm: '047'
+        - part: '00'
+          psalm: '048'
+        - part: '00'
+          psalm: '049'
+  '10':
+    hour:
+      AM:
+        - part: '00'
+          psalm: '050'
+        - part: '00'
+          psalm: '051'
+        - part: '00'
+          psalm: '052'
+      PM:
+        - part: '00'
+          psalm: '053'
+        - part: '00'
+          psalm: '054'
+        - part: '00'
+          psalm: '055'
+  '11':
+    hour:
+      AM:
+        - part: '00'
+          psalm: '056'
+        - part: '00'
+          psalm: '057'
+        - part: '00'
+          psalm: '058'
+      PM:
+        - part: '00'
+          psalm: '059'
+        - part: '00'
+          psalm: '060'
+        - part: '00'
+          psalm: '061'
+  '12':
+    hour:
+      AM:
+        - part: '00'
+          psalm: '062'
+        - part: '00'
+          psalm: '063'
+        - part: '00'
+          psalm: '064'
+      PM:
+        - part: '00'
+          psalm: '065'
+        - part: '00'
+          psalm: '066'
+        - part: '00'
+          psalm: '067'
+  '13':
+    hour:
+      AM:
+        - part: '00'
+          psalm: '068'
+      PM:
+        - part: '00'
+          psalm: '069'
+        - part: '00'
+          psalm: '070'
+  '14':
+    hour:
+      AM:
+        - part: '00'
+          psalm: '071'
+        - part: '00'
+          psalm: '072'
+      PM:
+        - part: '00'
+          psalm: '073'
+        - part: '00'
+          psalm: '074'
+  '15':
+    hour:
+      AM:
+        - part: '00'
+          psalm: '075'
+        - part: '00'
+          psalm: '076'
+        - part: '00'
+          psalm: '077'
+      PM:
+        - part: '00'
+          psalm: '078'
+  '16':
+    hour:
+      AM:
+        - part: '00'
+          psalm: '079'
+        - part: '00'
+          psalm: '080'
+        - part: '00'
+          psalm: '081'
+      PM:
+        - part: '00'
+          psalm: '082'
+        - part: '00'
+          psalm: '083'
+        - part: '00'
+          psalm: '084'
+        - part: '00'
+          psalm: '085'
+  '17':
+    hour:
+      AM:
+        - part: '00'
+          psalm: '086'
+        - part: '00'
+          psalm: '087'
+        - part: '00'
+          psalm: '088'
+      PM:
+        - part: '00'
+          psalm: '089'
+  '18':
+    hour:
+      AM:
+        - part: '00'
+          psalm: '090'
+        - part: '00'
+          psalm: '091'
+        - part: '00'
+          psalm: '092'
+      PM:
+        - part: '00'
+          psalm: '093'
+        - part: '00'
+          psalm: '094'
+  '19':
+    hour:
+      AM:
+        - part: '00'
+          psalm: '095'
+        - part: '00'
+          psalm: '096'
+        - part: '00'
+          psalm: '097'
+      PM:
+        - part: '00'
+          psalm: '098'
+        - part: '00'
+          psalm: '099'
+        - part: '00'
+          psalm: '100'
+        - part: '00'
+          psalm: '101'
+  '20':
+    hour:
+      AM:
+        - part: '00'
+          psalm: '102'
+        - part: '00'
+          psalm: '103'
+      PM:
+        - part: '00'
+          psalm: '104'
+  '21':
+    hour:
+      AM:
+        - part: '00'
+          psalm: '105'
+      PM:
+        - part: '00'
+          psalm: '106'
+  '22':
+    hour:
+      AM:
+        - part: '00'
+          psalm: '107'
+      PM:
+        - part: '00'
+          psalm: '108'
+        - part: '00'
+          psalm: '109'
+  '23':
+    hour:
+      AM:
+        - part: '00'
+          psalm: '110'
+        - part: '00'
+          psalm: '111'
+        - part: '00'
+          psalm: '112'
+        - part: '00'
+          psalm: '113'
+      PM:
+        - part: '00'
+          psalm: '114'
+        - part: '00'
+          psalm: '115'
+  '24':
+    hour:
+      AM:
+        - part: '00'
+          psalm: '116'
+        - part: '00'
+          psalm: '117'
+        - part: '00'
+          psalm: '118'
+      PM:
+        - part: '01'
+          psalm: '119'
+        - part: '02'
+          psalm: '119'
+        - part: '03'
+          psalm: '119'
+        - part: '04'
+          psalm: '119'
+  '25':
+    hour:
+      AM:
+        - part: '05'
+          psalm: '119'
+        - part: '06'
+          psalm: '119'
+        - part: '07'
+          psalm: '119'
+        - part: '08'
+          psalm: '119'
+        - part: '09'
+          psalm: '119'
+      PM:
+        - part: '10'
+          psalm: '119'
+        - part: '11'
+          psalm: '119'
+        - part: '12'
+          psalm: '119'
+        - part: '13'
+          psalm: '119'
+  '26':
+    hour:
+      AM:
+        - part: '14'
+          psalm: '119'
+        - part: '15'
+          psalm: '119'
+        - part: '16'
+          psalm: '119'
+        - part: '17'
+          psalm: '119'
+        - part: '18'
+          psalm: '119'
+      PM:
+        - part: '19'
+          psalm: '119'
+        - part: '20'
+          psalm: '119'
+        - part: '21'
+          psalm: '119'
+        - part: '22'
+          psalm: '119'
+  '27':
+    hour:
+      AM:
+        - part: '00'
+          psalm: '120'
+        - part: '00'
+          psalm: '121'
+        - part: '00'
+          psalm: '122'
+        - part: '00'
+          psalm: '123'
+        - part: '00'
+          psalm: '124'
+        - part: '00'
+          psalm: '125'
+      PM:
+        - part: '00'
+          psalm: '126'
+        - part: '00'
+          psalm: '127'
+        - part: '00'
+          psalm: '128'
+        - part: '00'
+          psalm: '129'
+        - part: '00'
+          psalm: '130'
+        - part: '00'
+          psalm: '131'
+  '28':
+    hour:
+      AM:
+        - part: '00'
+          psalm: '132'
+        - part: '00'
+          psalm: '133'
+        - part: '00'
+          psalm: '134'
+        - part: '00'
+          psalm: '135'
+      PM:
+        - part: '00'
+          psalm: '136'
+        - part: '00'
+          psalm: '137'
+        - part: '00'
+          psalm: '138'
+  '29':
+    hour:
+      AM:
+        - part: '00'
+          psalm: '139'
+        - part: '00'
+          psalm: '140'
+      PM:
+        - part: '00'
+          psalm: '141'
+        - part: '00'
+          psalm: '142'
+        - part: '00'
+          psalm: '143'
+  '30':
+    hour:
+      AM:
+        - part: '00'
+          psalm: '144'
+        - part: '00'
+          psalm: '145'
+        - part: '00'
+          psalm: '146'
+      PM:
+        - part: '00'
+          psalm: '147'
+        - part: '00'
+          psalm: '148'
+        - part: '00'
+          psalm: '149'
+        - part: '00'
+          psalm: '150'

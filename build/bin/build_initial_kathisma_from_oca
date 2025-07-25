@@ -1,0 +1,459 @@
+#! env perl 
+
+use strict;
+use warnings;
+
+use YAML;
+use feature 'say';
+
+my $state = 'pre';
+my $line_num = 0;
+my $k_num = 0;
+my @k_stack = ();
+my $out = {};
+while (my $line = (<DATA>)) {
+    $line_num++;
+    next if $line_num < 38;
+    $line =~ s/\s+/ /g;
+    $line =~ s/\s+$//;
+
+    $line =~ s/<br>//ig;
+    $line =~ s/&nbsp;//ig;
+    $line =~ s/<\/td>//ig;
+    $line =~ s/<\/tr>//ig;
+    $line =~ s/<td [^>]+>/<td>/gi;
+    $line =~ s/^\s+//;
+    next unless $line =~ /\S/;   
+
+    $line =~ s/113-116:9/113-115/;
+    $line =~ s/116:10-118/116-118/;
+   
+    if ($line =~ s/^<td>//) {
+        push(@k_stack, $line);
+    } elsif ($line =~ /<tr>/ || $line =~ /<\/tbody>/) {
+        $k_num++;
+        $out->{kathisma}->{pad_num($k_num,2)}->{stasis}->{'1'} = decode_range($k_stack[4]);
+        $out->{kathisma}->{pad_num($k_num,2)}->{stasis}->{'2'} = decode_range($k_stack[5]);
+        $out->{kathisma}->{pad_num($k_num,2)}->{stasis}->{'3'} = decode_range($k_stack[6]);
+
+        add_greek_numbers($out, \@k_stack, 1, 0);
+        add_greek_numbers($out, \@k_stack, 2, 1);
+        add_greek_numbers($out, \@k_stack, 3, 2);
+
+        @k_stack = ();
+    }
+
+}
+
+
+write_yaml_file("./cache/kathisma_from_oca.yaml", $out);
+
+##########################################################################################
+
+sub add_greek_numbers {
+    my ($out, $k_stack, $s_num, $col) = @_;
+
+    my $tmp = decode_range($k_stack[$col]);
+    for (my $i=0; $i<int(@{$tmp}) ; $i++) {
+        $out->{kathisma}->{pad_num($k_num,2)}->{stasis}->{$s_num}->[$i]->{'greek_number'} = $tmp->[$i]->{'psalm'};
+    } 
+
+}
+
+sub decode_range {
+    my ($range) = @_;
+    my @out = ();
+    my $tmp = {};
+
+    if ($range =~ /^\d+$/) {
+        $tmp = { psalm => pad_num($range,3), part => pad_num(0,2) };
+        push(@out, $tmp);
+    } elsif ($range =~ /^(\d+)-(\d+)$/) {
+        my ($first, $last) = ($1,$2);
+        for (my $num=$first; $num<=$last; $num++) {
+            $tmp = { psalm => pad_num($num,3), part => pad_num(0,2) };
+            push(@out, $tmp);
+        }
+    } elsif ($range =~ /^(\d+):(\d+)-(\d+)$/) {
+        my ($psalm, $first, $last) = ($1,$2,$3);
+        for (my $num=$first; $num<=$last; $num++) {
+            $tmp = { psalm => pad_num($psalm,3), part => pad_num($num,2) };
+            push(@out, $tmp);
+        }
+    }
+
+    \@out;
+}
+
+sub pad_num {
+    my ($num, $size) = @_;
+
+    my $fmt = "%0${size}d";
+    sprintf($fmt, $num);
+}
+
+sub write_yaml_file {
+    my ($file, $data) = @_;
+    local $YAML::QuoteNumericStrings = 1;
+    local $YAML::Stringify = 1;
+
+    say "Writing YAML to: $file";
+    YAML::DumpFile($file, $data);
+}
+    
+
+__DATA__
+# From https://www.oca.org/liturgics/outlines/the-division-of-the-psalter-into-kathismas
+<table cellpadding="2" cellspacing="2" border="1" style="text-align: left; width: 80%; margin-left: auto; margin-right: auto;">
+&nbsp; <tbody>
+&nbsp;   <tr>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(255, 255, 204);" rowspan="1" colspan="3"><span style="font-weight: bold;"><br>
+&nbsp;  &nbsp;  <a href="/liturgics/outlines/septuagint-numbering-psalms">Greek Numbering</a>&nbsp; of Psalms</span><span style="font-weight: bold;"><br>
+&nbsp;  &nbsp;  <br>
+&nbsp;  &nbsp;  </span><span style="font-weight: bold;"></span></td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(102, 204, 204);" rowspan="2" colspan="1"><big><span style="font-weight: bold;">Kathisma</span></big><br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="font-weight: bold; text-align: center; vertical-align: middle; background-color: rgb(255, 255, 204);" rowspan="1" colspan="3"><br>
+Hebrew Numbering of Psalms<br>
+&nbsp;  &nbsp;  <br>
+&nbsp;  &nbsp;  </td>
+&nbsp;   </tr>
+&nbsp;   <tr>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; font-weight: bold; background-color: rgb(255, 255, 204);">&nbsp;Stasis
+1</td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; font-weight: bold; background-color: rgb(255, 255, 204);">Stasis
+2<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; font-weight: bold; background-color: rgb(255, 255, 204);">Stasis
+3<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; font-weight: bold; background-color: rgb(255, 255, 204);">&nbsp;Stasis
+1<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; font-weight: bold; background-color: rgb(255, 255, 204);">Stasis
+2<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; font-weight: bold; background-color: rgb(255, 255, 204);">Stasis
+3<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;   </tr>
+&nbsp;   <tr>
+&nbsp;   </tr>
+&nbsp;   <tr>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">1-3<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(51, 255, 51);">4-6<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">7-8<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(102, 204, 204);">I<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">1-3<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(51, 255, 51);">4-6<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">7-8<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;   </tr>
+&nbsp;   <tr>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">9-10<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(51, 255, 51);">11-13<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">14-16<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(102, 204, 204);">II<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">9-11<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(51, 255, 51);">12-14<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">15-17<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;   </tr>
+&nbsp;   <tr>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">17<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(51, 255, 51);">18-20<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">21-23<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(102, 204, 204);">III<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">18<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(51, 255, 51);">19-21<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">22-24<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;   </tr>
+&nbsp;   <tr>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">24-26<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(51, 255, 51);">27-29<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">30-31<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(102, 204, 204);">IV<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">25-27<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(51, 255, 51);">28-30<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">31-32<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;   </tr>
+&nbsp;   <tr>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">32-33<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(51, 255, 51);">34-35<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">36<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(102, 204, 204);">V<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">33-34<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(51, 255, 51);">35-36<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">37<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;   </tr>
+&nbsp;   <tr>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">37-39<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(51, 255, 51);">40-42<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">43-45<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(102, 204, 204);">VI<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">38-40<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(51, 255, 51);">41-43<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">44-46<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;   </tr>
+&nbsp;   <tr>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">46-48<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(51, 255, 51);">49-50<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">51-54<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(102, 204, 204);">VII<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">47-49<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(51, 255, 51);">50-51<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">52-55<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;   </tr>
+&nbsp;   <tr>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">55-57<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(51, 255, 51);">58-60<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">61-63<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(102, 204, 204);">VIII<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">56-58<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(51, 255, 51);">59-61<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">62-64<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;   </tr>
+&nbsp;   <tr>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">64-66<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(51, 255, 51);">67<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">68-69<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(102, 204, 204);">IX<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">65-67<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(51, 255, 51);">68<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">69-70<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;   </tr>
+&nbsp;   <tr>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">70-71<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(51, 255, 51);">72-73<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">74-76<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(102, 204, 204);">X<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">71-72<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(51, 255, 51);">73-74<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">75-77<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;   </tr>
+&nbsp;   <tr>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">77<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(51, 255, 51);">78-80<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">81-84<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(102, 204, 204);">XI<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">78<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(51, 255, 51);">79-81<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">82-85<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;   </tr>
+&nbsp;   <tr>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">85-87<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(51, 255, 51);">88<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">89-90<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(102, 204, 204);">XII<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">86-88<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(51, 255, 51);">89<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">90-91<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;   </tr>
+&nbsp;   <tr>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">91-93<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(51, 255, 51);">94-96<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">97-100<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(102, 204, 204);">XIII<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">92-94<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(51, 255, 51);">95-97<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">98-101<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;   </tr>
+&nbsp;   <tr>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">101-102<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(51, 255, 51);">103<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">104<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(102, 204, 204);">XIV<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">102-103</td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(51, 255, 51);">104<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">105<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;   </tr>
+&nbsp;   <tr>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">105<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(51, 255, 51);">106<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">107-108<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(102, 204, 204);">XV<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">106<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(51, 255, 51);">107<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">108-109<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;   </tr>
+&nbsp;   <tr>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">109-111<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(51, 255, 51);">112-114<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">115-117<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(102, 204, 204);">XVI<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">110-112<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(51, 255, 51);">113-116:9<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">116:10-118<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;   </tr>
+&nbsp;   <tr>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">118:1-72<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(51, 255, 51);">118:73-131<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">118:132-176<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(102, 204, 204);">XVII<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">119:1-72</td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(51, 255, 51);">119:73-131</td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">119:132-176</td>
+&nbsp;   </tr>
+&nbsp;   <tr>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">119-123<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(51, 255, 51);">124-128<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">129-133<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(102, 204, 204);">XVIII<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">120-124<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(51, 255, 51);">125-129<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">130-134<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;   </tr>
+&nbsp;   <tr>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">134-136<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(51, 255, 51);">137-139<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">140-142<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(102, 204, 204);">XIX<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">135-137<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(51, 255, 51);">138-140<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">141-143<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;   </tr>
+&nbsp;   <tr>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">143-144<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(51, 255, 51);">145-147<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">148-150<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(102, 204, 204);">XX<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">144-145<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(51, 255, 51);">146-147<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;  &nbsp;  <td style="text-align: center; vertical-align: middle; background-color: rgb(204, 255, 255);">148-150<br>
+&nbsp;  &nbsp;  </td>
+&nbsp;   </tr>
+&nbsp; </tbody>
+</table>

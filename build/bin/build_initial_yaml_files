@@ -1,0 +1,212 @@
+#! env perl
+
+use strict;
+use warnings;
+
+use File::Slurp;
+use Roman;
+use WWW::Mechanize;
+use YAML;
+use feature 'say';
+
+my $cache_dir = './cache';
+my $out_dir = './cache';
+
+my $sources = [
+  {
+    url => 'http://www.covert.org/Psalter/Bk1.html',
+    cache_file => '1928BCP_Psalter_Covert_Bk1.html'
+  },
+  {
+    url => 'http://www.covert.org/Psalter/Bk2.html',
+    cache_file => '1928BCP_Psalter_Covert_Bk2.html'
+  },
+  {
+    url => 'http://www.covert.org/Psalter/Bk3.html',
+    cache_file => '1928BCP_Psalter_Covert_Bk3.html'
+  },
+  {
+    url => 'http://www.covert.org/Psalter/Bk4.html',
+    cache_file => '1928BCP_Psalter_Covert_Bk4.html'
+  },
+  {
+    url => 'http://www.covert.org/Psalter/Bk5.html',
+    cache_file => '1928BCP_Psalter_Covert_Bk5.html'
+  },
+];
+
+
+my $state = {
+    status => 'pre',
+    day   => 00,
+    office => '',
+    ps => 0,
+    ps_part => '0',
+};
+my $out = {};
+
+for my $src ( @{$sources} ) {
+    my $html = get_src($src, $cache_dir);
+    process_source_html($out, $state, $html);
+}
+
+
+write_yaml_file("$out_dir/psalms_from_covert.yaml", $out->{psalms});
+write_yaml_file("$out_dir/offices_from_covert.yaml", $out->{office});
+
+
+########################################################################
+########################################################################
+
+
+sub get_src {
+    my ($src, $cache_dir) = @_;
+    my $cache_file = "$cache_dir/$src->{cache_file}";
+
+    if (-f $cache_file) {
+        say "Reading: $cache_file";
+        return read_file($cache_file); 
+    }
+
+    say "Getting: $src->{url}";
+
+    my $m = WWW::Mechanize->new( autocheck => 0 );
+    $m->get($src->{url});
+
+
+    if ($m->status() ne "200") {
+        die "ERROR fetching $src->{url} : ". $m->status();
+    } else {
+        say "Writing: $cache_file";
+        write_file($cache_file, $m->content);
+        return($m->content);
+    }
+}
+
+
+sub process_source_html {
+    my ($out, $state, $html) = @_;
+    $state->{status} = 'pre';
+
+    for my $line (split(/\n/, $html)) {
+        chomp($line);
+        if ($line =~ /name="Day(\d+)([ME])"/) {
+            $state->{day} = pad_num($1, 2);
+            $state->{hour} = ($2 eq 'M')?'AM':'PM';
+            $state->{status} = 'pre';
+        } elsif ($line =~ /name="Ps(\d+)"/) {
+            $state->{ps} = pad_num($1, 3);
+            if ($state->{ps} eq '119') {
+                $state->{ps_part} = pad_num(1,2);
+            } else {
+                $state->{ps_part} = pad_num(0,2);
+            }
+        } elsif ($line =~ /^Psalm (\d+).( I.)? <i>([^<]+)<\/i>/) {
+            my $latin_name = $3;
+            add_latin_name($out, $state, $latin_name);
+            $state->{vers} = pad_num(0,3);
+            $state->{status} = 'starting';
+            add_office($out, $state);
+        } elsif ($line =~ /^([IVX]+)\. <i>([^<]+)<\/i>/) {
+            $state->{ps_part} = pad_num(arabic($1), 2);
+            my $latin_name = $2;
+            $state->{status} = 'starting';
+
+            add_latin_name($out, $state, $latin_name);
+            add_office($out, $state);
+            add_meta($out, $state, 'is_first_verse', 1)
+        } elsif ($line =~ /<a href/) {
+            $state->{status} = 'pre';
+        } elsif ($state->{status} eq 'pre') {
+            #say "X $line";
+        } else {
+            next if $line =~ /^<[A-Za-z\/]+>$/;
+            next if $line =~ /^<[A-Za-z\/]+><[A-Za-z\/]+>$/;
+            next if $line =~ /^<CENTER><i>The End/;
+
+            $line =~ s{<span style="font-variant:small-caps;">(\w+)</span>}{<SC>$1</SC>}g;
+            $line =~ s/<BR>$//;
+            next unless $line =~ /\S/;
+            #say "| $line";
+
+            if ($state->{status} eq 'starting') {
+                if ($line =~ /^[A-Z][A-Z]+/ || $line =~ /^[AIO] [A-Z]+/) {
+                  if ($state->{ps} eq '119') {
+                    my $tmp = $state->{vers} + 1;
+                    $state->{vers} = pad_num($tmp,3);
+                  } else {
+                    $state->{vers} = '001';
+                  }
+                  add_verse($out, $state->{ps}, $state->{ps_part}, $state->{vers}, $line);
+                  add_meta($out, $state, 'is_first_verse', 1);
+                  $state->{status} = 'in';
+                }
+            } elsif ($state->{status} eq 'in') {
+                if ($line =~ s/^(\d+)&nbsp;&nbsp;//) {
+                  $state->{vers} = pad_num($1, 3);
+                  add_verse($out, $state->{ps}, $state->{ps_part}, $state->{vers}, $line);
+                } else {
+                  append_verse($out, $state->{ps}, $state->{ps_part}, $state->{vers}, $line);
+                }
+            }
+        }
+    }
+}
+
+sub add_meta {
+   my ($out, $state, $key, $val) = @_;
+
+   $out->{psalms}->{psalm}->{$state->{ps}}->{part}->{$state->{ps_part}}->{verse_meta}->{$state->{vers}}->{$key} = $val;
+}
+
+sub add_verse {
+   my ($out, $ps, $ps_part, $vers, $text) = @_;
+
+   $out->{psalms}->{psalm}->{$ps}->{part}->{$ps_part}->{verse}->{"$vers"} = $text;
+   $out->{psalms}->{psalm}->{$ps}->{part}->{$ps_part}->{verse}->{"$vers"} =~ s{\s+}{ }g;
+   $out->{psalms}->{psalm}->{$ps}->{part}->{$ps_part}->{verse}->{"$vers"} =~ s{<span style="font-variant:small-caps;">(\w+)</span>}{<SC>$1</SC>}g;
+}
+
+sub append_verse {
+   my ($out, $ps, $ps_part, $vers, $text) = @_;
+
+   $out->{psalms}->{psalm}->{$ps}->{part}->{$ps_part}->{verse}->{$vers} .= ' '. $text;
+   $out->{psalms}->{psalm}->{$ps}->{part}->{$ps_part}->{verse}->{$vers} =~ s{\s+}{ }g;
+   $out->{psalms}->{psalm}->{$ps}->{part}->{$ps_part}->{verse}->{$vers} =~ s{<span style="font-variant:small-caps;">(\w+)</span>}{<SC>$1</SC>}g;
+}
+
+sub add_office {
+  my ($out, $state) = @_;
+
+  my $tmp = {
+    psalm => $state->{ps},
+    part  => $state->{ps_part}
+  };
+  push(@{$out->{office}->{day}->{$state->{day}}->{hour}->{$state->{hour}}}, $tmp);
+
+}
+
+sub add_latin_name {
+  my ($out, $state, $latin_name) = @_;
+  $out->{psalms}->{psalm}->{$state->{ps}}->{part}->{$state->{ps_part}}->{latin_name} = $latin_name;
+  $out->{psalms}->{psalm}->{$state->{ps}}->{part}->{$state->{ps_part}}->{tone}->{from_dunstan} = '';
+  $out->{psalms}->{psalm}->{$state->{ps}}->{part}->{$state->{ps_part}}->{verse_history_refs} = {};
+  $out->{psalms}->{psalm}->{$state->{ps}}->{part}->{$state->{ps_part}}->{greek_number} = '';
+}
+
+sub pad_num {
+    my ($num, $size) = @_;
+
+    my $fmt = "%0${size}d";
+    sprintf($fmt, $num);
+}
+
+sub write_yaml_file {
+    my ($file, $data) = @_;
+    local $YAML::QuoteNumericStrings = 1;
+    local $YAML::Stringify = 1;
+
+    say "Writing YAML to: $file";
+    YAML::DumpFile($file, $data);
+}
+

@@ -1,0 +1,19 @@
+
+
+
+
+within verse text:
+
+  markup rom Saint Dunstan's Plansong Psalter:
+
+    {-}  add a long dash
+    {.}  add a dot
+    {f}  add a flex
+    {v}  add a caron to the next character
+    {_}  add a macron to the next character 
+
+    [*]  replace with a "'".  ie.
+         "ev[e]ry" becomes "ev'ry" for singing and "every" for matching the 1928 text  PS12:9
+         "kindl[e]d"  Ps18:9
+
+

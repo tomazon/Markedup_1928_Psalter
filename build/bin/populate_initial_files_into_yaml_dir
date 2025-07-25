@@ -1,0 +1,10 @@
+#! /bin/bash
+
+set -e
+
+cp ./cache/psalms_from_covert.yaml  ./yaml/psalms.yaml
+cp ./cache/offices_from_covert.yaml ./yaml/offices.yaml
+cp ./cache/kathisma_from_oca.yaml   ./yaml/kathisma.yaml
+
+
+
