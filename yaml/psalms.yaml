@@ -447,7 +447,7 @@ psalm:
           from_dunstan: ''
         verse:
           '001': 'I WILL love thee, O <SC>Lord</SC>, my strength. * The <SC>Lord</SC> is my stony rock, and my defence;'
-          '002': 'My Saviour, my God, and my might, in whom I will trust; * my buckler, the horn also of my salvation, and my refuge.'
+          '002': 'My Saviour, my God, and my might, in whom I will trust; * my buckler, the horn also of my salvation, and my refuge.{HN 1}'
           '003': 'I will call upon the <SC>Lord</SC>, which is worthy to be praised; * so shall I be safe from mine enemies.'
           '004': 'The sorrows of death compassed me, * and the overflowings of ungodliness made me afraid.'
           '005': The pains of hell came about me; * the snares of death overtook me.
@@ -456,7 +456,7 @@ psalm:
           '008': 'The earth trembled and quaked, * the very foundations also of the hills shook, and were removed, because he was wroth.'
           '009': 'There went a smoke out in his presence, * and a consuming fire out of his mouth, so that coals were kindled at it.'
           '010': 'He bowed the heavens also, and came down, * and it was dark under his feet.'
-          '011': 'He rode upon the Cherubim, and did fly; * he came flying upon the wings of the wind.'
+          '011': 'He rode upon the Cherubim{HN 2}, and did fly; * he came flying upon the wings of the wind.'
           '012': 'He made darkness his secret place, * his pavilion round about him with dark water, and thick clouds to cover him.'
           '013': At the brightness of his presence his clouds removed; * hailstones and coals of fire.
           '014': 'The <SC>Lord</SC> also thundered out of heaven, and the Highest gave his thunder; * hailstones and coals of fire.'
@@ -464,7 +464,7 @@ psalm:
           '016': 'The springs of waters were seen, and the foundations of the round world were discovered, * at thy chiding, O <SC>Lord</SC>, at the blasting of the breath of thy displeasure.'
           '017': 'He sent down from on high to fetch me, * and took me out of many waters.'
           '018': 'He delivered me from my strongest enemy, and from them which hate me; * for they were too mighty for me.'
-          '019': They came upon me in the day of my trouble; * but the <SC>Lord</SC> was my upholder.
+          '019': They came upon me in the day{HN 3} of my trouble; * but the <SC>Lord</SC> was my upholder.
           '020': 'He brought me forth also into a place of liberty; * he brought me forth, even because he had a favour unto me. &nbsp;<br>'
           '021': 'The <SC>Lord</SC> rewarded me after my righteous dealing, * according to the cleanness of my hands did he recompense me.'
           '022': 'Because I have kept the ways of the <SC>Lord</SC>, * and have not forsaken my God, as the wicked doth.'
@@ -472,7 +472,7 @@ psalm:
           '024': 'I was also uncorrupt before him, * and eschewed mine own wickedness.'
           '025': 'Therefore the <SC>Lord</SC> rewarded me after my righteous dealing, * and according unto the cleanness of my hands in his eyesight.'
           '026': 'With the holy thou shalt be holy, * and with a perfect man thou shalt be perfect.'
-          '027': 'With the clean thou shalt be clean, * and with the froward thou shalt be froward.'
+          '027': 'With the clean thou shalt be clean, * and with the froward thou shalt be froward{HN 4}.'
           '028': 'For thou shalt save the people that are in adversity, * and shalt bring down the high looks of the proud.'
           '029': Thou also shalt light my candle; * the <SC>Lord</SC> my God shall make my darkness to be light.
           '030': 'For in thee I shall discomfit an host of men, * and with the help of my God I shall leap over the wall.'
@@ -489,15 +489,23 @@ psalm:
           '041': 'Thou hast made mine enemies also to turn their backs upon me, * and I shall destroy them that hate me.'
           '042': 'They shall cry, but there shall be none to help them; * yea, even unto the <SC>Lord</SC> shall they cry, but he shall not hear them.'
           '043': 'I will beat them as small as the dust before the wind: * I will cast them out as the clay in the streets.'
-          '044': 'Thou shalt deliver me from the strivings of the people, * and thou shalt make me the head of the nations; a people whom I have not known shall serve me.'
-          '045': 'As soon as they hear of me, they shall obey me; * the strangers shall feign obedience unto me.'
-          '046': 'The strangers shall fail, * and come trembling out of their strongholds.'
-          '047': 'The <SC>Lord</SC> liveth; and blessed be my strong helper, * and praised be the God of my salvation;'
+          '044': 'Thou shalt deliver me from the strivings of the people, * and thou shalt make me the head of the nations; a people whom I have not known shall serve me.{HN 5}'
+          '045': 'As soon as they hear of me, they shall obey me; * the strangers shall feign obedience unto me.{HN 6}'
+          '046': 'The strangers shall fail, * and come trembling out of their strongholds.{HN 7}'
+          '047': 'The <SC>Lord</SC> liveth; and blessed be my strong helper, * and praised be the God of my salvation;{HN 8}'
           '048': 'Even the God that seeth that I be avenged, * and subdueth the people unto me.'
           '049': 'It is he that delivereth me from my cruel enemies, and setteth me up above mine adversaries: * thou shalt rid me from the wicked man.'
           '050': 'For this cause will I give thanks unto thee, O <SC>Lord</SC>, among the Gentiles, * and sing praises unto thy Name.'
           '051': 'Great prosperity giveth he unto his King, * and showeth loving-kindness unto David his anointed, and unto his seed for evermore.'
-        verse_history_refs: {}
+        verse_history_refs:
+          '1': ' | Vs. 1 & 2 were combined as one verse prior to 1928 (and the rest through v. 44 numbered one lower)'
+          '2': 'Cherubins | in the English Book & Cherubims 1790-1793'
+          '3': 'They prevented me in the day | until 1928.'
+          '4': '... with the froward thou shalt learn frowardness | until 1928'
+          '5': '43. Thou shalt deliver me from the strivings of the people : and thou shalt make me the head of the heathen. | until 1928 *'
+          '6': '44. A people whom I have not known : shall serve me. | until 1928 *'
+          '7': '45. As soon as they hear of me, they shall obey me : but the strange children shall dissemble with me. | until 1928 *'
+          '8': '46. The strange children shall fail : and be afraid out of their prisons. | until 1928 *'
         verse_meta:
           '001':
             is_first_verse: 1
@@ -522,8 +530,10 @@ psalm:
           '011': 'Moreover, by them is thy servant taught; * and in keeping of them there is great reward.'
           '012': 'Who can tell how oft he offendeth? * O cleanse thou me from my secret faults.'
           '013': 'Keep thy servant also from presumptuous sins, lest they get the dominion over me; * so shall I be undefiled, and innocent from the great offence.'
-          '014': 'Let the words of my mouth, and the meditation of my heart, be alway acceptable in thy sight, * O <SC>Lord</SC>, my strength and my redeemer.'
-        verse_history_refs: {}
+          '014': 'Let the words of my mouth, and the meditation of my heart, be alway acceptable in thy sight,{HN 1} * O <SC>Lord</SC>, my strength and my redeemer.{HN 2}'
+        verse_history_refs:
+          '1': '14. Let the words of my mouth, and the meditation of my heart, be alway acceptable in thy sight, | Last verse was two until 1928 *'
+          '2': '15. O LORD, my strength and my redeemer. | Last verse was two until 1928 *'
         verse_meta:
           '001':
             is_first_verse: 1
@@ -558,18 +568,20 @@ psalm:
         verse:
           '001': 'THE King shall rejoice in thy strength, O <SC>Lord</SC>; * exceeding glad shall he be of thy salvation.'
           '002': "Thou hast given him his heart's desire, * and hast not denied him the request of his lips."
-          '003': 'For thou shalt meet him with the blessings of goodness, * and shalt set a crown of pure gold upon his head.'
+          '003': 'For thou shalt meet{HN 1} him with the blessings of goodness, * and shalt set a crown of pure gold upon his head.'
           '004': 'He asked life of thee; and thou gavest him a long life, * even for ever and ever.'
           '005': His honour is great in thy salvation; * glory and great worship shalt thou lay upon him.
           '006': 'For thou shalt give him everlasting felicity, * and make him glad with the joy of thy countenance.'
           '007': 'And why? because the King putteth his trust in the <SC>Lord</SC>; * and in the mercy of the Most Highest he shall not miscarry.'
-          '008': All thine enemies shall feel thine hand; * thy right hand shall find out them that hate thee.
+          '008': All thine enemies shall feel thine{HN 2} hand; * thy right hand shall find out them that hate thee.
           '009': 'Thou shalt make them like a fiery oven in time of thy wrath: * the <SC>Lord</SC> shall destroy them in his displeasure, and the fire shall consume them.'
           '010': 'Their fruit shalt thou root out of the earth, * and their seed from among the children of men.'
           '011': 'For they intended mischief against thee, * and imagined such a device as they are not able to perform.'
           '012': 'Therefore shalt thou put them to flight, * and the strings of thy bow shalt thou make ready against the face of them.'
           '013': 'Be thou exalted, <SC>Lord</SC>, in thine own strength; * so will we sing, and praise thy power.'
-        verse_history_refs: {}
+        verse_history_refs:
+          '1': 'prevent | until 1928'
+          '2': 'thy | until 1892'
         verse_meta:
           '001':
             is_first_verse: 1
@@ -592,11 +604,11 @@ psalm:
           '009': "But thou art he that took me out of my mother's womb; * thou wast my hope, when I hanged yet upon my mother's breasts."
           '010': I have been left unto thee ever since I was born; * thou art my God even from my mother's womb.
           '011': 'O go not from me; for trouble is hard at hand, * and there is none to help me.'
-          '012': Many oxen are come about me; * fat bulls of Bashan close me in on every side.
+          '012': Many oxen are come about me; * fat bulls of Bashan{HN 1} close me in on every side.
           '013': 'They gape upon me with their mouths, * as it were a ramping and a roaring lion.'
           '014': 'I am poured out like water, and all my bones are out of joint; * my heart also in the midst of my body is even like melting wax.'
           '015': 'My strength is dried up like a potsherd, and my tongue cleaveth to my gums, * and thou bringest me into the dust of death.'
-          '016': 'For many dogs are come about me, * and the council of the wicked layeth siege against me.'
+          '016': 'For many dogs are come about me, * and the council{HN 2} of the wicked layeth siege against me.'
           '017': 'They pierced my hands and my feet: I may tell all my bones: * they stand staring and looking upon me.'
           '018': 'They part my garments among them, * and cast lots upon my vesture.'
           '019': 'But be not thou far from me, O <SC>Lord</SC>; * thou art my succour, haste thee to help me.'
@@ -608,12 +620,16 @@ psalm:
           '025': My praise is of thee in the great congregation; * my vows will I perform in the sight of them that fear him.
           '026': 'The poor shall eat, and be satisfied; they that seek after the <SC>Lord</SC> shall praise him: * your heart shall live for ever.'
           '027': 'All the ends of the world shall remember themselves, and be turned unto the <SC>Lord</SC>; * and all the kindreds of the nations shall worship before him.'
-          '028': "For the kingdom is the <SC>Lord</SC>'s, * and he is the Governor among the nations."
+          '028': "For the kingdom is the <SC>Lord</SC>'s, * and he is the Governor among the nations{HN 3}."
           '029': 'All such as be fat upon earth * have eaten, and worshipped.'
           '030': All they that go down into the dust shall kneel before him; * and no man hath quickened his own soul.
           '031': 'My seed shall serve him: * they shall be counted unto the Lord for a generation.'
-          '032': 'They shall come, and shall declare his righteousness * unto a people that shall be born, whom the Lord hath made.'
-        verse_history_refs: {}
+          '032': 'They shall come, and shall declare{HN 4} his righteousness * unto a people that shall be born, whom the Lord hath made.'
+        verse_history_refs:
+          '1': 'Basan | until 1928'
+          '2': 'counsel | 1845-1892'
+          '3': 'people | until 1928'
+          '4':  '.. and the heavens shall declare | until 1928'
         verse_meta:
           '001':
             is_first_verse: 1
