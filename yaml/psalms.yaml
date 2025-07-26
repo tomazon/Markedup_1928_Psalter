@@ -1959,39 +1959,52 @@ psalm:
           '001': 'LET God arise, and let his enemies be scattered; * let them also that hate him flee before him.'
           '002': 'Like as the smoke vanisheth, so shalt thou drive them away; * and like as wax melteth at the fire, so let the ungodly perish at the presence of God.'
           '003': 'But let the righteous be glad, and rejoice before God; * let them also be merry and joyful.'
-          '004': 'O sing unto God, and sing praises unto his Name; magnify him that rideth upon the heavens; * praise him in his Name <DIGRAMMATON CATH2008="The Lord" DUNSTAN="JAH"><SC>JAH</SC></DIGRAMMATON>, and rejoice before him.'
+          '004': 'O sing unto God, and sing praises unto his Name; magnify him that rideth upon the heavens; * praise him in his Name <DIGRAMMATON CATH2008="The Lord" DUNSTAN="JAH"><SC>JAH</SC></DIGRAMMATON>, and rejoice before him.{HN v4}'
           '005': 'He is a Father of the fatherless, and defendeth the cause of the widows; * even God in his holy habitation.'
           '006': 'He is the God that maketh men to be of one mind in an house, and bringeth the prisoners out of captivity; * but letteth the runagates continue in scarceness.'
           '007': 'O God, when thou wentest forth before the people; * when thou wentest through the wilderness,'
           '008': 'The earth shook, and the heavens dropped at the presence of God; * even as Sinai also was moved at the presence of God, who is the God of Israel.'
           '009': 'Thou, O God, sentest a gracious rain upon thine inheritance, * and refreshedst it when it was weary.'
           '010': 'Thy congregation shall dwell therein; * for thou, O God, hast of thy goodness prepared for the poor.'
-          '011': The Lord gave the word; * great was the company of women that bare the tidings.
+          '011': The Lord gave the word; * great was the company of women that bare the tidings{HN v11}.
           '012': 'Kings with their armies did flee, and were discomfited, * and they of the household divided the spoil.'
-          '013': 'Though ye have lain among the sheep-folds, yet shall ye be as the wings of a dove * that is covered with silver wings, and her feathers like gold.'
+          '013': 'Though ye have lain{HN #1} among the sheep-folds{HN #2}, yet shall ye be as the wings of a dove * that is covered with silver wings, and her feathers like gold.'
           '014': 'When the Almighty scattered kings for their sake, * then were they as white as snow in Salmon.'
-          '015': "As the hill of Bashan, so is God's hill; * even an high hill, as the hill of Bashan."
-          '016': "Why mock ye so, ye high hills? this is God's hill, in the which it pleaseth him to dwell; * yea, the <SC>Lord</SC> will abide in it for ever."
+          '015': "As the hill of Bashan{HN #3}, so is God's hill; * even an high hill, as the hill of Bashan{HN #3}."
+          '016': "Why mock{HN #4} ye so, ye high hills? this is God's hill, in the which it pleaseth him to dwell; * yea, the <SC>Lord</SC> will abide in it for ever."
           '017': 'The chariots of God are twenty thousand, even thousands of angels; * and the Lord is among them as in the holy place of Sinai.'
-          '018': 'Thou art gone up on high, thou hast led captivity captive, and received gifts from men; * yea, even from thine enemies, that the <SC>Lord</SC> God might dwell among them.'
+          '018': 'Thou art gone up on high, thou hast led captivity captive, and received gifts from{HN #5} men; * yea, even from thine enemies, that the <SC>Lord</SC> God might dwell among them.'
           '019': 'Praised be the Lord daily, * even the God who helpeth us, and poureth his benefits upon us.'
           '020': 'He is our God, even the God of whom cometh salvation: * <SC>God</SC> is the Lord, by whom we escape death.'
           '021': 'God shall wound the head of his enemies, * and the hairy scalp of such a one as goeth on still in his wickedness.'
-          '022': 'The Lord hath said, I will bring my people again, as I did from Bashan; * mine own will I bring again, as I did sometime from the deep of the sea.'
+          '022': 'The Lord hath said, I will bring my people again, as I did from Bashan{HN #6}; * mine own will I bring again, as I did sometime from the deep of the sea.'
           '023': 'That thy foot may be dipped in the blood of thine enemies, * and that the tongue of thy dogs may be red through the same.'
           '024': 'It is well seen, O God, how thou goest; * how thou, my God and King, goest in the sanctuary.'
-          '025': 'The singers go before, the minstrels follow after, * in the midst of the damsels playing with the timbrels.'
-          '026': 'Give thanks unto God the Lord in the congregation, * ye that are of the fountain of Israel.'
-          '027': 'There is little Benjamin their ruler, and the princes of Judah their council; * the princes of Zebulon, and the princes of Naphthali.'
+          '025': 'The singers go before, the minstrels follow after, * in the midst of{HN #7} the damsels playing with the timbrels.'
+          '026': 'Give thanks unto God the Lord in the congregation, * ye that are of the fountain of Israel.{HN v26}'
+          '027': 'There is little Benjamin their ruler, and the princes of Judah their council{HN #8}; * the princes of Zebulon{HN #9}, and the princes of Naphthali.'
           '028': 'Thy God hath sent forth strength for thee; * stablish the thing, O God, that thou hast wrought in us,'
           '029': For thy temple's sake at Jerusalem; * so shall kings bring presents unto thee.
-          '030': 'Rebuke thou the dragon and the bull, with the leaders of the heathen, so that they humbly bring pieces of silver; * scatter thou the peoples that delight in war;'
+          '030': 'Rebuke thou the dragon and the bull, with the leaders of the heathen, so that they humbly bring pieces of silver; * scatter thou the peoples that delight in war;{HN v30}'
           '031': Then shall the princes come out of Egypt; * the Morians' land shall soon stretch out her hands unto God.
           '032': 'Sing unto God, O ye kingdoms of the earth; * O sing praises unto the Lord;'
           '033': 'Who sitteth in the heavens over all, from the beginning: * lo, he doth send out his voice; yea, and that a mighty voice.'
           '034': Ascribe ye the power to God over Israel; * his worship and strength is in the clouds.
           '035': 'O God, wonderful art thou in thy holy places: * even the God of Israel, he will give strength and power unto his people. Blessed be God.'
-        verse_history_refs: {}
+        verse_history_refs:
+          '#1': 'lien | in Engl. Book'
+          '#2': 'pots | until 1928'
+          '#3': 'Basan | until 1928'
+          '#4': 'hop | until 1928'
+          '#5': 'for | until 1928'
+          '#6': 'Basan | until 1928'
+          '#7': 'counsel | in Engl. Book, 1845-1892'
+          '#8': 'Zabulon | until 1793, and in 1892 Book'
+          'v4': '4. O sing unto God, and sing praises unto his Name : magnify him that rideth upon the heavens, as it were upon an horse; praise him in his Name JAH, and rejoice before him. | until 1928'
+          'v11': '... great was the company of preachers. | until 1928'
+          'v26': '26. Give thanks, O Israel, unto God the Lord in the congregations : from the ground of the heart. | until 1928'
+          'v30': '30. When the company of the spearmen, and multitude of the mighty are scattered abroad among the beasts of the people, so that they humbly bring pieces of silver : and when he hath scattered the people that delight in war; | until 1928'
+
         verse_meta:
           '001':
             is_first_verse: 1
@@ -2022,8 +2035,8 @@ psalm:
           '017': 'Hear me, O <SC>Lord</SC>, for thy loving-kindness is comfortable; * turn thee unto me according to the multitude of thy mercies.'
           '018': 'And hide not thy face from thy servant; for I am in trouble: * O haste thee, and hear me.'
           '019': 'Draw nigh unto my soul, and save it; * O deliver me, because of mine enemies.'
-          '020': 'Thou hast known my reproach, my shame, and my dishonour: * mine adversaries are all in thy sight.'
-          '021': 'Reproach hath broken my heart; I am full of heaviness: * I looked for some to have pity on me, but there was no man, neither found I any to comfort me. &nbsp;<br>'
+          '020': 'Thou hast known my reproach{HN #1}, my shame, and my dishonour: * mine adversaries are all in thy sight.'
+          '021': 'Reproach hath broken{HN v21} my heart; I am full of heaviness: * I looked for some to have pity on me, but there was no man, neither found I any to comfort me. &nbsp;<br>'
           '022': They gave me gall to eat; * and when I was thirsty they gave me vinegar to drink.
           '023': Let their table be made a snare to take themselves withal; * and let the things that should have been for their wealth be unto them an occasion of falling.
           '024': 'Let their eyes be blinded, that they see not; * and ever bow thou down their backs.'
@@ -2040,7 +2053,9 @@ psalm:
           '035': 'Let heaven and earth praise him: * the sea, and all that moveth therein.'
           '036': 'For God will save Sion, and build the cities of Judah, * that men may dwell there, and have it in possession.'
           '037': The posterity also of his servants shall inherit it; * and they that love his Name shall dwell therein.
-        verse_history_refs: {}
+        verse_history_refs:
+          '#1': 'reproof | until 1928'
+          'v21': 'Thy rebuke hath broken ... | until 1928'
         verse_meta:
           '001':
             is_first_verse: 1
@@ -2074,11 +2089,11 @@ psalm:
           '002': 'Be thou my stronghold, whereunto I may alway resort: * thou hast promised to help me, for thou art my house of defence, and my castle.'
           '003': 'Deliver me, O my God, out of the hand of the ungodly, * out of the hand of the unrighteous and cruel man.'
           '004': 'For thou, O Lord <SC>God</SC>, art the thing that I long for: * thou art my hope, even from my youth.'
-          '005': "Through thee have I been holden up ever since I was born: * thou art he that took me out of my mother's womb: my praise shall be alway of thee."
+          '005': "Through thee have I been holden up ever since I was born: * thou art he that took me out of my mother's womb: my praise shall be alway{HN #1} of thee."
           '006': 'I am become as it were a monster unto many, * but my sure trust is in thee.'
           '007': 'O let my mouth be filled with thy praise, * that I may sing of thy glory and honour all the day long.'
           '008': Cast me not away in the time of age; * forsake me not when my strength faileth me.
-          '009': 'For mine enemies speak against me; * and they that lay wait for my soul take their counsel together, saying,'
+          '009': 'For mine enemies speak against me; * and they that lay wait for my soul take their counsel together, saying,{HN v9}'
           '010': 'God hath forsaken him; * persecute him, and take him, for there is none to deliver him.'
           '011': 'Go not far from me, O God; * my God, haste thee to help me.'
           '012': Let them be confounded and perish that are against my soul; * let them be covered with shame and dishonour that seek to do me evil.
@@ -2091,9 +2106,12 @@ psalm:
           '019': 'O what great troubles and adversities hast thou showed me! and yet didst thou turn and refresh me; * yea, and broughtest me from the deep of the earth again.'
           '020': 'Thou hast brought me to great honour, * and comforted me on every side:'
           '021': 'Therefore will I praise thee, and thy faithfulness, O God, playing upon an instrument of music: * unto thee will I sing upon the harp, O thou Holy One of Israel.'
-          '022': My lips will be glad when I sing unto thee; * and so will my soul whom thou hast delivered.
+          '022': 'My lips will be glad{HN #2} when I sing unto thee; * and so will my soul whom thou hast delivered.'
           '023': My tongue also shall talk of thy righteousness all the day long; * for they are confounded and brought unto shame that seek to do me evil.
-        verse_history_refs: {}
+        verse_history_refs:
+          '#1': 'always in | 1789 Book'
+          'v9': '9. For mine enemies speak against me, and they that lay wait for my soul take their counsel together, saying : God hath forsaken him; persecute him, and take him, for there is none to deliver him. | until 1928, and remaining verses numbered one lower'
+          '#2': 'fain | until 1928'
         verse_meta:
           '001':
             is_first_verse: 1
@@ -2110,21 +2128,28 @@ psalm:
           '003': 'The mountains also shall bring peace, * and the little hills righteousness unto the people.'
           '004': 'He shall keep the simple folk by their right, * defend the children of the poor, and punish the wrong doer.'
           '005': 'They shall fear thee, as long as the sun and moon endureth, * from one generation to another.'
-          '006': 'He shall come down like the rain upon the mown grass, * even as the drops that water the earth.'
+          '006': 'He shall come down like the rain upon the mown grass{HN #6}, * even as the drops that water the earth.'
           '007': 'In his time shall the righteous flourish; * yea, and abundance of peace, so long as the moon endureth.'
-          '008': "His dominion shall be also from the one sea to the other, * and from the River unto the world's end."
+          '008': "His dominion shall be also from the one sea to the other, * and from the River{HN #3} unto the world's end."
           '009': They that dwell in the wilderness shall kneel before him; * his enemies shall lick the dust.
-          '010': The kings of Tarshish and of the isles shall give presents; * the kings of Arabia and Saba shall bring gifts.
+          '010': 'The kings of Tarshish{HN #4} and of the isles shall give presents; * the kings of Arabia and Saba shall bring gifts.'
           '011': All kings shall fall down before him; * all nations shall do him service.
           '012': 'For he shall deliver the poor when he crieth; * the needy also, and him that hath no helper.'
           '013': 'He shall be favourable to the simple and needy, * and shall preserve the souls of the poor.'
           '014': He shall deliver their souls from falsehood and wrong; * and dear shall their blood be in his sight.
           '015': 'He shall live, and unto him shall be given of the gold of Arabia; * prayer shall be made ever unto him, and daily shall he be praised.'
-          '016': 'There shall be an heap of corn in the earth, high upon the hills ; the fruit thereof shall shake like Lebanon: * and they of the city shall flourish like grass upon the earth.'
-          '017': 'His Name shall endure for ever; his Name shall remain under the sun among the posterities, which shall be blessed in him; * and all the nations shall praise him.'
+          '016': 'There shall be an heap of corn in the earth, high upon the hills ; the fruit thereof shall shake like Lebanon: * and they of the city shall flourish like grass upon the earth.{HN v16}'
+          '017': 'His Name shall endure for ever; his Name shall remain under the sun among{HN #4#2} the posterities, which shall be blessed in{HN #5} him; * and all the nations{HN #6} shall praise him.'
           '018': 'Blessed be the <SC>Lord</SC> God, even the God of Israel, * which only doeth wondrous things;'
           '019': 'And blessed be the Name of his majesty for ever: * and all the earth shall be filled with his majesty. Amen, Amen.'
-        verse_history_refs: {}
+        verse_history_refs:
+          'v6': 'like rain unto a fleece of wool : | until 1928'
+          '#3': 'flood | until 1928'
+          '#4': 'Tharsis | until 1928'
+          'v16': '16. ... shall shake like Libanus, and shall be green in the city like grass upon the earth. | until 1928'
+          '#4#2': 'amongst | 1793 - 1892'
+          '#5': 'through | until 1928'
+          '#6': 'heathen | until 1928'
         verse_meta:
           '001':
             is_first_verse: 1
