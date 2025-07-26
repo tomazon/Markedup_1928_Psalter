@@ -986,13 +986,13 @@ psalm:
         verse:
           '001': 'PLEAD thou my cause, O <SC>Lord</SC>, with them that strive with me, * and fight thou against them that fight against me.'
           '002': 'Lay hand upon the shield and buckler, * and stand up to help me.'
-          '003': 'Bring forth the spear, and stop the way against them that pursue me: * say unto my soul, I am thy salvation.'
+          '003': 'Bring forth the spear, and stop the way against them that pursue{HN 1} me: * say unto my soul, I am thy salvation.'
           '004': 'Let them be confounded, and put to shame, that seek after my soul; * let them be turned back, and brought to confusion, that imagine mischief for me.'
           '005': 'Let them be as the dust before the wind, * and the angel of the <SC>Lord</SC> scattering them.'
           '006': 'Let their way be dark and slippery, * and let the angel of the <SC>Lord</SC> pursue them.'
           '007': 'For they have privily laid their net to destroy me without a cause; * yea, even without a cause have they made a pit for my soul.'
           '008': 'Let a sudden destruction come upon him unawares, and his net that he hath laid privily catch himself; * that he may fall into his own mischief.'
-          '009': And my soul shall be joyful in the <SC>Lord</SC>; * it shall rejoice in his salvation.
+          '009': And my soul shall be joyful{HN 2} in the <SC>Lord</SC>; * it shall rejoice in his salvation.
           '010': 'All my bones shall say, <SC>Lord</SC>, who is like unto thee, who deliverest the poor from him that is too strong for him; * yea, the poor, and him that is in misery, from him that spoileth him?'
           '011': 'False witnesses did rise up: * they laid to my charge things that I knew not.'
           '012': 'They rewarded me evil for good, * to the great discomfort of my soul.'
@@ -1012,7 +1012,10 @@ psalm:
           '026': 'Let them be put to confusion and shame together, that rejoice at my trouble; * let them be clothed with rebuke and dishonour, that boast themselves against me.'
           '027': 'Let them be glad and rejoice, that favour my righteous dealing; * yea, let them say alway, Blessed be the <SC>Lord</SC>, who hath pleasure in the prosperity of his servant.'
           '028': 'And as for my tongue, it shall be talking of thy righteousness, * and of thy praise, all the day long.'
-        verse_history_refs: {}
+        verse_history_refs:
+          '1': 'pursecute | until 1928'
+          '2': 'And, my soul, be joyful ... | until 1928'
+
         verse_meta:
           '001':
             is_first_verse: 1
@@ -1061,7 +1064,7 @@ psalm:
           '011': 'But the meek-spirited shall possess the earth, * and shall be refreshed in the multitude of peace.'
           '012': 'The ungodly seeketh counsel against the just, * and gnasheth upon him with his teeth.'
           '013': The Lord shall laugh him to scorn; * for he hath seen that his day is coming.
-          '014': 'The ungodly have drawn out the sword, and have bent their bow, * to cast down the poor and needy, and to slay such as be upright in their ways.'
+          '014': 'The ungodly have drawn out the sword, and have bent their bow, * to cast down the poor and needy, and to slay such as be upright in their ways{HN 1}.'
           '015': 'Their sword shall go through their own heart, * and their bow shall be broken.'
           '016': 'A small thing that the righteous hath, * is better than great riches of the ungodly.'
           '017': 'For the arms of the ungodly shall be broken, * and the <SC>Lord</SC> upholdeth the righteous. &nbsp;<br>'
@@ -1080,7 +1083,7 @@ psalm:
           '030': 'The righteous shall inherit the land, * and dwell therein for ever.'
           '031': 'The mouth of the righteous is exercised in wisdom, * and his tongue will be talking of judgment.'
           '032': 'The law of his God is in his heart, * and his goings shall not slide.'
-          '033': 'The ungodly watcheth the righteous, * and seeketh occasion to slay him.'
+          '033': 'The ungodly watcheth{HN 2} the righteous, * and seeketh occasion to slay him.'
           '034': 'The <SC>Lord</SC> will not leave him in his hand, * nor condemn him when he is judged.'
           '035': 'Hope thou in the <SC>Lord</SC>, and keep his way, and he shall promote thee, that thou shalt possess the land: * when the ungodly shall perish, thou shalt see it.'
           '036': 'I myself have seen the ungodly in great power, * and flourishing like a green bay-tree.'
@@ -1089,7 +1092,9 @@ psalm:
           '039': 'As for the transgressors, they shall perish together; * and the end of the ungodly is, they shall be rooted out at the last.'
           '040': But the salvation of the righteous cometh of the <SC>Lord</SC>; * who is also their strength in the time of trouble.
           '041': 'And the <SC>Lord</SC> shall stand by them, and save them: * he shall deliver them from the ungodly, and shall save them, because they put their trust in him.'
-        verse_history_refs: {}
+        verse_history_refs:
+          '1': '... slay such as are of a right conversation. | until 1928'
+          '2': 'seeth | until 1928'
         verse_meta:
           '001':
             is_first_verse: 1
@@ -1110,7 +1115,7 @@ psalm:
           '007': 'For my loins are filled with a sore disease, * and there is no whole part in my body.'
           '008': I am feeble and sore smitten; * I have roared for the very disquietness of my heart.
           '009': 'Lord, thou knowest all my desire; * and my groaning is not hid from thee.'
-          '010': 'My heart panteth, my strength hath failed me, * and the light of mine eyes is gone from me.'
+          '010': 'My heart panteth, my strength hath failed me, * and the light{HN 1} of mine eyes is gone from me.'
           '011': 'My lovers and my neighbours did stand looking upon my trouble, * and my kinsmen stood afar off.'
           '012': 'They also that sought after my life laid snares for me; * and they that went about to do me evil talked of wickedness, and imagined deceit all the day long.'
           '013': 'As for me, I was like a deaf man, and heard not; * and as one that is dumb, who doth not open his mouth.'
@@ -1123,7 +1128,8 @@ psalm:
           '020': They also that reward evil for good are against me; * because I follow the thing that good is.
           '021': 'Forsake me not, O <SC>Lord</SC> my God; * be not thou far from me.'
           '022': 'Haste thee to help me, * O Lord God of my salvation.'
-        verse_history_refs: {}
+        verse_history_refs:
+          '1': 'sight | until 1892'
         verse_meta:
           '001':
             is_first_verse: 1
@@ -1139,7 +1145,7 @@ psalm:
           '002': 'I will keep my mouth as it were with a bridle, * while the ungodly is in my sight.'
           '003': 'I held my tongue, and spake nothing: * I kept silence, yea, even from good words; but it was pain and grief to me.'
           '004': 'My heart was hot within me: and while I was thus musing the fire kindled, * and at the last I spake with my tongue:'
-          '005': '<SC>Lord</SC>, let me know mine end, and the number of my days; * that I may be certified how long I have to live.'
+          '005': '<SC>Lord</SC>, let me know mine{HN 1} end, and the number of my days; * that I may be certified how long I have to live.'
           '006': 'Behold, thou hast made my days as it were a span long, and mine age is even as nothing in respect of thee; * and verily every man living is altogether vanity.'
           '007': 'For man walketh in a vain shadow, and disquieteth himself in vain; * he heapeth up riches, and cannot tell who shall gather them.'
           '008': 'And now, Lord, what is my hope? * truly my hope is even in thee.'
@@ -1150,7 +1156,8 @@ psalm:
           '013': 'Hear my prayer, O <SC>Lord</SC>, and with thine ears consider my calling; * hold not thy peace at my tears;'
           '014': 'For I am a stranger with thee, and a sojourner, * as all my fathers were.'
           '015': 'O spare me a little, that I may recover my strength, * before I go hence, and be no more seen.'
-        verse_history_refs: {}
+        verse_history_refs:
+          '1': 'my until | 1892.'
         verse_meta:
           '001':
             is_first_verse: 1
@@ -1169,7 +1176,7 @@ psalm:
           '005': 'Blessed is the man that hath set his hope in the <SC>Lord</SC>, * and turned not unto the proud, and to such as go about with lies.'
           '006': 'O <SC>Lord</SC> my God, great are the wondrous works which thou hast done, like as be also thy thoughts, which are to us-ward; * and yet there is no man that ordereth them unto thee.'
           '007': 'If I should declare them, and speak of them, * they should be more than I am able to express.'
-          '008': 'Sacrifice and offering thou wouldest not, * but mine ears hast thou opened.'
+          '008': 'Sacrifice and offering{HN 1} thou wouldest not, * but mine ears hast thou opened.'
           '009': 'Burnt-offering and sacrifice for sin hast thou not required: * then said I, Lo, I come;'
           '010': 'In the volume of the book it is written of me, that I should fulfil thy will, O my God: * I am content to do it; yea, thy law is within my heart.'
           '011': 'I have declared thy righteousness in the great congregation: * lo, I will not refrain my lips, O <SC>Lord</SC>, and that thou knowest.'
@@ -1183,7 +1190,8 @@ psalm:
           '019': 'Let all those that seek thee, be joyful and glad in thee; * and let such as love thy salvation, say alway, The <SC>Lord</SC> be praised.'
           '020': 'As for me, I am poor and needy; * but the Lord careth for me.'
           '021': 'Thou art my helper and redeemer; * make no long tarrying, O my God.'
-        verse_history_refs: {}
+        verse_history_refs:
+          '1': 'meat-offering | until 1928'
         verse_meta:
           '001':
             is_first_verse: 1
@@ -1202,13 +1210,15 @@ psalm:
           '005': 'Mine enemies speak evil of me, * When shall he die, and his name perish?'
           '006': 'And if he come to see me, he speaketh vanity, * and his heart conceiveth falsehood within himself; and when he cometh forth, he telleth it.'
           '007': All mine enemies whisper together against me; * even against me do they imagine this evil.
-          '008': 'An evil disease, say they, cleaveth fast unto him; * and now that he lieth, he shall rise up no more.'
+          '008': 'An evil disease, say they, cleaveth fast unto him;{HN 1} * and now that he lieth, he shall rise up no more.'
           '009': 'Yea, even mine own familiar friend whom I trusted, * who did also eat of my bread, hath laid great wait for me.'
           '010': 'But be thou merciful unto me, O <SC>Lord</SC>; * raise thou me up again, and I shall reward them.'
           '011': 'By this I know thou favourest me, * that mine enemy doth not triumph against me.'
-          '012': 'And in my innocency thou upholdest me, * and shalt set me before thy face for ever.'
+          '012': 'And in my innocency thou upholdest me,{HN 2} * and shalt set me before thy face for ever.'
           '013': 'Blessed be the <SC>Lord</SC> God of Israel, * world without end. Amen.<br>'
-        verse_history_refs: {}
+        verse_history_refs:
+          '1': 'Let the sentence of guiltiness proceed against him : | until 1928.'
+          '2': 'And when I am in my health, thou upholdest me : | until 1928'
         verse_meta:
           '001':
             is_first_verse: 1
@@ -1226,16 +1236,21 @@ psalm:
           '004': 'Now when I think thereupon, I pour out my heart by myself; * for I went with the multitude, and brought them forth into the house of God;'
           '005': 'In the voice of praise and thanksgiving, * among such as keep holy-day.'
           '006': 'Why art thou so full of heaviness, O my soul? * and why art thou so disquieted within me?'
-          '007': 'O put thy trust in God; * for I will yet thank him, which is the help of my countenance, and my God.'
-          '008': 'My soul is vexed within me; * therefore will I remember thee from the land of Jordan, from Hermon and the little hill.'
-          '009': 'One deep calleth another, because of the noise of thy water-floods; * all thy waves and storms are gone over me.'
-          '010': 'The <SC>Lord</SC> will grant his loving-kindness in the daytime; * and in the night season will I sing of him, and make my prayer unto the God of my life.'
+          '007': 'O put thy trust in God; * for I will yet thank him, which is the help of my countenance, and my God.{HN 1}'
+          '008': 'My soul is vexed within me; * therefore will I remember thee from the land of Jordan, from Hermon and the little hill.{HN 2}'
+          '009': 'One deep calleth another, because of the noise of thy water-floods{HN 3}; * all thy waves and storms are gone over me.'
+          '010': 'The <SC>Lord</SC> will grant his loving-kindness in the daytime; * and in the night season will I sing of him, and make my prayer unto the God of my life.{HN 4}'
           '011': 'I will say unto the God of my strength, Why hast thou forgotten me? * why go I thus heavily, while the enemy oppresseth me?'
           '012': 'My bones are smitten asunder as with a sword, * while mine enemies that trouble me cast me in the teeth;'
           '013': 'Namely, while they say daily unto me, * Where is now thy God?'
           '014': 'Why art thou so vexed, O my soul? * and why art thou so disquieted within me?'
           '015': 'O put thy trust in God; * for I will yet thank him, which is the help of my countenance, and my God.'
-        verse_history_refs: {}
+        verse_history_refs:
+          '1': '7. Put thy trust in God : for I will yet give him thanks for the help of his countenance. | until 1928'
+          '2': '8. My God, my soul is vexed within me : therefore will I remember thee concerning the land of Jordan, and the little hill of Hermon. | until 1928'
+          '3': 'the water-pipes | until 1892 & thy water pipes | in the 1892 Book'
+          '4': '10. The LORD hath granted his loving-kindness in the day-time : and in the night-season did I sing of him, and made my prayer unto the God of my life. | until 1928'
+
         verse_meta:
           '001':
             is_first_verse: 1
@@ -1266,7 +1281,7 @@ psalm:
           from_dunstan: ''
         verse:
           '001': 'WE have heard with our ears, O God, our fathers have told us * what thou hast done in their time of old:'
-          '002': 'How thou hast driven out the heathen with thy hand, and planted our fathers in; * how thou hast destroyed the nations, and made thy people to flourish.'
+          '002': 'How thou hast driven out the heathen with thy hand, and planted our fathers in; * how thou hast destroyed the nations, and made thy people to flourish.{HN 1}'
           '003': 'For they gat not the land in possession through their own sword, * neither was it their own arm that helped them;'
           '004': 'But thy right hand, and thine arm, and the light of thy countenance; * because thou hadst a favour unto them.'
           '005': 'Thou art my King, O God; * send help unto Jacob.'
@@ -1279,7 +1294,7 @@ psalm:
           '012': 'Thou lettest us be eaten up like sheep, * and hast scattered us among the heathen.'
           '013': 'Thou sellest thy people for nought, * and takest no money for them.'
           '014': 'Thou makest us to be rebuked of our neighbours, * to be laughed to scorn, and had in derision of them that are round about us.'
-          '015': 'Thou makest us to be a by-word among the nations, * and that the peoples shake their heads at us.'
+          '015': 'Thou makest us to be a by-word among the nations{HN 2}, * and that the peoples{HN 3} shake their heads at us.'
           '016': 'My confusion is daily before me, * and the shame of my face hath covered me;'
           '017': 'For the voice of the slanderer and blasphemer, * for the enemy and avenger.'
           '018': 'And though all this be come upon us, yet do we not forget thee, * nor behave ourselves frowardly in thy covenant.'
@@ -1291,7 +1306,10 @@ psalm:
           '024': 'Wherefore hidest thou thy face, * and forgettest our misery and trouble?'
           '025': 'For our soul is brought low, even unto the dust; * our belly cleaveth unto the ground.'
           '026': "Arise, and help us, * and deliver us, for thy mercy's sake."
-        verse_history_refs: {}
+        verse_history_refs:
+          '1': '... and planted them in : how thou hast destroyed the nations and cast them out. | until 1928'
+          '2': 'heathen | until 1928'
+          '3': 'people | until 1928'
         verse_meta:
           '001':
             is_first_verse: 1
@@ -1303,24 +1321,31 @@ psalm:
         tone:
           from_dunstan: ''
         verse:
-          '001': MY heart overfloweth with a good matter; I speak the things which I have made concerning the King. * My tongue is the pen of a ready writer.
+          '001': MY heart overfloweth with a good matter; I speak the things which I have made concerning the King.{HN 1} * My tongue is the pen of a ready writer.{HN 2}
           '002': 'Thou art fairer than the children of men; * full of grace are thy lips, because God hath blessed thee for ever.'
           '003': 'Gird thee with thy sword upon thy thigh, O thou Most Mighty, * according to thy worship and renown.'
           '004': 'Good luck have thou with thine honour: * ride on, because of the word of truth, of meekness, and righteousness; and thy right hand shall teach thee terrible things.'
-          '005': "Thy arrows are very sharp in the heart of the King's enemies, * and the people shall be subdued unto thee."
+          '005': "Thy arrows are very sharp in the heart of the King's enemies,{HN 3} * and the people shall be subdued unto thee."
           '006': 'Thy seat, O God, endureth for ever; * the sceptre of thy kingdom is a right sceptre.'
           '007': 'Thou hast loved righteousness, and hated iniquity; * wherefore God, even thy God, hath anointed thee with the oil of gladness above thy fellows.'
           '008': 'All thy garments smell of myrrh, aloes, and cassia; * out of the ivory palaces, whereby they have made thee glad.'
-          '009': "Kings' daughters are among thy honourable women; * upon thy right hand doth stand the queen in a vesture of gold, wrought about with divers colours."
+          '009': "Kings' daughters are{HN 4} among thy honourable women; * upon thy right hand doth{HN 5} stand the queen in a vesture of gold, wrought about with divers colours."
           '010': "Hearken, O daughter, and consider; incline thine ear; * forget also thine own people, and thy father's house."
-          '011': 'So shall the King have pleasure in thy beauty; * for he is thy Lord, and worship thou him.'
+          '011': 'So shall the King have pleasure in thy beauty; * for he is thy Lord{HN 6}, and worship thou him.'
           '012': And the daughter of Tyre shall be there with a gift; * like as the rich also among the people shall make their supplication before thee.
           '013': The King's daughter is all glorious within; * her clothing is of wrought gold.
           '014': 'She shall be brought unto the King in raiment of needlework: * the virgins that be her fellows shall bear her company, and shall be brought unto thee.'
           '015': "With joy and gladness shall they be brought, * and shall enter into the King's palace."
           '016': 'Instead of thy fathers, thou shalt have children, * whom thou mayest make princes in all lands.'
-          '017': 'I will make thy Name to be remembered from one generation to another; * therefore shall the people give thanks unto thee, world without end.'
-        verse_history_refs: {}
+          '017': 'I will make thy Name to be remembered from one generation{HN 7} to another; * therefore shall the people give thanks unto thee, world without end.'
+        verse_history_refs:
+          '1': 'MY HEART is inditing of a good matter : I speak of the things which I have made unto the King. | until 1928'
+          '2': '2. My tongue is the pen : of a ready writer. | until 1928; and remaining verses numbered one higher.'
+          '3': "[6.] Thy arrows are very sharp, and the people shall be subdued unto thee : even in the midst among the King's enemies. | until 1928"
+          '4': 'were | until 1928'
+          '5': 'did | until 1928'
+          '6': 'Lord God, | until 1928'
+          '7': 'I will remember thy name from one generation ... | until 1928'
         verse_meta:
           '001':
             is_first_verse: 1
@@ -1335,15 +1360,18 @@ psalm:
           '001': 'GOD is our hope and strength, * a very present help in trouble.'
           '002': 'Therefore will we not fear, though the earth be moved, * and though the hills be carried into the midst of the sea;'
           '003': 'Though the waters thereof rage and swell, * and though the mountains shake at the tempest of the same.'
-          '004': 'There is a river, the streams whereof make glad the city of God; * the holy place of the tabernacle of the Most Highest.'
+          '004': 'There is a river, the streams whereof make glad{HN 1} the city of God; * the holy place of the tabernacle of the Most Highest.'
           '005': 'God is in the midst of her, therefore shall she not be removed; * God shall help her, and that right early.'
-          '006': 'The nations make much ado, and the kingdoms are moved; * but God hath showed his voice, and the earth shall melt away.'
+          '006': 'The nations{HN 2} make much ado, and the kingdoms are moved; * but God hath showed his voice, and the earth shall melt away.'
           '007': The <SC>Lord</SC> of hosts is with us; * the God of Jacob is our refuge.
           '008': 'O come hither, and behold the works of the <SC>Lord</SC>, * what destruction he hath brought upon the earth.'
           '009': 'He maketh wars to cease in all the world; * he breaketh the bow, and knappeth the spear in sunder, and burneth the chariots in the fire.'
-          '010': 'Be still then, and know that I am God: * I will be exalted among the nations, and I will be exalted in the earth.'
+          '010': 'Be still then, and know that I am God: * I will be exalted among the nations{HN 3}, and I will be exalted in the earth.'
           '011': The <SC>Lord</SC> of hosts is with us; * the God of Jacob is our refuge.
-        verse_history_refs: {}
+        verse_history_refs:
+          '1': 'The rivers of the flood thereof shall make glad ... | until 1928'
+          '2': 'heathen | until 1928'
+          '3': 'heathen | until 1928'
         verse_meta:
           '001':
             is_first_verse: 1
@@ -1357,14 +1385,18 @@ psalm:
         verse:
           '001': 'O CLAP your hands together, all ye peoples: * O sing unto God with the voice of melody.'
           '002': 'For the <SC>Lord</SC> is high, and to be feared; * he is the great King upon all the earth.'
-          '003': 'He shall subdue the peoples under us, * and the nations under our feet.'
-          '004': 'He shall choose out an heritage for us, * even the excellency of Jacob, whom he loved.'
+          '003': 'He shall subdue the peoples{HN 1} under us, * and the nations under our feet.'
+          '004': 'He shall choose out an heritage for us, * even the excellency{HN 2} of Jacob, whom he loved.'
           '005': 'God is gone up with a merry noise, * and the <SC>Lord</SC> with the sound of the trump.'
           '006': 'O sing praises, sing praises unto our God; * O sing praises, sing praises unto our King.'
           '007': 'For God is the King of all the earth: * sing ye praises with understanding.'
-          '008': God reigneth over the nations; * God sitteth upon his holy seat.
-          '009': 'The princes of the peoples are joined unto the people of the God of Abraham; * for God, which is very high exalted, doth defend the earth, as it were with a shield.'
-        verse_history_refs: {}
+          '008': God reigneth over the nations{HN 3}; * God sitteth upon his holy seat.
+          '009': 'The princes of the peoples{HN 4} are joined unto the people of the God of Abraham; * for God, which is very high exalted, doth defend the earth, as it were with a shield.'
+        verse_history_refs:
+          '1': 'people | until 1928'
+          '2': 'worship | until 1928'
+          '3': 'heathen | until 1928'
+          '4': 'people | until 1928'
         verse_meta:
           '001':
             is_first_verse: 1
@@ -1387,9 +1419,10 @@ psalm:
           '009': "O God, according to thy Name, so is thy praise unto the world's end; * thy right hand is full of righteousness."
           '010': 'Let the mount Sion rejoice, and the daughters of Judah be glad, * because of thy judgments.'
           '011': 'Walk about Sion, and go round about her; * and tell the towers thereof.'
-          '012': 'Mark well her bulwarks, consider her palaces, * that ye may tell them that come after.'
+          '012': 'Mark well her bulwarks, consider her palaces,{HN 1} * that ye may tell them that come after.'
           '013': 'For this God is our God for ever and ever: * he shall be our guide unto death.'
-        verse_history_refs: {}
+        verse_history_refs:
+          '1': '... bulwarks, set up her houses : | until 1928'
         verse_meta:
           '001':
             is_first_verse: 1
@@ -1405,23 +1438,32 @@ psalm:
           '002': 'High and low, rich and poor, * one with another.'
           '003': 'My mouth shall speak of wisdom, * and my heart shall muse of understanding.'
           '004': 'I will incline mine ear to the parable, * and show my dark speech upon the harp.'
-          '005': 'Wherefore should I fear in the days of evil, * when wickedness at my heels compasseth me round about?'
+          '005': 'Wherefore should I fear in the days of evil, * when wickedness{HN 1} at my heels compasseth me round about?'
           '006': 'There be some that put their trust in their goods, * and boast themselves in the multitude of their riches.'
           '007': 'But no man may deliver his brother, * nor give a ransom unto God for him,'
-          '008': '(For it cost more to redeem their souls, * so that he must let that alone for ever;)'
-          '009': 'That he shall live alway, * and not see the grave.'
+          '008': '(For it cost more to redeem their souls, * so that he must let that alone for ever;){HN 2}'
+          '009': 'That he shall live alway,{HN 3} * and not see the grave.'
           '010': 'For he seeth that wise men also die and perish together, * as well as the ignorant and foolish, and leave their riches for other.'
           '011': 'And yet they think that their houses shall continue for ever, and that their dwelling-places shall endure from one generation to another; * and call the lands after their own names.'
-          '012': 'Nevertheless, man being in honour abideth not, * seeing he may be compared unto the beasts that perish;'
-          '013': This their way is very foolishness; * yet their posterity praise their saying.
+          '012': 'Nevertheless, man being in honour abideth not, * seeing he may be compared unto the beasts that perish;{HN 4}'
+          '013': This their way is very foolishness; * yet their posterity praise their saying{HN 5}.
           '014': 'They lie in the grave like sheep; death is their shepherd; and the righteous shall have dominion over them in the morning: * their beauty shall consume in the sepulchre, and have no abiding.'
-          '015': But God hath delivered my soul from the power of the grave; * for he shall receive me.
-          '016': 'Be not thou afraid, though one be made rich, * or if the glory of his house be increased;'
+          '015': But God hath delivered my soul from the power of the grave; * for he shall receive me{HN 6}.
+          '016': 'Be not thou afraid, though one be made rich, * or if the glory of his house be increased;{HN 7}'
           '017': 'For he shall carry nothing away with him when he dieth, * neither shall his pomp follow him.'
           '018': 'For while he lived, he counted himself an happy man; * and so long as thou doest well unto thyself, men will speak good of thee.'
           '019': 'He shall follow the generation of his fathers, * and shall never see light.'
-          '020': Man that is in honour but hath no understanding * is compared unto the beasts that perish.
-        verse_history_refs: {}
+          '020': Man that is in honour but hath no understanding * is compared unto the beasts that perish{HN 8}.
+        verse_history_refs:
+          '1': '... days of wickedness : and when the wickedness | until 1928'
+          '2': ' | Parentheses added in 1928.'
+          '3': 'Yea, though he live long : | until 1928'
+          '4': '12. Nevertheless, man will not abide in honour : seeing he may be compared unto the beasts that perish; this is the way of them. | until 1928'
+          '5': '13. This is their foolishness : and their posterity praise their saying. | until 1928'
+          '6': '14. They lie in the hell like sheep, death gnaweth upon them, and the righteous shall have domination [dominion in the 1789 Book] over them in the morning : their beauty shall consume in the sepulchre out of their dwelling. | until 1928'
+          '7': '15. But God hath delivered my soul from the place of hell : for he shall receive me. | until 1928.'
+          '8': '20. Man being in honour hath no understanding : but is compared ... | until 1928'
+
         verse_meta:
           '001':
             is_first_verse: 1
@@ -1441,22 +1483,25 @@ psalm:
           '006': And the heavens shall declare his righteousness; * for God is Judge himself.
           '007': 'Hear, O my people, and I will speak; * I myself will testify against thee, O Israel; for I am God, even thy God.'
           '008': 'I will not reprove thee because of thy sacrifices; * as for thy burnt-offerings, they are alway before me.'
-          '009': 'I will take no bullock out of thine house, * nor he-goats out of thy folds.'
+          '009': 'I will take no bullock out of thine house, * nor he-goats{HN 1} out of thy folds.'
           '010': 'For all the beasts of the forest are mine, * and so are the cattle upon a thousand hills.'
           '011': 'I know all the fowls upon the mountains, * and the wild beasts of the field are in my sight.'
           '012': 'If I be hungry, I will not tell thee; * for the whole world is mine, and all that is therein.'
           '013': "Thinkest thou that I will eat bulls' flesh, * and drink the blood of goats?"
           '014': 'Offer unto God thanksgiving, * and pay thy vows unto the Most Highest.'
           '015': 'And call upon me in the time of trouble; * so will I hear thee, and thou shalt praise me.'
-          '016': 'But unto the ungodly saith God, * Why dost thou preach my laws, and takest my covenant in thy mouth;'
+          '016': 'But unto the ungodly saith{HN 2} God, * Why dost thou preach my laws, and takest my covenant in thy mouth;'
           '017': 'Whereas thou hatest to be reformed, * and hast cast my words behind thee?'
           '018': 'When thou sawest a thief, thou consentedst unto him; * and hast been partaker with the adulterers.'
           '019': 'Thou hast let thy mouth speak wickedness, * and with thy tongue thou hast set forth deceit.'
           '020': "Thou sattest and spakest against thy brother; * yea, and hast slandered thine own mother's son."
           '021': 'These things hast thou done, and I held my tongue, and thou thoughtest wickedly, that I am even such a one as thyself; * but I will reprove thee, and set before thee the things that thou hast done.'
           '022': 'O consider this, ye that forget God, * lest I pluck you away, and there be none to deliver you.'
-          '023': 'Whoso offereth me thanks and praise, he honoureth me; * and to him that ordereth his way aright, will I show the salvation of God.'
-        verse_history_refs: {}
+          '023': 'Whoso offereth me thanks and praise, he honoureth me; * and to him that ordereth his way aright,{HN 3} will I show the salvation of God.'
+        verse_history_refs:
+          '1': 'he-goat | until 1892'
+          '2': 'said | until 1928'
+          '3': '... ordereth his conversation right, ... | until 1928.'
         verse_meta:
           '001':
             is_first_verse: 1
@@ -1502,14 +1547,16 @@ psalm:
           '001': 'WHY boastest thou thyself, thou tyrant, * that thou canst do mischief;'
           '002': Whereas the goodness of God * endureth yet daily?
           '003': 'Thy tongue imagineth wickedness, * and with lies thou cuttest like a sharp razor.'
-          '004': 'Thou hast loved unrighteousness more than goodness, * and falsehood more than righteousness.'
+          '004': 'Thou hast loved unrighteousness more than goodness, * and falsehood more than righteousness.{HN 1}'
           '005': 'Thou hast loved to speak all words that may do hurt, * O thou false tongue.'
           '006': 'Therefore shall God destroy thee for ever; * he shall take thee, and pluck thee out of thy dwelling, and root thee out of the land of the living.'
           '007': 'The righteous also shall see this, and fear, * and shall laugh him to scorn:'
           '008': 'Lo, this is the man that took not God for his strength; * but trusted unto the multitude of his riches, and strengthened himself in his wickedness.'
           '009': 'As for me, I am like a green olive-tree in the house of God; * my trust is in the tender mercy of God for ever and ever.'
-          '010': 'I will alway give thanks unto thee for that thou hast done; * and I will hope in thy Name, for thy saints like it well.'
-        verse_history_refs: {}
+          '010': 'I will alway{HN 2} give thanks unto thee for that thou hast done; * and I will hope in thy Name, for thy saints like it well.'
+        verse_history_refs:
+          '1': '... and talk of lies more than righteousness. | until 1928'
+          '2': 'always | until 1892'
         verse_meta:
           '001':
             is_first_verse: 1
