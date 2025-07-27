@@ -3594,10 +3594,10 @@ psalm:
         tone:
           from_dunstan: ''
         verse:
-          '001': MY delight is in the <SC>Lord</SC>; * because he hath heard the voice of my prayer;
-          '002': Because he hath inclined his ear unto me; * therefore will I call upon him as long as I live.
+          '001': MY delight is in the <SC>Lord</SC>; * because he hath heard the voice of my prayer;{HN v1}
+          '002': Because he hath inclined{HN v2} his ear unto me; * therefore will I call upon him as long as I live.
           '003': 'The snares of death compassed me round about, * and the pains of hell gat hold upon me.'
-          '004': 'I found trouble and heaviness; then called I upon the Name of the <SC>Lord</SC>; * O <SC>Lord</SC>, I beseech thee, deliver my soul.'
+          '004': 'I found trouble and heaviness; then called I upon the Name of the <SC>Lord</SC>;{HN v4} * O <SC>Lord</SC>, I beseech thee, deliver my soul.'
           '005': 'Gracious is the <SC>Lord</SC>, and righteous; * yea, our God is merciful.'
           '006': 'The <SC>Lord</SC> preserveth the simple: * I was in misery, and he helped me.'
           '007': 'Turn again then unto thy rest, O my soul; * for the <SC>Lord</SC> hath rewarded thee.'
@@ -3607,19 +3607,14 @@ psalm:
           '011': What reward shall I give unto the <SC>Lord</SC> * for all the benefits that he hath done unto me?
           '012': 'I will receive the cup of salvation, * and call upon the Name of the <SC>Lord</SC>.'
           '013': 'I will pay my vows now in the presence of all his people: * right dear in the sight of the <SC>Lord</SC> is the death of his saints.'
-          '014': 'Behold, O <SC>Lord</SC>, how that I am thy servant; * I am thy servant, and the son of thine handmaid; thou hast broken my bonds in sunder.'
+          '014': 'Behold, O <SC>Lord</SC>, how that I am thy servant; * I am thy servant, and the son of thine{HN #1} handmaid; thou hast broken my bonds in sunder.'
           '015': 'I will offer to thee the sacrifice of thanksgiving, * and will call upon the Name of the <SC>Lord</SC>.'
           '016': "I will pay my vows unto the <SC>Lord</SC>, in the sight of all his people, * in the courts of the <SC>Lord</SC>'s house; even in the midst of thee, O Jerusalem. Praise the <SC>Lord</SC>."
         verse_history_refs: 
-          '#1': ''
-          '#2': ''
-          '#3': ''
-          '#4': ''
-          '#5': ''
-          '#6': ''
-          '#7': ''
-          '#8': ''
-          '#9': ''
+          'v1': 'I AM well pleased : that the LORD hath heard the voice of my prayer; | until 1928'
+          'v2': '2. That he hath inclined ... | until 1928'
+          'v4': '4. I shall find trouble and heaviness, and I will call upon the Name of the LORD : ... | until 1928'
+          '#1': 'thy | 1793-1892'
         verse_meta:
           '001':
             is_first_verse: 1
@@ -3631,11 +3626,11 @@ psalm:
         tone:
           from_dunstan: ''
         verse:
-          '001': 'O PRAISE the <SC>Lord</SC>, all ye nations; * praise him, all ye peoples.'
-          '002': For his merciful kindness is ever more and more toward us; * and the truth of the <SC>Lord</SC> endureth for ever. Praise the <SC>Lord</SC>.
+          '001': 'O PRAISE the <SC>Lord</SC>, all ye nations{HN #1}; * praise him, all ye peoples.'
+          '002': 'For his merciful kindness is ever more and more toward{HN #2} us; * and the truth of the <SC>Lord</SC> endureth for ever. Praise the <SC>Lord</SC>.'
         verse_history_refs: 
-          '#1': ''
-          '#2': ''
+          '#1': 'heathen | until 1928'
+          '#2': 'towards | until 1892'
           '#3': ''
           '#4': ''
           '#5': ''
@@ -3679,20 +3674,12 @@ psalm:
           '023': "This is the <SC>Lord</SC>'s doing, * and it is marvellous in our eyes."
           '024': This is the day which the <SC>Lord</SC> hath made; * we will rejoice and be glad in it.
           '025': 'Help me now, O <SC>Lord</SC>: * O <SC>Lord</SC>, send us now prosperity.'
-          '026': 'Blessed be he that cometh in the Name of the <SC>Lord</SC>: * we have wished you good luck, we that are of the house of the <SC>Lord</SC>.'
+          '026': 'Blessed be he that cometh in the Name of the <SC>Lord</SC>: * we have wished you good luck, we{HN #1} that are of the house of the <SC>Lord</SC>.'
           '027': 'God is the <SC>Lord</SC>, who hath showed us light: * bind the sacrifice with cords, yea, even unto the horns of the altar.'
           '028': 'Thou art my God, and I will thank thee; * thou art my God, and I will praise thee.'
           '029': 'O give thanks unto the <SC>Lord</SC>; for he is gracious, * and his mercy endureth for ever.'
         verse_history_refs: 
-          '#1': ''
-          '#2': ''
-          '#3': ''
-          '#4': ''
-          '#5': ''
-          '#6': ''
-          '#7': ''
-          '#8': ''
-          '#9': ''
+          '#1': 'ye | until 1928'
         verse_meta:
           '001':
             is_first_verse: 1
