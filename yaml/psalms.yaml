@@ -10,7 +10,7 @@ psalm:
         verse:
           '001': 'BLESSED is the man that hath not walk{d-}ed in the counsel of the ungodl{dv}y, {df} nor stood in the {d.} way of sinners, * and hath not sat in the seat {d.} of the scornful.'
           '002': But his delight is in {d.} the law of the <SC>Lord</SC>; * and in his law will he exercise {d.} himself day and night.
-          '003': 'And he shall be like a tree planted {d.} by the water-side, * that will bring forth his fruit {d.} in due season.'
+          '003': 'And he shall be like a tree planted {d.} by the water-side{dx}, * that will bring forth his fruit {d.} in due season.'
           '004': 'His leaf also {d.} shall not wither; * and look, whatsoever he doeth{dx}, {d.} it shall prosper.'
           '005': 'As for the ungodly{dx}, it {d.} is not so with them; * but they are like the chaff{dx}, which the wind scattereth away from the {d.} face of the earth.'
           '006': 'Therefore the ungodly shall not be able to stand in the judgment, * neither the sinners in the congregation of the righteous.'
@@ -110,7 +110,7 @@ psalm:
           '009': 'For there is no faithfulness in {d.} their mouth{HN #2}; * their inward parts are {d.} very wickedness.'
           '010': Their throat is an open sep{d.}ulchre; * they {d.} flatter with their tongue.
           '011': 'Destroy thou them{dx}, O G{d_}od; {df} let them perish through their own imagi{d.}nations; * cast them out in the multitude of their ungodliness{dx}; for they have rebel{d.}led against thee.'
-          '012': 'And let all them that put their trust in thee rejo{d_}ice<DS :>;</DS> {df} * they shall ever be giving of thanks, because thou defend{d.}est them; {da *} they that love thy Name shall be {d.} joyful in thee;'
+          '012': 'And let all them that put their trust in thee rejo{d_}ice: {df} * they shall ever be giving of thanks, because thou defend{d.}est them; they that love thy Name shall be {d.} joyful in thee;'
           '013': 'For thou{dx}, <SC>Lord</SC>{dx}, wilt give thy blessing unto the {d.} righteous, * and with thy favourable kindness wilt thou defend {d.} him as with a shield.'
         verse_history_refs:
           '#1': 'leasing | in Engl. Book'
@@ -151,24 +151,24 @@ psalm:
         tone:
           from_dunstan: ''
         verse:
-          '001': 'O LORD my God, in thee have I put my trust: * save me from all them that persecute me, and deliver me;'
-          '002': 'Lest he devour my soul like a lion, and tear it in pieces, * while there is none to help.'
-          '003': 'O <SC>Lord</SC> my God, if I have done any such thing; * or if there be any wickedness in my hands;'
-          '004': 'If I have rewarded evil unto him that dealt friendly with me; * (yea, I have delivered him that without any cause is mine enemy;){HN v4}'
-          '005': 'Then let mine enemy persecute my soul, and take me; * yea, let him tread my life down upon the earth, and lay mine honour in the dust.'
-          '006': 'Stand up, O <SC>Lord</SC>, in thy wrath, and lift up thyself, because of the indignation of mine enemies; * arise up for me in the judgment that thou hast commanded.'
-          '007': 'And so shall the congregation of the peoples come about thee: * for their sakes therefore lift up thyself again.'
-          '008': 'The <SC>Lord</SC> shall judge the peoples{HN #1}: give sentence with me, O <SC>Lord</SC>, * according to my righteousness, and according to the innocency that is in me.'
-          '009': O let the wickedness of the ungodly come to an end; * but guide thou the just.
-          '010': For the righteous God * trieth the very hearts and reins.
-          '011': 'My help cometh of God, * who preserveth them that are true of heart.'
-          '012': 'God is a righteous Judge, strong, and patient; * and God is provoked every day.'
-          '013': 'If a man will not turn, he will whet his sword; * he hath bent his bow, and made it ready.'
-          '014': He hath prepared for him the instruments of death; * he ordaineth his arrows against the persecutors.
-          '015': 'Behold, the ungodly travaileth with iniquity; * he hath conceived mischief, and brought forth falsehood{HN v15}.'
-          '016': 'He hath graven and digged up a pit, * and is fallen himself into the destruction that he made for other.'
-          '017': 'For his travail shall come upon his own head, * and his wickedness shall fall on his own pate.'
-          '018': 'I will give thanks unto the <SC>Lord</SC>, according to his righteousness; * and I will praise the Name of the <SC>Lord</SC> Most High.'
+          '001': 'O LORD my God{dx}, in thee have I put {d.}my trust: * save me from all them that persecute me{dx}, {.} and deliver me;'
+          '002': 'Lest he devour my soul like a lion{dx}, and tear it in {.} pieces, * while {d.} there is none to help.'
+          '003': 'O <SC>Lord</SC> my God{dx}, if I have done any {d.} such thing; * or if there be any wick{d.}edness in my hands;'
+          '004': 'If I have rewarded evil unto him that dealt friendly {d.} with me; * (yea, I have deliver{d-}ed him that without any cause {d.} is mine enemy;){HN v4}'
+          '005': 'Then let mine enemy persecute my soul{dx}, and {d.}take me; * yea, let him tread my life down upon the earth{dx}, and lay mine {d.} honour in the dust.'
+          '006': 'Stand up{dx}, O <SC>Lord</SC>{dx}, in thy wr{dv}ath, {df} and lift up thyself{dx}, because of the indignation of mine en{d.}emies; * arise up for me in the judgment that thou {d.} hast commanded.'
+          '007': 'And so shall the congregation of the peoples come a{d.}bout thee: * for their sakes therefore lift {d.} up thyself again.'
+          '008': 'The <SC>Lord</SC> shall judge the peopl{dv}es{HN #1}: give sentence with me{dx}, {d.} O <SC>Lord</SC>, * according to my righteousness{dx}, and according to the innocency {d.} that is in me.'
+          '009': O let the wickedness of the ungodly come to {d.} an end; * but {d.} guide thou the just.
+          '010': For the right{d.}eous God * trieth the {d.} very hearts and reins.
+          '011': 'My help cometh {d.} of God{dx}, * who preserveth them {d.} that are true of heart.'
+          '012': 'God is a righteous Judge{dx}, strong{dx}, and {d.} patient; * and God is pro{d.}vok{d-}ed ev<DA>e</DA>ry day.'
+          '013': 'If a man will not turn{dx}, he will whet {d.} his sword; * he hath bent his bow{dx}, and {d.} made it ready.'
+          '014': He hath prepar{d-}ed for him the instruments{d.} of death; * he ordaineth his arrows against the {d.}persecutors.
+          '015': 'Behold{dx}, the ungodly travaileth with ini{d.}quity; * he hath conceiv{d-}ed mischief{dx}, and {d.} brought forth falsehood{HN v15}.'
+          '016': 'He hath graven and dig{d-}ged up {d.} a pit, * and is fallen himself into the destruction that he {d.} made for other.'
+          '017': 'For his travail shall come upon his {d.} own head, * and his wickedness shall fall {d.} on his own pate.'
+          '018': 'I will give thanks unto the <SC>Lord</SC>{dx}, according to his right{d.}eousness; * and I will praise the Name {d.} of the <SC>Lord</SC> Most High.'
         verse_history_refs:
           'v4': 'no parentheses | until 1928.'
           '#1': 'people | until 1928.'
