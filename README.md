@@ -66,20 +66,20 @@ According to "https://www.episcopalcommonprayer.org/faq.html":
 
 ## Markup showing history notes
 
-These show notes found in:
-  * http://justus.anglican.org/resources/bcp/1928/Psalms1.htm
-  * http://justus.anglican.org/resources/bcp/1928/Psalms2.htm
-  * http://justus.anglican.org/resources/bcp/1928/Psalms3.htm
-  * http://justus.anglican.org/resources/bcp/1789/Psalter1789&1892.htm
+> These show notes found in:
+>   * http://justus.anglican.org/resources/bcp/1928/Psalms1.htm
+>   * http://justus.anglican.org/resources/bcp/1928/Psalms2.htm
+>   * http://justus.anglican.org/resources/bcp/1928/Psalms3.htm
+>   * http://justus.anglican.org/resources/bcp/1789/Psalter1789&1892.htm
 
 * `{HN tag}`
   * "tag" refers to an entry under the `verse_history_refs:` section of the YAML
 
-The `verse_history_refs:` enteries are formatted as follows:
-  * multiple enteries as seperated by ampersands (`&`)
-  * each entry has two parts seperated by a pipe (`|`)
-    * part 1, the referenced text
-    * part 2, notes (greyed out in the source material)
+> The `verse_history_refs:` enteries are formatted as follows:
+>   * multiple enteries as seperated by ampersands (`&`)
+>   * each entry has two parts seperated by a pipe (`|`)
+>     * part 1, the referenced text
+>     * part 2, notes (greyed out in the source material)
 
 
 
