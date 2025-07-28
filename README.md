@@ -56,8 +56,8 @@ According to "https://www.episcopalcommonprayer.org/faq.html":
 * `{d-}`
   * insert a dash
 * `{df}`
- * insert a flax (breath) marker
- * (shown a dagger character in the Dunstan Psalter)
+  * insert a flax (breath) marker
+  * (shown a dagger character in the Dunstan Psalter)
 * `{dx}`
   * Remove the following character
   * Usualy for comas that would confuse plain chant singing
