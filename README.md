@@ -14,9 +14,9 @@ with markup to allow optional formatting.
 
 ## Why be true to "reliable sources" for the 1928_BCP
 
-For reusaseability.   
+For reusaseability.
 
-There are several on-line copies of the 1928 
+There are several on-line copies of the 1928
 
 ## What do you mean by "Markedup"
 
@@ -33,19 +33,48 @@ After 1979, it retained it's authorized status:
 
 According to "https://www.episcopalcommonprayer.org/faq.html":
 
-  The 1928 Book of Common Prayer is partially authorized by Resolution 1979-A121 and Resolution 2000-B042.
+> The 1928 Book of Common Prayer is partially authorized by Resolution 1979-A121 and Resolution 2000-B042.
 
 #### Eastern Orthodox
 
 #### Roman Catholic
 
 
+# Markup syntax
 
+## from the source text
+
+* `<SC>__</SC>` -- Use small caps
+
+## From the Saint Dunstan's Psalter
+
+* `<DA>__</DA>`
+  * Replace text with an apostrophe.
+  * ie `ev<DA>e</DA>` becomes "ev'ry"
+* `{d.}`
+  * insert a dot character
+* `{d-}`
+  * insert a dash
+* `{df}`
+ * insert a flax (breath) marker
+ * (shown a dagger character in the Dunstan Psalter)
+* `{dx}`
+  * Remove the following character
+  * Usualy for comas that would confuse plain chant singing
+* `{dv}`
+* `{d_}`
+
+##
+
+
+
+## 
 
 
 
 Info:
   * http://justus.anglican.org/resources/bcp/1928/Psalms.htm
+  * http://www.ststeve.com/2011/07/31/whys-and-wherefores-of-coverdales-psalms/
 
 Parsable HTML:
   * http://www.covert.org/Psalter/Bk1.html
@@ -88,7 +117,7 @@ Reviews of multiple Psalters:
 
   * https://forum.musicasacra.com/forum/discussion/13037/coverdale-psalms-in-novus-ordo/p1
   * https://www.reddit.com/r/divineoffice/comments/19dq99g/what_are_the_different_approved_liturgical/
-  
+
   * But:
     * https://www.usccb.org/resources/name-god
     * https://brisbanecatholic.org.au/wp-content/uploads/vatican-directive-on-yhwh.pdf
@@ -98,9 +127,9 @@ Reviews of multiple Psalters:
 
 
 > Since this is Catholic Bible Talk, I’m sure most readers have two questions in mind: What’s the Coverdale psalter? Is this psalter approved for use by Catholics?
-> 
+>
 > To answer the first question, the Coverdale psalter is the official, standard psalter used by the Church of England and most (if not all) of its daughter Anglican churches. (I’m sure it’s seeing much less use nowadays, as there seems to be a vendetta against archaic pronouns.) Myles Coverdale completed one of the earliest English Bible translations in 1535, and his translation of the Psalms in particular became popular enough to be adopted by the Church of England for use in its services. Somehow the Coverdale version managed to remain part of the Book of Common Prayer even after the publication of the Authorized Version (KJV), which has its own magnificent psalter. In my mind—and I know nearly everyone will have their own opinion here—the Coverdale psalter is far and away the greatest English psalter; and it’s one of the greatest influences on the modern English language (alongside the remainder of the BCP, the KJV, and of course the works of Shakespeare).
-> 
+>
 > That all sounds great, but if it isn’t approved for Catholics, then who cares, right? Fear not: for, behold, I bring you good tidings of great joy, which shall be to all people: The Coverdale psalter is now an official, approved Catholic psalter! In September 2020, Bishop Steven Lopes (of the Personal Ordinariate of the Chair of Saint Peter) gave his imprimatur to the American Ordinariate’s new divine office book. Called Divine Worship: Daily Office (North American Edition), it contains texts for Mattins and Evensong lifted straight from the American 1928 BCP (as well as numerous other Anglican sources), as well as the Coverdale psalter in its entirety. Sometime in the next few months or so, the UK and Australian Ordinariates will publish their official (shared) prayer book as well, which draws primarily from the 1662 BCP. Thanks be to God for Anglicanorum coetibus, which has brought these brilliant treasures of the English language fully into the Catholic fold!
 
 =======
