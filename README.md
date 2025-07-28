@@ -1,6 +1,46 @@
 
 # Markedup_1928_Psalter
 
+A copy of the Psalter (Psalms) from the 1928 Book of Common Prayer [1928_BCP]
+with markup to allow optional formatting.
+
+## Goals
+
+* The be able to generate an exact letter-for-letter copy of the _text_ of the Psalms from the 1928_BCP.
+  * True to reliable sources for the 1928_BCP
+    * http://justus.anglican.org/resources/bcp/1928/Psalms_1928.pdf
+    * http://justus.anglican.org/resources/bcp/1928Standard/psalms.pdf (The STANDARD BOOK)
+* All additions but be easily ignorable by software
+
+## Why be true to "reliable sources" for the 1928_BCP
+
+For reusaseability.   
+
+There are several on-line copies of the 1928 
+
+## What do you mean by "Markedup"
+
+## Why the 1928_BCP?
+
+### Asthetic translation with a history
+
+### It is authorized for certain us fr major denomination, including:
+
+#### Episcipal Church of America
+
+The 1928_BCP was the official service and prayer book of the Episcipal Church from 1928 to 1979.
+After 1979, it retained it's authorized status:
+
+According to "https://www.episcopalcommonprayer.org/faq.html":
+
+  The 1928 Book of Common Prayer is partially authorized by Resolution 1979-A121 and Resolution 2000-B042.
+
+#### Eastern Orthodox
+
+#### Roman Catholic
+
+
+
 
 
 
@@ -26,6 +66,22 @@ Specific changes in wording made in U. S. Prayer Books prior to 1928:
 ideas for formatting:
   * https://web.archive.org/web/20180817092926/http://www.stutler.cc/russ/dream_psalter.html
 
+Sources:
+  * http://www.covert.org/Psalter/  (Our Primary e-text source)
+  * http://justus.anglican.org/resources/bcp/1928/BCP_1928.htm 
+      * http://justus.anglican.org/resources/bcp/1928/Psalms_1928.pdf
+      * http://justus.anglican.org/resources/bcp/1928/Psalms.htm (Includes history of changes)
+      * http://justus.anglican.org/resources/bcp/1928Standard/psalms.pdf (The STANDARD BOOK)
+  * https://www.episcopalnet.org/1928bcp/Psalter/Day1.html
+  * https://commonprayeronline.com/psalter
+  * https://archive.org/details/isbn_9781537520742/page/344/mode/2up (SCAN of 1928 BCP)
+
+Which Psalms to red when:
+  * https://www.stpetersaoc.org/Info/1928Lectionary.pdf
+
+
+Reviews of multiple Psalters:
+  * https://russellstutler.com/russ/psalter_reviews.html
 
 
 == Use by Catholics:
