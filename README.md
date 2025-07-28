@@ -42,11 +42,11 @@ According to "https://www.episcopalcommonprayer.org/faq.html":
 
 # Markup syntax
 
-## from the source text
+## Markup showing deatures of the source text
 
 * `<SC>__</SC>` -- Use small caps
 
-## From the Saint Dunstan's Psalter
+## Markup showing features of the Saint Dunstan's Psalter
 
 * `<DA>__</DA>`
   * Replace text with an apostrophe.
@@ -64,7 +64,24 @@ According to "https://www.episcopalcommonprayer.org/faq.html":
 * `{dv}`
 * `{d_}`
 
-##
+## Markup showing history notes
+
+These show notes found in:
+  * http://justus.anglican.org/resources/bcp/1928/Psalms1.htm
+  * http://justus.anglican.org/resources/bcp/1928/Psalms2.htm
+  * http://justus.anglican.org/resources/bcp/1928/Psalms3.htm
+  * http://justus.anglican.org/resources/bcp/1789/Psalter1789&1892.htm
+
+* `{HN tag}`
+  * "tag" refers to an entry under the `verse_history_refs:` section of the YAML
+
+The `verse_history_refs:` enteries are formatted as follows:
+  * multiple enteries as seperated by ampersands (`&`)
+  * each entry has two parts seperated by a pipe (`|`)
+    * part 1, the referenced text
+    * part 2, notes (greyed out in the source material)
+
+
 
 
 
@@ -83,14 +100,6 @@ Parsable HTML:
   * http://www.covert.org/Psalter/Bk4.html
   * http://www.covert.org/Psalter/Bk5.html
 
-
-Formatted:
-  * http://justus.anglican.org/resources/bcp/1928/Psalms1.htm
-  * http://justus.anglican.org/resources/bcp/1928/Psalms2.htm
-  * http://justus.anglican.org/resources/bcp/1928/Psalms3.htm
-
-Specific changes in wording made in U. S. Prayer Books prior to 1928:
-    http://justus.anglican.org/resources/bcp/1789/Psalter1789&1892.htm
 
 ideas for formatting:
   * https://web.archive.org/web/20180817092926/http://www.stutler.cc/russ/dream_psalter.html
