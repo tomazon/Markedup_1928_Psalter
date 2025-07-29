@@ -104,10 +104,10 @@ According to "https://www.episcopalcommonprayer.org/faq.html":
 >> verses containing the Tetragrammaton (Jehovah) or Digrammaton (Jah) are to be
 >> modified when used liturgically by dropping the unspeakable Name (33:12) or
 >> by changing it to "the Lord" (68:4, and 83:18).
->> More details:
->>  * https://www.usccb.org/resources/name-god
->>  * https://brisbanecatholic.org.au/wp-content/uploads/vatican-directive-on-yhwh.pdf
->>  * https://www.bible-researcher.com/dominus.html
+> More details:
+>  * https://www.usccb.org/resources/name-god
+>  * https://brisbanecatholic.org.au/wp-content/uploads/vatican-directive-on-yhwh.pdf
+>  * https://www.bible-researcher.com/dominus.html
 >
 > The printed and e-book "The Psalter of King David: The 1662 Coverdale Psalter
 > Arranged for Orthodox Worship"
