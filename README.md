@@ -95,6 +95,20 @@ According to "https://www.episcopalcommonprayer.org/faq.html":
 >     * part 1, the referenced text
 >     * part 2, notes (greyed out in the source material)
 
+## Markup showing the names that some wish to avoid
+
+> So with to avoid writing or acidently saying the name or God
+>
+>  This is even recomended for Catholics.  From http://www.covert.org/Psalter/ :
+>  In accordance with the decree of Pope Benedict dated 29 June 2008, the psalm verses containing the Tetragrammaton (Jehovah) or Digrammaton (Jah) are to be modified when used liturgically by dropping the unspeakable Name (33:12) or by changing it to "the Lord" (68:4, and 83:18).
+>
+
+* `<TETRAGRAMMATON CATH2008="" DUNSTAN="JEHOVAH"><SC>JEHOVAH</SC></TETRAGRAMMATON>;`
+  * at 33:12 & 83:18
+* `<DIGRAMMATON CATH2008="The Lord" DUNSTAN="JAH"><SC>JAH</SC></DIGRAMMATON>`
+  * at 68:4
+
+
 
 
 
@@ -161,12 +175,6 @@ From http://www.covert.org/Psalter/
 The Traditional Language Psalter of the 1928 Book of Common Prayer
 has been authorized for use in the Liturgy of the Roman Catholic Church
 by the provisions of the Apostolic Constitution Anglicanorum cœtibus.
-
-In accordance with the decree of Pope Benedict dated 29 June 2008,
-the psalm verses containing the Tetragrammaton (Jehovah)
-or Digrammaton (Jah) are to be modified when used
-liturgically by dropping the unspeakable Name (33:12)
-or by changing it to "the Lord" (68:4, and 83:18).
 
 
 # CORRECTIONS
