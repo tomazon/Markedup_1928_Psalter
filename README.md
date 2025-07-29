@@ -52,6 +52,8 @@ According to "https://www.episcopalcommonprayer.org/faq.html":
 * `<DA>__</DA>`
   * Replace text with an apostrophe.
   * ie `ev<DA>e</DA>` becomes "ev'ry"
+* `<DS _2_>_1_</DS>`
+  * Substiture _1_ with _2_
 * `{d.}`
   * insert a dot character
 * `{d-}`
