@@ -153,3 +153,15 @@ the psalm verses containing the Tetragrammaton (Jehovah)
 or Digrammaton (Jah) are to be modified when used
 liturgically by dropping the unspeakable Name (33:12)
 or by changing it to "the Lord" (68:4, and 83:18).
+
+
+# CORRECTIONS
+
+## of Dunstan
+
+* c005v012    /rejoice; * they/rejoice: they/  &&  /them; * they/them; they/
+  * Checked against:
+    * http://www.covert.org/Psalter/Bk1.html
+    * http://justus.anglican.org/resources/bcp/1928/Psalms1.htm
+    * http://justus.anglican.org/resources/bcp/1928Standard/psalms.pdf
+    * https://archive.org/details/isbn_9781537520742/page/348/mode/2up
