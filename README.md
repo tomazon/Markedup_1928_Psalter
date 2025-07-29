@@ -45,6 +45,7 @@ According to "https://www.episcopalcommonprayer.org/faq.html":
 ## Markup showing deatures of the source text
 
 * `<SC>__</SC>` -- Use small caps
+* `<BR>`  -- put a blank line after this verse
 
 ## Markup showing features of the Saint Dunstan's Psalter
 
@@ -63,6 +64,19 @@ According to "https://www.episcopalcommonprayer.org/faq.html":
   * Usualy for comas that would confuse plain chant singing
 * `{dv}`
 * `{d_}`
+
+### Temp
+
+* `+` > `{d.}`
+* `[,]` > `{dx},`
+* `^` > `{dv}`
+* `` > `{d_}`
+* `{df}` > `{df}`
+* `{d-}` > `{d-}`
+* `` > `{}`
+* `` > `{}`
+* `` > `{}`
+* `` > `{}`
 
 ## Markup showing history notes
 
