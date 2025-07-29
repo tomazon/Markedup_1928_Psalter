@@ -100,7 +100,8 @@ According to "https://www.episcopalcommonprayer.org/faq.html":
 > So with to avoid writing or acidently saying the name or God
 >
 >  This is even recomended for Catholics.  From http://www.covert.org/Psalter/ :
->  In accordance with the decree of Pope Benedict dated 29 June 2008, the psalm verses containing the Tetragrammaton (Jehovah) or Digrammaton (Jah) are to be modified when used liturgically by dropping the unspeakable Name (33:12) or by changing it to "the Lord" (68:4, and 83:18).
+>
+>>  In accordance with the decree of Pope Benedict dated 29 June 2008, the psalm verses containing the Tetragrammaton (Jehovah) or Digrammaton (Jah) are to be modified when used liturgically by dropping the unspeakable Name (33:12) or by changing it to "the Lord" (68:4, and 83:18).
 >
 
 * `<TETRAGRAMMATON CATH2008="" DUNSTAN="JEHOVAH"><SC>JEHOVAH</SC></TETRAGRAMMATON>;`
