@@ -109,11 +109,8 @@ According to "https://www.episcopalcommonprayer.org/faq.html":
 >  * https://www.usccb.org/resources/name-god
 >  * https://brisbanecatholic.org.au/wp-content/uploads/vatican-directive-on-yhwh.pdf
 >  * https://www.bible-researcher.com/dominus.html
->
 
-
-
-* `<TETRAGRAMMATON CATH2008="" DUNSTAN="JEHOVAH"><SC>JEHOVAH</SC>`
+* `<TETRAGRAMMATON CATH2008="" DUNSTAN="JEHOVAH"><SC>JEHOVAH</SC></TETRAGRAMMATON>`
   * at 33:12 
 * `<TETRAGRAMMATON CATH2008="The Lord" DUNSTAN="JEHOVAH"><SC>JEHOVAH</SC></TETRAGRAMMATON>`
   * at 83:18
@@ -134,13 +131,6 @@ According to "https://www.episcopalcommonprayer.org/faq.html":
 >> it’s the singular instance where the Coverdale translation fails to read
 >> well. JAH is really an ugly, jarring word in English; I’m not sure why
 >> Jehovah wasn’t used here instead.
-
-
-
-
-
-
-## 
 
 
 
