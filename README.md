@@ -97,13 +97,17 @@ According to "https://www.episcopalcommonprayer.org/faq.html":
 
 ## Markup showing the names that some wish to avoid
 
-> So with to avoid writing or acidently saying the name or God
+> Some with to avoid writing or acidently saying the name or God
 >
 >  This is even recomended for Catholics.  From http://www.covert.org/Psalter/ :
 >>  In accordance with the decree of Pope Benedict dated 29 June 2008, the psalm
 >> verses containing the Tetragrammaton (Jehovah) or Digrammaton (Jah) are to be
 >> modified when used liturgically by dropping the unspeakable Name (33:12) or
 >> by changing it to "the Lord" (68:4, and 83:18).
+>> More details:
+>>  * https://www.usccb.org/resources/name-god
+>>  * https://brisbanecatholic.org.au/wp-content/uploads/vatican-directive-on-yhwh.pdf
+>>  * https://www.bible-researcher.com/dominus.html
 >
 > The printed and e-book "The Psalter of King David: The 1662 Coverdale Psalter
 > Arranged for Orthodox Worship"
@@ -153,7 +157,7 @@ Sources:
   * https://commonprayeronline.com/psalter
   * https://archive.org/details/isbn_9781537520742/page/344/mode/2up (SCAN of 1928 BCP)
 
-Which Psalms to red when:
+Which Psalms to read when:
   * https://www.stpetersaoc.org/Info/1928Lectionary.pdf
 
 
