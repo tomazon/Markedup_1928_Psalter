@@ -110,6 +110,17 @@ According to "https://www.episcopalcommonprayer.org/faq.html":
 >  * https://brisbanecatholic.org.au/wp-content/uploads/vatican-directive-on-yhwh.pdf
 >  * https://www.bible-researcher.com/dominus.html
 >
+
+
+
+* `<TETRAGRAMMATON CATH2008="" DUNSTAN="JEHOVAH"><SC>JEHOVAH</SC>`
+  * at 33:12 
+* `<TETRAGRAMMATON CATH2008="The Lord" DUNSTAN="JEHOVAH"><SC>JEHOVAH</SC></TETRAGRAMMATON>`
+  * at 83:18
+* `<DIGRAMMATON CATH2008="The Lord" DUNSTAN="JAH"><SC>JAH</SC></DIGRAMMATON>`
+  * at 68:4
+
+> Another option is to use the Hebrew to avoid it being accidently read.
 > The printed and e-book "The Psalter of King David: The 1662 Coverdale Psalter
 > Arranged for Orthodox Worship"
 >> The holy name of God in Psalm 68 is transliterated in the 1662 psalter as
@@ -123,14 +134,6 @@ According to "https://www.episcopalcommonprayer.org/faq.html":
 >> it’s the singular instance where the Coverdale translation fails to read
 >> well. JAH is really an ugly, jarring word in English; I’m not sure why
 >> Jehovah wasn’t used here instead.
-
-
-* `<TETRAGRAMMATON CATH2008="" DUNSTAN="JEHOVAH"><SC>JEHOVAH</SC>`
-  * at 33:12 
-* `<TETRAGRAMMATON CATH2008="The Lord" DUNSTAN="JEHOVAH"><SC>JEHOVAH</SC></TETRAGRAMMATON>`
-  * at 83:18
-* `<DIGRAMMATON CATH2008="The Lord" DUNSTAN="JAH"><SC>JAH</SC></DIGRAMMATON>`
-  * at 68:4
 
 
 
