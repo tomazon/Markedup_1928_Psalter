@@ -100,14 +100,18 @@ According to "https://www.episcopalcommonprayer.org/faq.html":
 > So with to avoid writing or acidently saying the name or God
 >
 >  This is even recomended for Catholics.  From http://www.covert.org/Psalter/ :
->
 >>  In accordance with the decree of Pope Benedict dated 29 June 2008, the psalm verses containing the Tetragrammaton (Jehovah) or Digrammaton (Jah) are to be modified when used liturgically by dropping the unspeakable Name (33:12) or by changing it to "the Lord" (68:4, and 83:18).
 >
+> The printed and e-book "The Psalter of King David: The 1662 Coverdale Psalter Arranged for Orthodox Worship" 
+>> The holy name of God in Psalm 68 is transliterated in the 1662 psalter as JAH, but is here rendered as the Hebrew tetragrammaton יהוה in order to indicate that the sacred name should not be pronounced. 
 
-* `<TETRAGRAMMATON CATH2008="" DUNSTAN="JEHOVAH"><SC>JEHOVAH</SC></TETRAGRAMMATON>;`
-  * at 33:12 & 83:18
+
+* `<TETRAGRAMMATON CATH2008="" DUNSTAN="JEHOVAH"><SC>JEHOVAH</SC>`
+  * at 33:12 
 * `<DIGRAMMATON CATH2008="The Lord" DUNSTAN="JAH"><SC>JAH</SC></DIGRAMMATON>`
   * at 68:4
+* <TETRAGRAMMATON CATH2008="The Lord" DUNSTAN="JEHOVAH"><SC>JEHOVAH</SC></TETRAGRAMMATON>
+  * at 83:18
 
 
 
