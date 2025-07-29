@@ -115,8 +115,8 @@ According to "https://www.episcopalcommonprayer.org/faq.html":
 >> The holy name of God in Psalm 68 is transliterated in the 1662 psalter as
 >> JAH, but is here rendered as the Hebrew tetragrammaton יהוה in order to
 >> indicate that the sacred name should not be pronounced.
-> As the editor explains in:
-> https://catholicbibletalk.com/2021/01/the-psalter-of-king-david-part-2-guest-post-by-m-b/ :
+>
+> As the editor explains in: https://catholicbibletalk.com/2021/01/the-psalter-of-king-david-part-2-guest-post-by-m-b/ :
 >> I made exactly one—and only one—textual change to the 1662 psalter:
 >> I restored the Tetragrammaton to Psalm 68, where it was (in my opinion) quite
 >> poorly transliterated as “JAH”. I did this because (again, in my opinion)
