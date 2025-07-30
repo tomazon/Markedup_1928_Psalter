@@ -1515,23 +1515,23 @@ psalm:
         verse:
           '001': 'HAVE mercy upon me[,] O God[,] after thy great goodness; * according to the multitude of thy mercies do away mine offences.'
           '002': 'Wash me throughly from my wickedness[,] * and cleanse me from my sin.'
-          '003': 'For I acknowledge my faults[,] * and my sin is ever before me.'
+          '003': 'For I acknowledge my faults, * and my sin is ever before me.'
           '004': 'Against thee only have I sinned[,] and done this evil in thy sight; * that thou mightest be justified in thy saying[,] and clear when thou shalt judge.'
-          '005': 'Behold[,] I was shapen in wickedness[,] * and in sin hath my mother conceived me.'
+          '005': 'Behold[,] I was shapen in wickedness, * and in sin hath my mother conceived me.'
           '006': 'But lo[,] thou requirest truth in the inward parts[,] * and shalt make me to understand wisdom secretly.'
           '007': 'Thou shalt purge me with hyssop[,] and I shall be clean; * thou shalt wash me[,] and I shall be whiter than snow.'
           '008': 'Thou shalt make me hear of joy and gladness[,] * that the bones which thou hast broken may rejoice.'
-          '009': 'Turn thy face from my sins[,] * and put out all my misdeeds.'
-          '010': 'Make me a clean heart[,] O God[,] * and renew a right spirit within me.'
-          '011': 'Cast me not away from thy presence[,] * and take not thy holy Spirit from me.'
+          '009': 'Turn thy face from my sins, * and put out all my misdeeds.'
+          '010': 'Make me a clean heart[,] O God, * and renew a right spirit within me.'
+          '011': 'Cast me not away from thy presence, * and take not thy holy Spirit from me.'
           '012': 'O give me the comfort of thy help again[,] * and stablish me with thy free Spirit.'
-          '013': 'Then shall I teach thy ways unto the wicked[,] * and sinners shall be converted unto thee.'
-          '014': 'Deliver me from blood-guiltiness[,] O God[,] thou that art the God of my health; * and my tongue shall sing of thy righteousness.'
-          '015': 'Thou shalt open my lips[,] O Lord[,] * and my mouth shall show thy praise.'
+          '013': 'Then shall I teach thy ways unto the wicked, * and sinners shall be converted unto thee.'
+          '014': 'Deliver me from blood-guiltiness[,] O God, thou that art the God of my health; * and my tongue shall sing of thy righteousness.'
+          '015': 'Thou shalt open my lips[,] O Lord, * and my mouth shall show thy praise.'
           '016': 'For thou desirest no sacrifice[,] else would I give it thee; * but thou delightest not in burnt-offerings.'
           '017': 'The sacrifice of God is a troubled spirit: * a broken and contrite heart[,] O God[,] shalt thou not despise.'
           '018': O be favourable and gracious unto Sion; * build thou the walls of Jerusalem.
-          '019': 'Then shalt thou be pleased with the sacrifice of righteousness[,] with the burnt-offerings and oblations; * then shall they offer young bullocks upon thine altar.'
+          '019': 'Then shalt thou be pleased with the sacrifice of righteousness, with the burnt-offerings and oblations; * then shall they offer young bullocks upon thine altar.'
         verse_history_refs: {}
         verse_meta:
           '001':
@@ -1546,11 +1546,11 @@ psalm:
         verse:
           '001': 'WHY boastest thou thyself[,] thou tyrant[,] * that thou canst do mischief;'
           '002': Whereas the goodness of God * endureth yet daily?
-          '003': 'Thy tongue imagineth wickedness[,] * and with lies thou cuttest like a sharp razor.'
-          '004': 'Thou hast loved unrighteousness more than goodness[,] * and falsehood more than righteousness.{HN v4}'
-          '005': 'Thou hast loved to speak all words that may do hurt[,] * O thou false tongue.'
+          '003': 'Thy tongue imagineth wickedness, * and with lies thou cuttest like a sharp razor.'
+          '004': 'Thou hast loved unrighteousness more than goodness, * and falsehood more than righteousness.{HN v4}'
+          '005': 'Thou hast loved to speak all words that may do hurt, * O thou false tongue.'
           '006': 'Therefore shall God destroy thee for ever; * he shall take thee[,] and pluck thee out of thy dwelling[,] and root thee out of the land of the living.'
-          '007': 'The righteous also shall see this[,] and fear[,] * and shall laugh him to scorn:'
+          '007': 'The righteous also shall see this[,] and fear, * and shall laugh him to scorn:'
           '008': 'Lo[,] this is the man that took not God for his strength; * but trusted unto the multitude of his riches[,] and strengthened himself in his wickedness.'
           '009': 'As for me[,] I am like a green olive-tree in the house of God; * my trust is in the tender mercy of God for ever and ever.'
           '010': 'I will alway{HN #1} give thanks unto thee for that thou hast done; * and I will hope in thy Name[,] for thy saints like it well.'
@@ -1568,14 +1568,14 @@ psalm:
         tone:
           from_dunstan: ''
         verse:
-          '001': 'THE foolish body hath said in his heart[,] * There is no God.'
+          '001': 'THE foolish body hath said in his heart, * There is no God.'
           '002': 'Corrupt are they[,] and become abominable in their wickedness; * there is none that doeth good.'
-          '003': 'God looked down from heaven upon the children of men[,] * to see if there were any that would understand[,] and seek after God.'
-          '004': 'But they are all gone out of the way[,] they are altogether become abominable; * there is also none that doeth good[,] no not one.'
-          '005': 'Are not they without understanding that work wickedness[,] * eating up my people as if they would eat bread? they have not called upon God.'
+          '003': 'God looked down from heaven upon the children of men, * to see if there were any that would understand[,] and seek after God.'
+          '004': 'But they are all gone out of the way, they are altogether become abominable; * there is also none that doeth good[,] no not one.'
+          '005': 'Are not they without understanding that work wickedness, * eating up my people as if they would eat bread? they have not called upon God.'
           '006': 'They were afraid where no fear was; * for God hath broken the bones of him that besieged thee; thou hast put them to confusion[,] because God hath despised them.'
           '007': O that the salvation were given unto Israel out of Sion! * O that the Lord would deliver his people out of captivity!
-          '008': 'Then should Jacob rejoice[,] * and Israel should be right glad.'
+          '008': 'Then should Jacob rejoice, * and Israel should be right glad.'
         verse_history_refs: {}
         verse_meta:
           '001':
@@ -1608,10 +1608,10 @@ psalm:
           from_dunstan: ''
         verse:
           '001': 'HEAR my prayer[,] O God[,] * and hide not thyself from my petition.'
-          '002': 'Take heed unto me[,] and hear me[,] * how I mourn in my prayer[,] and am vexed;'
+          '002': 'Take heed unto me[,] and hear me, * how I mourn in my prayer[,] and am vexed;'
           '003': 'The enemy crieth so[,] and the ungodly cometh on so fast; * for they are minded to do me some mischief[,] so maliciously are they set against me.'
-          '004': 'My heart is disquieted within me[,] * and the fear of death is fallen upon me.'
-          '005': 'Fearfulness and trembling are come upon me[,] * and an horrible dread hath overwhelmed me.'
+          '004': 'My heart is disquieted within me, * and the fear of death is fallen upon me.'
+          '005': 'Fearfulness and trembling are come upon me, * and an horrible dread hath overwhelmed me.'
           '006': 'And I said[,] O that I had wings like a dove! * for then would I flee away[,] and be at rest.'
           '007': 'Lo[,] then would I get me away far off[,] * and remain in the wilderness.'
           '008': 'I would make haste to escape[,] * because of the stormy wind and tempest.'
@@ -1620,17 +1620,17 @@ psalm:
           '011': 'Wickedness is therein; * deceit and guile go not out of her{HN #1} streets.'
           '012': For it is not an open enemy that hath done me this dishonour; * for then I could have borne it;
           '013': Neither was it mine adversary that did magnify himself against me; * for then peradventure I would have hid myself from him;
-          '014': 'But it was even thou[,] my companion[,] * my guide[,] and mine own familiar friend.'
+          '014': 'But it was even thou[,] my companion, * my guide[,] and mine own familiar friend.'
           '015': 'We took sweet counsel together[,] * and walked in the house of God as friends.'
-          '016': 'Let death come hastily upon them[,] and let them go down alive into the pit{HN v16}; * for wickedness is in their dwellings[,] and among them.'
-          '017': 'As for me[,] I will call upon God[,] * and the <SC>Lord</SC> shall save me.'
+          '016': 'Let death come hastily upon them, and let them go down alive into the pit{HN v16}; * for wickedness is in their dwellings[,] and among them.'
+          '017': 'As for me[,] I will call upon God, * and the <SC>Lord</SC> shall save me.'
           '018': 'In the evening[,] and morning[,] and at noon-day will I pray[,] and that instantly; * and he shall hear my voice.'
           '019': It is he that hath delivered my soul in peace from the battle that was against me; * for there were many that strove with me.{HN v19}
           '020': 'Yea[,] even God[,] that endureth for ever[,] shall hear me[,] and bring them down; * for they will not turn[,] nor fear God.'
-          '021': 'He laid his hands upon such as be at peace with him[,] * and he brake his covenant.'
+          '021': 'He laid his hands upon such as be at peace with him, * and he brake his covenant.'
           '022': 'The words of his mouth were softer than butter[,] having war in his heart; * his words were smoother than oil[,] and yet be they very swords.'
           '023': 'O cast thy burden upon the <SC>Lord</SC>[,] and he shall nourish thee[,] * and shall not suffer the righteous to fall for ever.'
-          '024': 'And as for them[,] * thou[,] O God[,] shalt bring them into the pit of destruction.'
+          '024': 'And as for them, * thou[,] O God[,] shalt bring them into the pit of destruction.'
           '025': 'The blood-thirsty and deceitful men shall not live out half their days: * nevertheless[,] my trust shall be in thee[,] O Lord. '
         verse_history_refs:
           '#1': 'their | until 1892'
