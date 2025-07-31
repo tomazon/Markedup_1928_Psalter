@@ -174,9 +174,15 @@ Reviews of multiple Psalters:
 
 == Use by Catholics:
 
+Official:
   * https://www.vatican.va/content/benedict-xvi/en/apost_constitutions/documents/hf_ben-xvi_apc_20091104_anglicanorum-coetibus.html
+  * http://prayer.covert.org/Decree.jpg
+  * 
+
+Interpretations:
   * https://forum.musicasacra.com/forum/discussion/13037/coverdale-psalms-in-novus-ordo/p1
   * https://www.reddit.com/r/divineoffice/comments/19dq99g/what_are_the_different_approved_liturgical/
+  * https://www.ccwatershed.org/2025/07/11/how-to-conduct-90-vespers-services-each-year-and-live-to-tell-the-tale/
 
   * But:
     * https://www.usccb.org/resources/name-god
@@ -215,5 +221,5 @@ by the provisions of the Apostolic Constitution Anglicanorum cœtibus.
 
 * <br>s
 * &nbsp;s
-* Dunstan splits in 18:20 18:35 22:19 31:16 35:14 37:11 37:24 44:17 68:18 69:19 73:13
+* Dunstan splits in 18:20 18:35 22:19 31:16 35:14 37:11 37:24 44:17 68:18 69:19 73:13 78:17 78:40 57:56
 * Dunstan 14:6-8 in appendix???
