@@ -66,6 +66,7 @@ According to "https://www.episcopalcommonprayer.org/faq.html":
   * Usualy for comas that would confuse plain chant singing
 * `{dv}`
 * `{d_}`
+* `{dp __}`  add __
 
 ### Temp
 
@@ -139,6 +140,8 @@ According to "https://www.episcopalcommonprayer.org/faq.html":
 Info:
   * http://justus.anglican.org/resources/bcp/1928/Psalms.htm
   * http://www.ststeve.com/2011/07/31/whys-and-wherefores-of-coverdales-psalms/
+  * https://tonusperegrinus.blogspot.com/2012/06/oh-coverdale-psalter.html
+  * 
 
 Parsable HTML:
   * http://www.covert.org/Psalter/Bk1.html
@@ -171,6 +174,7 @@ Reviews of multiple Psalters:
 
 == Use by Catholics:
 
+  * https://www.vatican.va/content/benedict-xvi/en/apost_constitutions/documents/hf_ben-xvi_apc_20091104_anglicanorum-coetibus.html
   * https://forum.musicasacra.com/forum/discussion/13037/coverdale-psalms-in-novus-ordo/p1
   * https://www.reddit.com/r/divineoffice/comments/19dq99g/what_are_the_different_approved_liturgical/
 
@@ -206,3 +210,10 @@ by the provisions of the Apostolic Constitution Anglicanorum cœtibus.
     * http://justus.anglican.org/resources/bcp/1928/Psalms1.htm
     * http://justus.anglican.org/resources/bcp/1928Standard/psalms.pdf
     * https://archive.org/details/isbn_9781537520742/page/348/mode/2up
+  
+# TO INVESTIGATE
+
+* <br>s
+* &nbsp;s
+* Dunstan splits in 18:20 18:35 22:19 31:16 35:14 37:11 37:24 44:17 68:18 69:19 73:13
+* Dunstan 14:6-8 in appendix???
