@@ -221,5 +221,8 @@ by the provisions of the Apostolic Constitution Anglicanorum cœtibus.
 
 * <br>s
 * &nbsp;s
-* Dunstan splits in 18:20 18:35 22:19 31:16 35:14 37:11 37:24 44:17 68:18 69:19 73:13 78:17 78:40 57:56
+* Dunstan splits in 
+  * 18:20 18:35 22:19 31:16 35:14 37:11 37:24 44:17 68:18 69:19 73:13 78:17
+  * 78:40 57:56 89:15 89:30 102:14 104:23 105:22 106:23
 * Dunstan 14:6-8 in appendix???
+* Can we build both numbering systems by chunking?
