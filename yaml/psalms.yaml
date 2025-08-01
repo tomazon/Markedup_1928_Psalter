@@ -4370,7 +4370,7 @@ psalm:
         greek_number: ''
         latin_name: 'Memento, Domine.'
         tone:
-          from_dunstan: ''
+          from_dunstan: '' 
         verse:
           '001': 'LORD[,] remember David[,] * and all his trouble:'
           '002': 'How he sware unto the <SC>Lord</SC>[,] * and vowed a vow unto the Almighty God of Jacob:'
