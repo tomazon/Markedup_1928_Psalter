@@ -227,3 +227,4 @@ by the provisions of the Apostolic Constitution Anglicanorum cœtibus.
   * 107:16 107:32 109:4 109:19 118:14 136:14 139:16
 * Dunstan 14:6-8 in appendix???
 * Can we build both numbering systems by chunking?
+  * 147 -> 146 & 147
