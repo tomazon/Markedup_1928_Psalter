@@ -187,11 +187,11 @@ psalm:
           '001': 'O LORD our Governor{dc}, how excellent is thy Name in all the world; * thou that hast set thy glory above the heavens!'
           '002': 'Out of the mouth of very babes and sucklings hast thou ordained strength, because of thine enemies, * that thou mightest still the enemy and the avenger.'
           '003': 'When I consider thy heavens{HN v3}{dc}, even the work of thy fingers; * the moon and the stars which thou hast ordained;'
-          '004': 'What is man{dc}, that thou art mindful of him? * and the son of man{dc}, that thou visitest him?'
+          '004': 'What is man{dc}{wc}, that thou art mindful of him? * and the son of man{dc}{wc}, that thou visitest him?'
           '005': 'Thou madest him lower than the angels{dc}, * to crown him with glory and worship.'
           '006': 'Thou makest him to have dominion of the works of thy hands; * and thou hast put all things in subjection under his feet:'
-          '007': 'All sheep and oxen; * yea{dc}, and the beasts of the field;'
-          '008': 'The fowls of the air{dc}, and the fishes of the sea; * and whatsoever walketh through the paths of the seas.'
+          '007': 'All sheep and oxen; * yea{dc}{wc}, and the beasts of the field;'
+          '008': 'The fowls of the air{dc}{wc}, and the fishes of the sea; * and whatsoever walketh through the paths of the seas.'
           '009': 'O <SC>Lord</SC> our Governor{dc}, * how excellent is thy Name in all the world!'
         verse_history_refs:
           'v3': 'For I will consider thy heavens | until 1928'
@@ -206,26 +206,26 @@ psalm:
         tone:
           from_dunstan: ''
         verse:
-          '001': 'I WILL give thanks unto thee{dc}, O <SC>Lord</SC>{dc}, with my whole heart; * I will speak of all thy marvellous works.'
-          '002': 'I will be glad and rejoice in thee; * yea{dc}, my songs will I make of thy Name{dc}, O thou Most Highest.'
-          '003': 'While mine enemies are driven back{dc}, * they shall fall and perish at thy presence.'
+          '001': 'I WILL give thanks unto thee{dc}{wc}, O <SC>Lord</SC>{dc}{wc}, with my whole heart; * I will speak of all thy marvellous works.'
+          '002': 'I will be glad and rejoice in thee; * yea{dc}{wc}, my songs will I make of thy Name{dc}, O thou Most Highest.'
+          '003': 'While mine enemies are driven back{dc}{wc}, * they shall fall and perish at thy presence.'
           '004': For thou hast maintained my right and my cause; * thou art set in the throne that judgest right.
           '005': 'Thou hast rebuked the heathen{dc}, and destroyed the ungodly; * thou hast put out their name for ever and ever.'
           '006': 'O thou enemy{dc}, thy{HN #1} destructions are come to a perpetual end; * even as the cities which thou hast destroyed{dc}, whose memorial is perished with them.'
           '007': But the <SC>Lord</SC> shall endure for ever; * he hath also prepared his seat for judgment.
           '008': 'For he shall judge the world in righteousness{dc}, * and minister true judgment unto the people.'
           '009': 'The <SC>Lord</SC> also will be a defence for the oppressed, * even a refuge in due time of trouble.'
-          '010': 'And they that know thy Name will put their trust in thee; * for thou{dc}, <SC>Lord</SC>{dc}, hast never failed them that seek thee.'
+          '010': 'And they that know thy Name will put their trust in thee; * for thou{dc}{wc}, <SC>Lord</SC>{dc}, hast never failed them that seek thee.'
           '011': O praise the <SC>Lord</SC> which dwelleth in Sion; * show the people of his doings.
           '012': 'For when he maketh inquisition for blood{dc}, he remembereth them, * and forgetteth not the complaint of the poor.'
-          '013': 'Have mercy upon me{dc}, O <SC>Lord</SC><DS ,>;</DS> consider the trouble which I suffer of them that hate me, * thou that liftest me up from the gates of death;'
+          '013': 'Have mercy upon me{dc}{wc}, O <SC>Lord</SC><DS ,>;</DS> consider the trouble which I suffer of them that hate me, * thou that liftest me up from the gates of death;'
           '014': 'That I may show all thy praises within the gates{HN #2} of the daughter of Sion: * I will rejoice in thy salvation.'
           '015': The heathen are sunk down in the pit that they made; * in the same net which they hid privily is their foot taken.
           '016': The <SC>Lord</SC> is known to execute judgment; * the ungodly is trapped in the work of his own hands.
           '017': 'The wicked shall be turned <DS in{d.}to hell>to destruction</DS>{HN #3}{dc}, * and all the people that forget God.'
           '018': For the poor shall not alway be forgotten; * the patient abiding of the meek shall not perish for ever.
-          '019': 'Up{dc}, <SC>Lord</SC>{dc}, and let not man have the upper hand; * let the heathen be judged in thy sight.'
-          '020': 'Put them in fear{dc}, O <SC>Lord</SC>{dc}, * that the heathen may know themselves to be but men.'
+          '019': 'Up{dc}{wc}, <SC>Lord</SC>{dc}, and let not man have the upper hand; * let the heathen be judged in thy sight.'
+          '020': 'Put them in fear{dc}{wc}, O <SC>Lord</SC>{dc}, * that the heathen may know themselves to be but men.'
         verse_history_refs:
           '#1': 'thy | introduced in 1928'
           '#2': 'ports | until 1928'
@@ -241,25 +241,25 @@ psalm:
         tone:
           from_dunstan: ''
         verse:
-          '001': 'WHY standest thou so far off{dc}, O <SC>Lord</SC>{dc}, * and hidest thy face in the needful time of trouble?'
-          '002': 'The ungodly{dc}, for his own lust{dc}, doth persecute the poor: * let them be taken in the crafty wiliness that they have imagined.'
-          '003': "For the ungodly hath made boast of his own heart's desire{dc}, * and speaketh good of the covetous{dc}, whom the <SC>Lord</SC> abhorreth."
-          '004': 'The ungodly is so proud{dc}, that he careth not for God{dc}, * neither is God in all his thoughts.'
+          '001': 'WHY standest thou so far off{dc}{wc}, O <SC>Lord</SC>{dc}, * and hidest thy face in the needful time of trouble?'
+          '002': 'The ungodly{dc}{wc}, for his own lust{dc}{wc}, doth persecute the poor: * let them be taken in the crafty wiliness that they have imagined.'
+          '003': "For the ungodly hath made boast of his own heart's desire{dc}, * and speaketh good of the covetous{dc}{wc}, whom the <SC>Lord</SC> abhorreth."
+          '004': 'The ungodly is so proud{dc}{wc}, that he careth not for God{dc}, * neither is God in all his thoughts.'
           '005': 'His ways are alway{HN #1} grievous; * thy judgments are far above out of his sight{dc}, and therefore defieth he all his enemies.'
           '006': 'For he hath said in his heart{dc}, Tush{dc}, I shall never be cast down, * there shall no harm happen unto me.'
-          '007': 'His mouth is full of cursing, deceit, and fraud; * under his tongue is ungodliness and vanity.'
+          '007': 'His mouth is full of cursing, deceit{wc}, and fraud; * under his tongue is ungodliness and vanity.'
           '008': 'He sitteth lurking in the thievish corners of the streets, * and privily in his lurking dens doth he murder the innocent; his eyes are set against the poor.'
           '009': 'For he lieth waiting secretly; even as a lion lurketh he in his den{dc}, * that he may ravish the poor.'
           '010': 'He doth ravish the poor{dc}, * when he getteth him into his net.'
-          '011': 'He falleth down{dc}, and humbleth himself{dc}, * that the congregation of the poor may fall into the hands of his captains.'
-          '012': 'He hath said in his heart{dc}, Tush{dc}, God hath forgotten; * he hideth away his face{dc}, and he will never see it.'
-          '013': 'Arise{dc}, O <SC>Lord</SC> God{dc}, and lift up thine hand; * forget not the poor.'
+          '011': 'He falleth down{dc}{wc}, and humbleth himself{dc}, * that the congregation of the poor may fall into the hands of his captains.'
+          '012': 'He hath said in his heart{dc}, Tush{dc}, God hath forgotten; * he hideth away his face{dc}{wc}, and he will never see it.'
+          '013': 'Arise{dc}{wc}, O <SC>Lord</SC> God{dc}{wc}, and lift up thine hand; * forget not the poor.'
           '014': 'Wherefore should the wicked blaspheme God{dc}, * while he doth say in his heart{dc}, Tush{dc}, thou God carest not for it?'
           '015': 'Surely thou hast seen it; * for thou beholdest ungodliness and wrong{dc}, that thou mayest take the matter into thy hand.{HN v15}'
           '016': The poor committeth himself unto thee; * for thou art the helper of the friendless.{HN v16}
-          '017': 'Break thou the power of the ungodly and malicious; * search out his ungodliness{dc}, until thou find none.{HN v17}'
+          '017': 'Break thou the power of the ungodly and malicious; * search out his ungodliness{dc}{wc}, until thou find none.{HN v17}'
           '018': 'The <SC>Lord</SC> is King for ever and ever, * and the heathen are perished out of the land.'
-          '019': '<SC>Lord</SC>{dc}, thou hast heard the desire of the poor; * thou preparest their heart{dc}, and thine ear hearkeneth{HN #2};'
+          '019': '<SC>Lord</SC>{dc}{wc}, thou hast heard the desire of the poor; * thou preparest their heart{dc}, and thine ear hearkeneth{HN #2};'
           '020': 'To help the fatherless and poor unto their right{dc}, * that the man of the earth be no more exalted against them.'
         verse_history_refs:
           '#1': 'always | in the English Book'
