@@ -1281,32 +1281,32 @@ psalm:
         tone:
           from_dunstan: ''
         verse:
-          '001': 'WE have heard with our ears{dc}, O God, our fathers have told us * what thou hast done in their time of old:'
+          '001': 'WE have heard with our ears{dc}{wc}, O God, our fathers have told us * what thou hast done in their time of old:'
           '002': 'How thou hast driven out the heathen with thy hand{dc}, and planted our fathers in; * how thou hast destroyed the nations{dc}, and made thy people to flourish.{HN v2}'
           '003': 'For they gat not the land in possession through their own sword, * neither was it their own arm that helped them;'
-          '004': 'But thy right hand{dc}, and thine arm{dc}, and the light of thy countenance; * because thou hadst a favour unto them.'
-          '005': 'Thou art my King{dc}, O God; * send help unto Jacob.'
+          '004': 'But thy right hand{dc}{wc}, and thine arm{dc}{wc}, and the light of thy countenance; * because thou hadst a favour unto them.'
+          '005': 'Thou art my King{dc}{wc}, O God; * send help unto Jacob.'
           '006': 'Through thee will we overthrow our enemies, * and in thy Name will we tread them under that rise up against us.'
           '007': 'For I will not trust in my bow, * it is not my sword that shall help me;'
           '008': 'But it is thou that savest us from our enemies{dc}, * and puttest them to confusion that hate us.'
           '009': 'We make our boast of God all day long{dc}, * and will praise thy Name for ever.'
-          '010': 'But now thou art far off{dc}, and puttest us to confusion{dc}, * and goest not forth with our armies.'
+          '010': 'But now thou art far off{dc}{wc}, and puttest us to confusion{dc}, * and goest not forth with our armies.'
           '011': 'Thou makest us to turn our backs upon our enemies{dc}, * so that they which hate us spoil our goods.'
           '012': 'Thou lettest us be eaten up like sheep{dc}, * and hast scattered us among the heathen.'
           '013': 'Thou sellest thy people for nought{dc}, * and takest no money for them.'
-          '014': 'Thou makest us to be rebuked of our neighbours{dc}, * to be laughed to scorn{dc}, and had in derision of them that are round about us.'
+          '014': 'Thou makest us to be rebuked of our neighbours{dc}, * to be laughed to scorn{dc}{wc}, and had in derision of them that are round about us.'
           '015': 'Thou makest us to be a by-word among the nations{HN #1}, * and that the peoples{HN #2} shake their heads at us.'
           '016': 'My confusion is daily before me, * and the shame of my face hath covered me;'
           '017': 'For the voice of the slanderer and blasphemer{dc}, * for the enemy and avenger.'
           '018': 'And though all this be come upon us{dc}, yet do we not forget thee{dc}, * nor behave ourselves frowardly in thy covenant.'
           '019': 'Our heart is not turned back, * neither our steps gone out of thy way;'
-          '020': 'No{dc}, not when thou hast smitten us into the place of dragons{dc}, * and covered us with the shadow of death.'
+          '020': 'No{dc}{wc}, not when thou hast smitten us into the place of dragons{dc}, * and covered us with the shadow of death.'
           '021': 'If we have forgotten the Name of our God{dc}, and holden up our hands to any strange god, * shall not God search it out? for he knoweth the very secrets of the heart.'
           '022': 'For thy sake also are we killed all the day long{dc}, * and are counted as sheep appointed to be slain.'
-          '023': 'Up{dc}, Lord{dc}, why sleepest thou? * awake{dc}, and be not absent from us for ever.'
+          '023': 'Up{dc}{wc}, Lord{dc}, why sleepest thou? * awake{dc}{wc}, and be not absent from us for ever.'
           '024': 'Wherefore hidest thou thy face{dc}, * and forgettest our misery and trouble?'
           '025': 'For our soul is brought low{dc}, even unto the dust; * our belly cleaveth unto the ground.'
-          '026': "Arise{dc}, and help us{dc}, * and deliver us{dc}, for thy mercy's sake."
+          '026': "Arise{dc}{wc} and help us{dc}, * and deliver us{dc}{wc}, for thy mercy's sake."
         verse_history_refs:
           'v2': '2. ... and planted them in : how thou hast destroyed the nations and cast them out. | until 1928'
           '#1': 'heathen | until 1928'
@@ -1325,20 +1325,20 @@ psalm:
           '001': MY heart overfloweth with a good matter; I speak the things which I have made concerning the King.{HN v1} * My tongue is the pen of a ready writer.{HN v1.2}
           '002': 'Thou art fairer than the children of men; * full of grace are thy lips{dc}, because God hath blessed thee for ever.'
           '003': 'Gird thee with thy sword upon thy thigh{dc}, O thou Most Mighty{dc}, * according to thy worship and renown.'
-          '004': 'Good luck have thou with thine honour: * ride on{dc}, because of the word of truth, of meekness, and righteousness; and thy right hand shall teach thee terrible things.'
+          '004': 'Good luck have thou with thine honour: * ride on{dc}{wc}, because of the word of truth, of meekness, and righteousness; and thy right hand shall teach thee terrible things.'
           '005': "Thy arrows are very sharp in the heart of the King's enemies,{HN v5} * and the people shall be subdued unto thee."
-          '006': 'Thy seat{dc}, O God{dc}, endureth for ever; * the sceptre of thy kingdom is a right sceptre.'
-          '007': 'Thou hast loved righteousness{dc}, and hated iniquity; * wherefore God{dc}, even thy God{dc}, hath anointed thee with the oil of gladness above thy fellows.'
-          '008': 'All thy garments smell of myrrh, aloes, and cassia; * out of the ivory palaces{dc}, whereby they have made thee glad.'
+          '006': 'Thy seat{dc}{wc}, O God{dc}{wc}, endureth for ever; * the sceptre of thy kingdom is a right sceptre.'
+          '007': 'Thou hast loved righteousness{dc}{wc}, and hated iniquity; * wherefore God{dc}{wc}, even thy God{dc}, hath anointed thee with the oil of gladness above thy fellows.'
+          '008': 'All thy garments smell of myrrh, aloes{wc}, and cassia; * out of the ivory palaces{dc}{wc}, whereby they have made thee glad.'
           '009': "Kings' daughters are{HN #1} among thy honourable women; * upon thy right hand doth{HN #2} stand the queen in a vesture of gold{dc}, wrought about with divers colours."
-          '010': "Hearken{dc}, O daughter{dc}, and consider; incline thine ear; * forget also thine own people{dc}, and thy father's house."
-          '011': 'So shall the King have pleasure in thy beauty; * for he is thy Lord{HN #3}{dc}, and worship thou him.'
+          '010': "Hearken{dc}{wc}, O daughter{dc}{wc}, and consider; incline thine ear; * forget also thine own people{dc}{wc}, and thy father's house."
+          '011': 'So shall the King have pleasure in thy beauty; * for he is thy Lord{HN #3}{dc}{wc}, and worship thou him.'
           '012': And the daughter of Tyre shall be there with a gift; * like as the rich also among the people shall make their supplication before thee.
           '013': The King's daughter is all glorious within; * her clothing is of wrought gold.
           '014': 'She shall be brought unto the King in raiment of needlework: * the virgins that be her fellows shall bear her company{dc}, and shall be brought unto thee.'
           '015': "With joy and gladness shall they be brought{dc}, * and shall enter into the King's palace."
           '016': 'Instead of thy fathers{dc}, thou shalt have children{dc}, * whom thou mayest make princes in all lands.'
-          '017': 'I will make thy Name to be remembered from one generation{HN v17} to another; * therefore shall the people give thanks unto thee{dc}, world without end.'
+          '017': 'I will make thy Name to be remembered from one generation{HN v17} to another; * therefore shall the people give thanks unto thee{dc}{wc}, world without end.'
         verse_history_refs:
           'v1': 'MY HEART is inditing of a good matter : I speak of the things which I have made unto the King. | until 1928'
           'v1.2': '2. My tongue is the pen : of a ready writer. | until 1928; and remaining verses numbered one higher.'
@@ -1359,14 +1359,14 @@ psalm:
           from_dunstan: ''
         verse:
           '001': 'GOD is our hope and strength, * a very present help in trouble.'
-          '002': 'Therefore will we not fear{dc}, though the earth be moved{dc}, * and though the hills be carried into the midst of the sea;'
+          '002': 'Therefore will we not fear{dc}{wc}, though the earth be moved{dc}, * and though the hills be carried into the midst of the sea;'
           '003': 'Though the waters thereof rage and swell, * and though the mountains shake at the tempest of the same.'
           '004': 'There is a river{dc}, the streams whereof make glad{HN v4} the city of God; * the holy place of the tabernacle of the Most Highest.'
-          '005': 'God is in the midst of her, therefore shall she not be removed; * God shall help her{dc}, and that right early.'
-          '006': 'The nations{HN #1} make much ado{dc}, and the kingdoms are moved; * but God hath showed his voice{dc}, and the earth shall melt away.'
+          '005': 'God is in the midst of her, therefore shall she not be removed; * God shall help her{dc}{wc}, and that right early.'
+          '006': 'The nations{HN #1} make much ado{dc}{wc}, and the kingdoms are moved; * but God hath showed his voice{dc}{wc}, and the earth shall melt away.'
           '007': The <SC>Lord</SC> of hosts is with us; * the God of Jacob is our refuge.
-          '008': 'O come hither{dc}, and behold the works of the <SC>Lord</SC>, * what destruction he hath brought upon the earth.'
-          '009': 'He maketh wars to cease in all the world; * he breaketh the bow{dc}, and knappeth the spear in sunder{dc}, and burneth the chariots in the fire.'
+          '008': 'O come hither{dc}{wc} and behold the works of the <SC>Lord</SC>, * what destruction he hath brought upon the earth.'
+          '009': 'He maketh wars to cease in all the world; * he breaketh the bow{dc}{wc}, and knappeth the spear in sunder{dc}, and burneth the chariots in the fire.'
           '010': 'Be still then{dc}, and know that I am God: * I will be exalted among the nations{HN #1.2}{dc}, and I will be exalted in the earth.'
           '011': The <SC>Lord</SC> of hosts is with us; * the God of Jacob is our refuge.
         verse_history_refs:
@@ -1384,15 +1384,15 @@ psalm:
         tone:
           from_dunstan: ''
         verse:
-          '001': 'O CLAP your hands together{dc}, all ye peoples: * O sing unto God with the voice of melody.'
-          '002': 'For the <SC>Lord</SC> is high{dc}, and to be feared; * he is the great King upon all the earth.'
+          '001': 'O CLAP your hands together{dc}{wc}, all ye peoples: * O sing unto God with the voice of melody.'
+          '002': 'For the <SC>Lord</SC> is high{dc}{wc}, and to be feared; * he is the great King upon all the earth.'
           '003': 'He shall subdue the peoples{HN #1} under us{dc}, * and the nations under our feet.'
-          '004': 'He shall choose out an heritage for us, * even the excellency{HN #2} of Jacob{dc}, whom he loved.'
+          '004': 'He shall choose out an heritage for us, * even the excellency{HN #2} of Jacob{dc}{wc}, whom he loved.'
           '005': 'God is gone up with a merry noise, * and the <SC>Lord</SC> with the sound of the trump.'
           '006': 'O sing praises{dc}, sing praises unto our God; * O sing praises{dc}, sing praises unto our King.'
           '007': 'For God is the King of all the earth: * sing ye praises with understanding.'
           '008': 'God reigneth over the nations{HN #3}; * God sitteth upon his holy seat.'
-          '009': 'The princes of the peoples{HN #4} are joined unto the people of the God of Abraham; * for God{dc}, which is very high exalted{dc}, doth defend the earth{dc}, as it were with a shield.'
+          '009': 'The princes of the peoples{HN #4} are joined unto the people of the God of Abraham; * for God{dc}{wc}, which is very high exalted{dc}, doth defend the earth{dc}{wc}, as it were with a shield.'
         verse_history_refs:
           '#1': 'people | until 1928'
           '#2': 'worship | until 1928'
@@ -1409,17 +1409,17 @@ psalm:
         tone:
           from_dunstan: ''
         verse:
-          '001': 'GREAT is the <SC>Lord</SC>{dc}, and highly to be praised * in the city of our God{dc}, even upon his holy hill.'
-          '002': 'The hill of Sion is a fair place{dc}, and the joy of the whole earth; * upon the north side lieth the city of the great King: God is well known in her palaces as a sure refuge.'
-          '003': 'For lo{dc}, the kings of the earth * were gathered{dc}, and gone by together.'
-          '004': 'They marvelled to see such things; * they were astonished{dc}, and suddenly cast down.'
+          '001': 'GREAT is the <SC>Lord</SC>{dc}{wc}, and highly to be praised * in the city of our God{dc}, even upon his holy hill.'
+          '002': 'The hill of Sion is a fair place{dc}{wc}, and the joy of the whole earth; * upon the north side lieth the city of the great King: God is well known in her palaces as a sure refuge.'
+          '003': 'For lo{dc}{wc}, the kings of the earth * were gathered{dc}{wc}, and gone by together.'
+          '004': 'They marvelled to see such things; * they were astonished{dc}{wc}, and suddenly cast down.'
           '005': 'Fear came there upon them; and sorrow{dc}, * as upon a woman in her travail.'
           '006': Thou dost break the ships of the sea * through the east-wind.
           '007': 'Like as we have heard{dc}, so have we seen in the city of the <SC>Lord</SC> of hosts, in the city of our God; * God upholdeth the same for ever.'
-          '008': 'We wait for thy loving-kindness{dc}, O God{dc}, * in the midst of thy temple.'
-          '009': "O God{dc}, according to thy Name{dc}, so is thy praise unto the world's end; * thy right hand is full of righteousness."
-          '010': 'Let the mount Sion rejoice{dc}, and the daughters of Judah be glad{dc}, * because of thy judgments.'
-          '011': 'Walk about Sion{dc}, and go round about her; * and tell the towers thereof.'
+          '008': 'We wait for thy loving-kindness{dc}{wc}, O God{dc}, * in the midst of thy temple.'
+          '009': "O God{dc}{wc} according to thy Name{dc}, so is thy praise unto the world's end; * thy right hand is full of righteousness."
+          '010': 'Let the mount Sion rejoice{dc}{wc} and the daughters of Judah be glad{dc}, * because of thy judgments.'
+          '011': 'Walk about Sion{dc}{wc}, and go round about her; * and tell the towers thereof.'
           '012': 'Mark well her bulwarks, consider her palaces{dc},{HN v12} * that ye may tell them that come after.'
           '013': 'For this God is our God for ever and ever: * he shall be our guide unto death.'
         verse_history_refs:
