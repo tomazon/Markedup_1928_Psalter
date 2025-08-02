@@ -567,7 +567,7 @@ psalm:
         tone:
           from_dunstan: ''
         verse:
-          '001': 'THE King shall rejoice in thy strength{dc}, O <SC>Lord</SC>; * exceeding glad shall he be of thy salvation.'
+          '001': 'THE King shall rejoice in thy strength{dc}{wc}, O <SC>Lord</SC>; * exceeding glad shall he be of thy salvation.'
           '002': "Thou hast given him his heart's desire{dc}, * and hast not denied him the request of his lips."
           '003': 'For thou shalt meet{HN #1} him with the blessings of goodness{dc}, * and shalt set a crown of pure gold upon his head.'
           '004': 'He asked life of thee; and thou gavest him a long life{dc}, * even for ever and ever.'
@@ -579,7 +579,7 @@ psalm:
           '010': 'Their fruit shalt thou root out of the earth{dc}, * and their seed from among the children of men.'
           '011': 'For they intended mischief against thee{dc}, * and imagined such a device as they are not able to perform.'
           '012': 'Therefore shalt thou put them to flight, * and the strings of thy bow shalt thou make ready against the face of them.'
-          '013': 'Be thou exalted{dc}, <SC>Lord</SC>{dc}, in thine own strength; * so will we sing{dc}, and praise thy power.'
+          '013': 'Be thou exalted{dc}{wc}, <SC>Lord</SC>{dc}, in thine own strength; * so will we sing{dc}, and praise thy power.'
         verse_history_refs:
           '#1': 'prevent | until 1928'
           '#2': 'thy | until 1892'
@@ -594,15 +594,15 @@ psalm:
         tone:
           from_dunstan: ''
         verse:
-          '001': 'MY God{dc}, my God{dc}, look upon me; why hast thou forsaken me? * and art so far from my health{dc}, and from the words of my complaint?'
-          '002': 'O my God{dc}, I cry in the day-time{dc}, but thou hearest not; * and in the night season also I take no rest.'
+          '001': 'MY God{dc}{wc}, my God{dc}, look upon me; why hast thou forsaken me? * and art so far from my health{dc}{wc}, and from the words of my complaint?'
+          '002': 'O my God{dc}, I cry in the day-time{dc}{wc}, but thou hearest not; * and in the night season also I take no rest.'
           '003': 'And thou continuest holy, * O thou Worship of Israel.'
-          '004': 'Our fathers hoped in thee; * they trusted in thee{dc}, and thou didst deliver them.'
-          '005': 'They called upon thee{dc}, and were holpen; * they put their trust in thee{dc}, and were not confounded.'
-          '006': 'But as for me{dc}, I am a worm{dc}, and no man; * a very scorn of men{dc}, and the outcast of the people.'
-          '007': 'All they that see me laugh me to scorn; * they shoot out their lips{dc}, and shake their heads{dc}, saying,'
-          '008': 'He trusted in the <SC>Lord</SC>{dc}, that he would deliver him; * let him deliver him{dc}, if he will have him.'
-          '009': "But thou art he that took me out of my mother's womb; * thou wast my hope{dc}, when I hanged yet upon my mother's breasts."
+          '004': 'Our fathers hoped in thee; * they trusted in thee{dc}{wc}, and thou didst deliver them.'
+          '005': 'They called upon thee{dc}{wc}, and were holpen; * they put their trust in thee{dc}{wc}, and were not confounded.'
+          '006': 'But as for me{dc}{wc}, I am a worm{dc}{wc}, and no man; * a very scorn of men{dc}{wc}, and the outcast of the people.'
+          '007': 'All they that see me laugh me to scorn; * they shoot out their lips{dc}{wc}, and shake their heads{dc}{wc}, saying,'
+          '008': 'He trusted in the <SC>Lord</SC>{dc}{wc}, that he would deliver him; * let him deliver him{dc}{wc}, if he will have him.'
+          '009': "But thou art he that took me out of my mother's womb; * thou wast my hope{dc}{wc}, when I hanged yet upon my mother's breasts."
           '010': I have been left unto thee ever since I was born; * thou art my God even from my mother's womb.
           '011': 'O go not from me; for trouble is hard at hand, * and there is none to help me.'
           '012': 'Many oxen are come about me; * fat bulls of Bashan{HN #1} close me in on every side.'
@@ -612,20 +612,20 @@ psalm:
           '016': 'For many dogs are come about me, * and the council{HN #2} of the wicked layeth siege against me.'
           '017': 'They pierced my hands and my feet: I may tell all my bones: * they stand staring and looking upon me.'
           '018': 'They part my garments among them{dc}, * and cast lots upon my vesture.'
-          '019': 'But be not thou far from me{dc}, O <SC>Lord</SC>; * thou art my succour, haste thee to help me.'
+          '019': 'But be not thou far from me{dc}{wc}, O <SC>Lord</SC>; * thou art my succour, haste thee to help me.'
           '020': 'Deliver my soul from the sword, * my darling from the power of the dog.'
           '021': Save me from the lion's mouth; * thou hast heard me also from among the horns of the unicorns.
           '022': I will declare thy Name unto my brethren; * in the midst of the congregation will I praise thee.
-          '023': 'O praise the <SC>Lord</SC>{dc}, ye that fear him: * magnify him{dc}, all ye of the seed of Jacob; and fear him{dc}, all ye seed of Israel.'
+          '023': 'O praise the <SC>Lord</SC>{dc}, ye that fear him: * magnify him{dc}{wc}, all ye of the seed of Jacob; and fear him{dc}{wc}, all ye seed of Israel.'
           '024': For he hath not despised nor abhorred the low estate of the poor; * he hath not hid his face from him; but when he called unto him he heard him.
           '025': My praise is of thee in the great congregation; * my vows will I perform in the sight of them that fear him.
-          '026': 'The poor shall eat{dc}, and be satisfied; they that seek after the <SC>Lord</SC> shall praise him: * your heart shall live for ever.'
+          '026': 'The poor shall eat{dc}{wc}, and be satisfied; they that seek after the <SC>Lord</SC> shall praise him: * your heart shall live for ever.'
           '027': 'All the ends of the world shall remember themselves{dc}, and be turned unto the <SC>Lord</SC>; * and all the kindreds of the nations shall worship before him.'
           '028': "For the kingdom is the <SC>Lord</SC>'s, * and he is the Governor among the nations{HN #3}."
-          '029': 'All such as be fat upon earth * have eaten{dc}, and worshipped.'
+          '029': 'All such as be fat upon earth * have eaten{dc}{wc}, and worshipped.'
           '030': All they that go down into the dust shall kneel before him; * and no man hath quickened his own soul.
           '031': 'My seed shall serve him: * they shall be counted unto the Lord for a generation.'
-          '032': 'They shall come{dc}, and shall declare{HN v32} his righteousness * unto a people that shall be born{dc}, whom the Lord hath made.'
+          '032': 'They shall come{dc}{wc}, and shall declare{HN v32} his righteousness * unto a people that shall be born{dc}, whom the Lord hath made.'
         verse_history_refs:
           '#1': 'Basan | until 1928'
           '#2': 'counsel | 1845-1892'
@@ -645,8 +645,8 @@ psalm:
           '001': THE <SC>Lord</SC> is my shepherd; * therefore can I lack nothing.
           '002': 'He shall feed me in a green pasture{dc}, * and lead me forth beside the waters of comfort.'
           '003': "He shall convert my soul{dc}, * and bring me forth in the paths of righteousness for his Name's sake."
-          '004': 'Yea{dc}, though I walk through the valley of the shadow of death{dc}, I will fear no evil; * for thou art with me; thy rod and thy staff comfort me.'
-          '005': 'Thou shalt prepare a table before me in the presence of them that trouble me;{HN v5} * thou hast anointed my head with oil{dc}, and my cup shall be full.'
+          '004': 'Yea{dc}{wc}, though I walk through the valley of the shadow of death{dc}, I will fear no evil; * for thou art with me; thy rod and thy staff comfort me.'
+          '005': 'Thou shalt prepare a table before me in the presence of them that trouble me;{HN v5} * thou hast anointed my head with oil{dc}{wc}, and my cup shall be full.'
           '006': 'Surely{HN #1} thy loving-kindness and mercy shall follow me all the days of my life; * and I will dwell in the house of the <SC>Lord</SC> for ever.'
         verse_history_refs:
           'v5': '.. before me against them that trouble me : |  until 1928'
@@ -662,15 +662,15 @@ psalm:
         tone:
           from_dunstan: ''
         verse:
-          '001': "THE earth is the <SC>Lord</SC>'s{dc}, and all that therein is; * the compass of the world{dc}, and they that dwell therein."
+          '001': "THE earth is the <SC>Lord</SC>'s{dc}{wc}, and all that therein is; * the compass of the world{dc}{wc}, and they that dwell therein."
           '002': 'For he hath founded it upon the seas{dc}, * and stablished it upon the floods.'
           '003': 'Who shall ascend into the hill of the <SC>Lord</SC>? * or who shall rise up in his holy place?'
-          '004': 'Even he that hath clean hands{dc}, and a pure heart; * and that hath not lift up his mind unto vanity{dc}, nor sworn to deceive his neighbour.'
+          '004': 'Even he that hath clean hands{dc}{wc}, and a pure heart; * and that hath not lift up his mind unto vanity{dc}, nor sworn to deceive his neighbour.'
           '005': 'He shall receive the blessing from the <SC>Lord</SC>{dc}, * and righteousness from the God of his salvation.'
-          '006': 'This is the generation of them that seek him; * even of them that seek thy face{dc}, O God of Jacob{HN v6}.'
-          '007': 'Lift up your heads{dc}, O ye gates; and be ye lift up{dc}, ye everlasting doors; * and the King of glory shall come in.'
+          '006': 'This is the generation of them that seek him; * even of them that seek thy face{dc}{wc}, O God of Jacob{HN v6}.'
+          '007': 'Lift up your heads{dc}{wc}, O ye gates; and be ye lift up{dc}, ye everlasting doors; * and the King of glory shall come in.'
           '008': 'Who is this{HN #1} King of glory? * It is the <SC>Lord</SC> strong and mighty{dc}, even the <SC>Lord</SC> mighty in battle.'
-          '009': 'Lift up your heads{dc}, O ye gates; and be ye lift up{dc}, ye everlasting doors; * and the King of glory shall come in.'
+          '009': 'Lift up your heads{dc}{wc}, O ye gates; and be ye lift up{dc}, ye everlasting doors; * and the King of glory shall come in.'
           '010': 'Who is this King of glory? * Even the <SC>Lord</SC> of hosts{dc}, he is the King of glory.'
         verse_history_refs:
           'v6': '... O Jacob | until 1928'
