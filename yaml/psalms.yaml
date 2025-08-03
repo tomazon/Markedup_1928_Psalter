@@ -1956,39 +1956,39 @@ psalm:
         tone:
           from_dunstan: ''
         verse:
-          '001': 'LET God arise{dc}, and let his enemies be scattered; * let them also that hate him flee before him.'
+          '001': 'LET God arise{dc}{wc}, and let his enemies be scattered; * let them also that hate him flee before him.'
           '002': 'Like as the smoke vanisheth{dc}, so shalt thou drive them away; * and like as wax melteth at the fire{dc}, so let the ungodly perish at the presence of God.'
-          '003': 'But let the righteous be glad{dc}, and rejoice before God; * let them also be merry and joyful.'
-          '004': 'O sing unto God{dc}, and sing praises unto his Name; magnify him that rideth upon the heavens; * praise him in his Name <DIGRAMMATON CATH2008="The Lord" DUNSTAN="JAH"><SC>JAH</SC></DIGRAMMATON>{dc}, and rejoice before him.{HN v4}'
+          '003': 'But let the righteous be glad{dc}{wc}, and rejoice before God; * let them also be merry and joyful.'
+          '004': 'O sing unto God{dc}, and sing praises unto his Name; magnify him that rideth upon the heavens; * praise him in his Name <DIGRAMMATON CATH2008="The Lord" DUNSTAN="JAH"><SC>JAH</SC></DIGRAMMATON>{dc}{wc}, and rejoice before him.{HN v4}'
           '005': 'He is a Father of the fatherless, and defendeth the cause of the widows; * even God in his holy habitation.'
           '006': 'He is the God that maketh men to be of one mind in an house, and bringeth the prisoners out of captivity; * but letteth the runagates continue in scarceness.'
-          '007': 'O God{dc}, when thou wentest forth before the people; * when thou wentest through the wilderness,'
-          '008': 'The earth shook{dc}, and the heavens dropped at the presence of God; * even as Sinai also was moved at the presence of God{dc}, who is the God of Israel.'
-          '009': 'Thou{dc}, O God{dc}, sentest a gracious rain upon thine inheritance{dc}, * and refreshedst it when it was weary.'
-          '010': 'Thy congregation shall dwell therein; * for thou{dc}, O God{dc}, hast of thy goodness prepared for the poor.'
+          '007': 'O God{dc}{wc}, when thou wentest forth before the people; * when thou wentest through the wilderness,'
+          '008': 'The earth shook{dc}{wc}, and the heavens dropped at the presence of God; * even as Sinai also was moved at the presence of God{dc}, who is the God of Israel.'
+          '009': 'Thou{dc}{wc}, O God{dc}, sentest a gracious rain upon thine inheritance{dc}, * and refreshedst it when it was weary.'
+          '010': 'Thy congregation shall dwell therein; * for thou{dc}{wc}, O God{dc}, hast of thy goodness prepared for the poor.'
           '011': The Lord gave the word; * great was the company of women that bare the tidings{HN v11}.
-          '012': 'Kings with their armies did flee{dc}, and were discomfited, * and they of the household divided the spoil.'
+          '012': 'Kings with their armies did flee{dc}{wc}, and were discomfited, * and they of the household divided the spoil.'
           '013': 'Though ye have lain{HN #1} among the sheep-folds{HN #2}, yet shall ye be as the wings of a dove * that is covered with silver wings{dc}, and her feathers like gold.'
           '014': 'When the Almighty scattered kings for their sake, * then were they as white as snow in Salmon.'
-          '015': "As the hill of Bashan{HN #3}{dc}, so is God's hill; * even an high hill{dc}, as the hill of Bashan{HN #3}."
-          '016': "Why mock{HN #4} ye so{dc}, ye high hills? this is God's hill{dc}, in the which it pleaseth him to dwell; * yea{dc}, the <SC>Lord</SC> will abide in it for ever."
+          '015': "As the hill of Bashan{HN #3}{dc}{wc}, so is God's hill; * even an high hill{dc}{wc}, as the hill of Bashan{HN #3}."
+          '016': "Why mock{HN #4} ye so{dc}, ye high hills? this is God's hill{dc}{wc}, in the which it pleaseth him to dwell; * yea{dc} the <SC>Lord</SC> will abide in it for ever."
           '017': 'The chariots of God are twenty thousand, even thousands of angels; * and the Lord is among them as in the holy place of Sinai.'
-          '018': 'Thou art gone up on high, thou hast led captivity captive, and received gifts from{HN #5} men; * yea{dc}, even from thine enemies{dc}, that the <SC>Lord</SC> God might dwell among them.'
-          '019': 'Praised be the Lord daily, * even the God who helpeth us{dc}, and poureth his benefits upon us.'
+          '018': 'Thou art gone up on high, thou hast led captivity captive, and received gifts from{HN #5} men; * yea{dc}{wc}, even from thine enemies{dc}, that the <SC>Lord</SC> God might dwell among them.'
+          '019': 'Praised be the Lord daily, * even the God who helpeth us{dc}{wc}, and poureth his benefits upon us.'
           '020': 'He is our God{dc}, even the God of whom cometh salvation: * <SC>God</SC> is the Lord{dc}, by whom we escape death.'
           '021': 'God shall wound the head of his enemies{dc}, * and the hairy scalp of such a one as goeth on still in his wickedness.'
-          '022': 'The Lord hath said{dc}, I will bring my people again{dc}, as I did from Bashan{HN #6}; * mine own will I bring again{dc}, as I did sometime from the deep of the sea.'
+          '022': 'The Lord hath said{dc}, I will bring my people again{dc}{wc}, as I did from Bashan{HN #6}; * mine own will I bring again{dc}{wc}, as I did sometime from the deep of the sea.'
           '023': 'That thy foot may be dipped in the blood of thine enemies, * and that the tongue of thy dogs may be red through the same.'
-          '024': 'It is well seen{dc}, O God{dc}, how thou goest; * how thou{dc}, my God and King{dc}, goest in the sanctuary.'
+          '024': 'It is well seen{dc}{wc}, O God{dc}{wc}, how thou goest; * how thou{dc}{wc}, my God and King{dc}, goest in the sanctuary.'
           '025': 'The singers go before, the minstrels follow after{dc}, * in the midst of{HN #7} the damsels playing with the timbrels.'
           '026': 'Give thanks unto God the Lord in the congregation, * ye that are of the fountain of Israel.{HN v26}'
           '027': 'There is little Benjamin their ruler, and the princes of Judah their council{HN #8}; * the princes of Zebulon{HN #9}{dc}, and the princes of Naphthali.'
-          '028': 'Thy God hath sent forth strength for thee; * stablish the thing{dc}, O God{dc}, that thou hast wrought in us,'
+          '028': 'Thy God hath sent forth strength for thee; * stablish the thing{dc}{wc}, O God{dc}{wc}, that thou hast wrought in us,'
           '029': For thy temple's sake at Jerusalem; * so shall kings bring presents unto thee.
-          '030': 'Rebuke thou the dragon and the bull{dc}, with the leaders of the heathen, so that they humbly bring pieces of silver; * scatter thou the peoples that delight in war;{HN v30}'
+          '030': 'Rebuke thou the dragon and the bull{dc}{wc}, with the leaders of the heathen, so that they humbly bring pieces of silver; * scatter thou the peoples that delight in war;{HN v30}'
           '031': Then shall the princes come out of Egypt; * the Morians' land shall soon stretch out her hands unto God.
           '032': 'Sing unto God{dc}, O ye kingdoms of the earth; * O sing praises unto the Lord;'
-          '033': 'Who sitteth in the heavens over all{dc}, from the beginning: * lo{dc}, he doth send out his voice<DS ,>;</DS> yea{dc}, and that a mighty voice.'
+          '033': 'Who sitteth in the heavens over all{dc}{wc}, from the beginning: * lo{dc}{wc}, he doth send out his voice<DS @>;</DS> yea{dc}{wc}, and that a mighty voice.'
           '034': Ascribe ye the power to God over Israel; * his worship and strength is in the clouds.
           '035': 'O God{dc}, wonderful art thou in thy holy places: * even the God of Israel{dc}, he will give strength and power unto his people. Blessed be God.'
         verse_history_refs:
