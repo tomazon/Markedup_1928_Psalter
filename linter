@@ -1,0 +1,60 @@
+#! env perl
+
+use strict;
+use warnings;
+
+use File::Slurp;
+use YAML;
+
+use feature 'say';
+
+my @lines;
+while (my $line = (<>)) {
+    $line =~ s/\s+$//;
+    push(@lines, $line);
+}
+
+my $line_no = 0;
+for my $line (@lines) {
+    $line_no++;
+    next if $line =~ /verse_history_refs:/;
+
+    say "$line_no | no comma  | $line" if $line =~ /\{wc\}[^,]/;
+    say "$line_no | no {dc}   | $line" if $line =~ /[^d][^c][^}]\{wc\}/;
+    say "$line_no | no , or } | $line" if $line =~ /\{dc\}[^,{]/;
+    say "$line_no | yea{}     | $line" if $line =~ /yea\[/i;
+    #say "$line_no | <DS>      | $line" if $line =~ /DS/;
+    #say "$line_no | <__>      | $line" if $line =~ m{</*[^DS]};
+    #say "$line_no | <__>      | $line" if $line =~ /<\/?[^DS][^SCA][^\s>]/;
+    #say "$line_no | <__>      | $line" if $line =~ /<[^SD][^SC][^ >]/ || $line =~ /<\/[^SD][^SC]>/;
+    #say "$line_no | <__>      | $line" if $line =~ /<[^SD][^SC][ >][^<]+<\\[SD][SC]>/;
+
+    show_invalid_angle_tags($line);
+    show_invalid_curly_tags($line);
+}
+
+sub show_invalid_angle_tags {
+    my ($line) = @_;
+    my $tmp = $line;
+
+    for my $tag (qw( SC DS DA BR br DP TETRAGRAMMATON DIGRAMMATON )) {
+        $tmp =~ s/<${tag}>/%%%/g;
+        $tmp =~ s/<${tag} [^>]+>/%%%/g;
+        $tmp =~ s/<\/${tag}>/%%%/g;
+    }
+    say "$line_no | <__>      | $tmp" if $tmp =~ /</ || $tmp =~ />/;
+}
+
+sub show_invalid_curly_tags {
+    my ($line) = @_;
+    my $tmp = $line;
+
+    $tmp =~ s/\{HN [v#x][\d\.]+\}/%%%/g;
+    for my $tag (qw( d\. dc d- wc wp df dv d_ d- )) {
+        $tmp =~ s/\{$tag\}/%%%/g;
+    }
+    say "$line_no | {__}     | $tmp" if $tmp =~ /{/ || $tmp =~ /}/;
+}
+##. rg '<\/?[DS][^SC]( [^>]+)?>' yaml/psalms.yaml
+##  rg '<\/?(DS|SC)( [^>]+)?>' yaml/psalms.yaml
+

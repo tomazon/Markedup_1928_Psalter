@@ -218,7 +218,7 @@ psalm:
           '010': 'And they that know thy Name will put their trust in thee; * for thou{dc}{wc}, <SC>Lord</SC>{dc}, hast never failed them that seek thee.'
           '011': O praise the <SC>Lord</SC> which dwelleth in Sion; * show the people of his doings.
           '012': 'For when he maketh inquisition for blood{dc}, he remembereth them, * and forgetteth not the complaint of the poor.'
-          '013': 'Have mercy upon me{dc}{wc}, O <SC>Lord</SC><DS ,>;</DS> consider the trouble which I suffer of them that hate me, * thou that liftest me up from the gates of death;'
+          '013': 'Have mercy upon me{dc}{wc}, O <SC>Lord</SC><DS @>;</DS> consider the trouble which I suffer of them that hate me, * thou that liftest me up from the gates of death;'
           '014': 'That I may show all thy praises within the gates{HN #2} of the daughter of Sion: * I will rejoice in thy salvation.'
           '015': The heathen are sunk down in the pit that they made; * in the same net which they hid privily is their foot taken.
           '016': The <SC>Lord</SC> is known to execute judgment; * the ungodly is trapped in the work of his own hands.
@@ -448,7 +448,7 @@ psalm:
           from_dunstan: ''
         verse:
           '001': 'I WILL love thee{dc}{wc}, O <SC>Lord</SC>{dc}{wc}, my strength. * The <SC>Lord</SC> is my stony rock{dc}{wc}, and my defence;'
-          '002': 'My Saviour{dc}{wc} my God{dc}{wc}, and my might{dc}, in whom I will trust; * my buckler{dc}, the horn also of my salvation{dc}{wc}, and my refuge.{HN v2}'
+          '002': 'My Saviour{dc}{wc}, my God{dc}{wc}, and my might{dc}, in whom I will trust; * my buckler{dc}, the horn also of my salvation{dc}{wc}, and my refuge.{HN v2}'
           '003': 'I will call upon the <SC>Lord</SC>{dc}{wc}, which is worthy to be praised; * so shall I be safe from mine enemies.'
           '004': 'The sorrows of death compassed me, * and the overflowings of ungodliness made me afraid.'
           '005': The pains of hell came about me; * the snares of death overtook me.
@@ -468,7 +468,7 @@ psalm:
           '019': They came upon me in the day{HN v19} of my trouble; * but the <SC>Lord</SC> was my upholder.
           '020': 'He brought me forth also into a place of liberty; * he brought me forth{dc}, even because he had a favour unto me. &nbsp;<br>'
           '021': 'The <SC>Lord</SC> rewarded me after my righteous dealing, * according to the cleanness of my hands did he recompense me.'
-          '022': 'Because I have kept the ways of the <SC>Lord</SC>{dc}, * and have not forsaken my God{dc}{wc} as the wicked doth.'
+          '022': 'Because I have kept the ways of the <SC>Lord</SC>{dc}, * and have not forsaken my God{dc}{wc}, as the wicked doth.'
           '023': 'For I have an eye unto all his laws{dc}, * and will not cast out his commandments from me.'
           '024': 'I was also uncorrupt before him{dc}, * and eschewed mine own wickedness.'
           '025': 'Therefore the <SC>Lord</SC> rewarded me after my righteous dealing{dc}, * and according unto the cleanness of my hands in his eyesight.'
@@ -729,7 +729,7 @@ psalm:
           '008': '<SC>Lord</SC>{dc}{wc}, I have loved the habitation of thy house{dc}, * and the place where thine honour dwelleth.'
           '009': 'O shut not up my soul with the sinners{dc}, * nor my life with the blood-thirsty;'
           '010': 'In whose hands is wickedness, * and their right hand is full of gifts.'
-          '011': 'But as for me{dc}, I will walk innocently: * O deliver me{dc}{wc} and be merciful unto me.'
+          '011': 'But as for me{dc}, I will walk innocently: * O deliver me{dc}{wc}, and be merciful unto me.'
           '012': 'My foot standeth right: * I will praise the <SC>Lord</SC> in the congregations.'
         verse_history_refs: {}
         verse_meta:
@@ -743,7 +743,7 @@ psalm:
         tone:
           from_dunstan: ''
         verse:
-          '001': 'THE <SC>Lord</SC> is my light and my salvation; whom then shall I fear? * the <SC>Lord</SC> is the strength of my life<DS ,>;</DS> of whom then shall I be afraid?'
+          '001': 'THE <SC>Lord</SC> is my light and my salvation; whom then shall I fear? * the <SC>Lord</SC> is the strength of my life<DS @>;</DS> of whom then shall I be afraid?'
           '002': 'When the wicked{dc}{wc}, even mine enemies and my foes, came upon me to eat up my flesh{dc}, * they stumbled and fell.'
           '003': 'Though an host of men were laid against me, yet shall not my heart be afraid; * and though there rose up war against me{dc}, yet will I put my trust in him.'
           '004': 'One thing have I desired of the <SC>Lord</SC>{dc}{wc}, which I will require; * even that I may dwell in the house of the <SC>Lord</SC> all the days of my life{dc}, to behold the fair beauty of the <SC>Lord</SC>{dc}{wc}, and to visit his temple.'
@@ -778,7 +778,7 @@ psalm:
           '005': Recompense them after the work of their hands; * pay them that they have deserved.
           '006': 'For they regard not in their mind the works of the <SC>Lord</SC>, nor the operation of his hands; * therefore shall he break them down{dc}{wc}, and not build them up.'
           '007': Praised be the <SC>Lord</SC>; * for he hath heard the voice of my humble petitions.
-          '008': 'The <SC>Lord</SC> is my strength{dc}{wc}, and my shield<DS ,>;</DS> my heart hath trusted in him{dc}{wc}, and I am helped; * therefore my heart danceth for joy{dc}, and in my song will I praise him.'
+          '008': 'The <SC>Lord</SC> is my strength{dc}{wc}, and my shield<DS @>;</DS> my heart hath trusted in him{dc}{wc}, and I am helped; * therefore my heart danceth for joy{dc}, and in my song will I praise him.'
           '009': 'The <SC>Lord</SC> is my strength{dc}, * and he is the wholesome defence of his anointed.'
           '010': 'O save thy people{dc}{wc}, and give thy blessing unto thine inheritance: * feed them{dc}{wc}, and set them up for ever.'
         verse_history_refs: {}
@@ -823,7 +823,7 @@ psalm:
           from_dunstan: ''
         verse:
           '001': 'I WILL magnify thee{dc}{wc}, O <SC>Lord</SC>; for thou hast set me up{dc}, * and not made my foes to triumph over me.'
-          '002': 'O <SC>Lord</SC> my God{dc}{wc} I cried unto thee; * and thou hast healed me.'
+          '002': 'O <SC>Lord</SC> my God{dc}{wc}, I cried unto thee; * and thou hast healed me.'
           '003': 'Thou{dc}{wc}, <SC>Lord</SC>{dc}{wc}, hast brought my soul out of hell: * thou hast kept my life{dc}{wc}, that I should not go down into the pit.{HN v3}'
           '004': 'Sing praises unto the <SC>Lord</SC>{dc}{wc}, O ye saints of his; * and give thanks unto him{dc}{wc}, for a remembrance of his holiness.'
           '005': 'For his wrath endureth but the twinkling of an eye{dc}, and in his pleasure is life; * heaviness may endure for a night{dc}, but joy cometh in the morning.'
@@ -834,7 +834,7 @@ psalm:
           '010': 'Shall the dust give thanks unto thee? * or shall it declare thy truth?'
           '011': 'Hear{dc}{wc}, O <SC>Lord</SC>{dc}{wc}, and have mercy upon me; * <SC>Lord</SC>{dc}{wc}, be thou my helper.'
           '012': 'Thou hast turned my heaviness into joy; * thou hast put off my sackcloth{dc}{wc}, and girded me with gladness:'
-          '013': 'Therefore shall every good man sing of thy praise without ceasing<DS ,>.<DS> * O my God{dc}{wc}, I will give thanks unto thee for ever.'
+          '013': 'Therefore shall every good man sing of thy praise without ceasing<DS @>.<DS> * O my God{dc}{wc}, I will give thanks unto thee for ever.'
         verse_history_refs:
           'v3': '... my life from them that go down into the pit. | until 1928'
         verse_meta:
@@ -857,7 +857,7 @@ psalm:
           '007': 'I have hated them that hold of lying{HN #1} vanities, * and my trust hath been in the <SC>Lord</SC>.'
           '008': 'I will be glad and rejoice in thy mercy; * for thou hast considered my trouble{dc}, and hast known my soul in adversities.'
           '009': Thou hast not shut me up into the hand of the enemy; * but hast set my feet in a large room.
-          '010': 'Have mercy upon me{dc}{wc}, O <SC>Lord</SC>{dc}, for I am in trouble, * and mine eye is consumed for very heaviness<DS ,>;</DS> yea{dc}, my soul and my body.'
+          '010': 'Have mercy upon me{dc}{wc}, O <SC>Lord</SC>{dc}, for I am in trouble, * and mine eye is consumed for very heaviness<DS @>;</DS> yea{dc}, my soul and my body.'
           '011': 'For my life is waxen old with heaviness{dc}, * and my years with mourning.'
           '012': 'My strength faileth me{dc}{wc}, because of mine iniquity, * and my bones are consumed.'
           '013': 'I became a reproach{HN #2} among all mine enemies, but especially among my neighbours; * and they of mine acquaintance were afraid of me; and they that did see me without{dc}, conveyed themselves from me.'
@@ -1031,7 +1031,7 @@ psalm:
         verse:
           '001': 'MY heart showeth me the wickedness of the ungodly{dc}, * that there is no fear of God before his eyes.'
           '002': 'For he flattereth himself in his own sight{dc}, * until his abominable sin be found out.'
-          '003': 'The words of his mouth are unrighteous and full of deceit: * he hath left off to behave himself wisely{dc}{wc} and to do good.'
+          '003': 'The words of his mouth are unrighteous and full of deceit: * he hath left off to behave himself wisely{dc}{wc}, and to do good.'
           '004': 'He imagineth mischief upon his bed{dc}, and hath set himself in no good way; * neither doth he abhor any thing that is evil.'
           '005': 'Thy mercy{dc}{wc}, O <SC>Lord</SC>{dc}, reacheth unto the heavens{dc}, * and thy faithfulness unto the clouds.'
           '006': 'Thy righteousness standeth like the strong mountains: * thy judgments are like the great deep.'
@@ -1089,9 +1089,9 @@ psalm:
           '034': 'The <SC>Lord</SC> will not leave him in his hand{dc}, * nor condemn him when he is judged.'
           '035': 'Hope thou in the <SC>Lord</SC>{dc}{wc}, and keep his way, and he shall promote thee{dc}{wc}, that thou shalt possess the land: * when the ungodly shall perish{dc}{wc}, thou shalt see it.'
           '036': 'I myself have seen the ungodly in great power{dc}, * and flourishing like a green bay-tree.'
-          '037': 'I went by{dc}{wc}, and lo{dc}{wc} he was gone: * I sought him{dc}{wc}, but his place could no where be found.'
+          '037': 'I went by{dc}{wc}, and lo{dc}{wc}, he was gone: * I sought him{dc}{wc}, but his place could no where be found.'
           '038': 'Keep innocency{dc}{wc}, and take heed unto the thing that is right; * for that shall bring a man peace at the last.'
-          '039': 'As for the transgressors{dc}{wc} they shall perish together; * and the end of the ungodly is{dc}, they shall be rooted out at the last.'
+          '039': 'As for the transgressors{dc}{wc}, they shall perish together; * and the end of the ungodly is{dc}, they shall be rooted out at the last.'
           '040': But the salvation of the righteous cometh of the <SC>Lord</SC>; * who is also their strength in the time of trouble.
           '041': 'And the <SC>Lord</SC> shall stand by them{dc}{wc}, and save them: * he shall deliver them from the ungodly{dc}{wc}, and shall save them{dc}, because they put their trust in him.'
         verse_history_refs:
@@ -1108,7 +1108,7 @@ psalm:
         tone:
           from_dunstan: ''
         verse:
-          '001': 'PUT me not to rebuke{dc}{wc}, O <SC>Lord</SC>{dc}{wc} in thine anger; * neither chasten me in thy heavy displeasure:'
+          '001': 'PUT me not to rebuke{dc}{wc}, O <SC>Lord</SC>{dc}{wc}, in thine anger; * neither chasten me in thy heavy displeasure:'
           '002': 'For thine arrows stick fast in me, * and thy hand presseth me sore.'
           '003': 'There is no health in my flesh{dc}{wc}, because of thy displeasure; * neither is there any rest in my bones{dc}{wc}, by reason of my sin.'
           '004': 'For my wickednesses are gone over my head{dc}, * and are like a sore burden{dc}{wc}, too heavy for me to bear.'
@@ -1147,7 +1147,7 @@ psalm:
           '002': 'I will keep my mouth as it were with a bridle{dc}, * while the ungodly is in my sight.'
           '003': 'I held my tongue{dc}{wc}, and spake nothing: * I kept silence{dc}{wc}, yea{dc}{wc}, even from good words; but it was pain and grief to me.'
           '004': 'My heart was hot within me: and while I was thus musing the fire kindled, * and at the last I spake with my tongue:'
-          '005': '<SC>Lord</SC>{dc}{wc} let me know mine{HN #1} end{dc}{wc}, and the number of my days; * that I may be certified how long I have to live.'
+          '005': '<SC>Lord</SC>{dc}{wc}, let me know mine{HN #1} end{dc}{wc}, and the number of my days; * that I may be certified how long I have to live.'
           '006': 'Behold{dc}{wc}, thou hast made my days as it were a span long, and mine age is even as nothing in respect of thee; * and verily every man living is altogether vanity.'
           '007': 'For man walketh in a vain shadow{dc}{wc}, and disquieteth himself in vain; * he heapeth up riches{dc}{wc}, and cannot tell who shall gather them.'
           '008': 'And now{dc}{wc}, Lord{dc}, what is my hope? * truly my hope is even in thee.'
@@ -1180,7 +1180,7 @@ psalm:
           '007': 'If I should declare them{dc}{wc}, and speak of them{dc}, * they should be more than I am able to express.'
           '008': 'Sacrifice and offering{HN #1} thou wouldest not, * but mine ears hast thou opened.'
           '009': 'Burnt-offering and sacrifice for sin hast thou not required: * then said I, Lo{wc}, I come;'
-          '010': 'In the volume of the book it is written of me, that I should fulfil thy will{dc}, O my God: * I am content to do it<DD ,>;</DS> yea{dc}{wc}, thy law is within my heart.'
+          '010': 'In the volume of the book it is written of me, that I should fulfil thy will{dc}, O my God: * I am content to do it<DS @>;</DS> yea{dc}{wc}, thy law is within my heart.'
           '011': 'I have declared thy righteousness in the great congregation: * lo{dc}{wc}, I will not refrain my lips{dc}{wc}, O <SC>Lord</SC>{dc}, and that thou knowest.'
           '012': 'I have not hid thy righteousness within my heart; * my talk hath been of thy truth{dc}{wc}, and of thy salvation.'
           '013': I have not kept back thy loving mercy and truth * from the great congregation.
@@ -1306,7 +1306,7 @@ psalm:
           '023': 'Up{dc}{wc}, Lord{dc}, why sleepest thou? * awake{dc}{wc}, and be not absent from us for ever.'
           '024': 'Wherefore hidest thou thy face{dc}, * and forgettest our misery and trouble?'
           '025': 'For our soul is brought low{dc}, even unto the dust; * our belly cleaveth unto the ground.'
-          '026': "Arise{dc}{wc} and help us{dc}, * and deliver us{dc}{wc}, for thy mercy's sake."
+          '026': "Arise{dc}{wc}, and help us{dc}, * and deliver us{dc}{wc}, for thy mercy's sake."
         verse_history_refs:
           'v2': '2. ... and planted them in : how thou hast destroyed the nations and cast them out. | until 1928'
           '#1': 'heathen | until 1928'
@@ -1365,7 +1365,7 @@ psalm:
           '005': 'God is in the midst of her, therefore shall she not be removed; * God shall help her{dc}{wc}, and that right early.'
           '006': 'The nations{HN #1} make much ado{dc}{wc}, and the kingdoms are moved; * but God hath showed his voice{dc}{wc}, and the earth shall melt away.'
           '007': The <SC>Lord</SC> of hosts is with us; * the God of Jacob is our refuge.
-          '008': 'O come hither{dc}{wc} and behold the works of the <SC>Lord</SC>, * what destruction he hath brought upon the earth.'
+          '008': 'O come hither{dc}{wc}, and behold the works of the <SC>Lord</SC>, * what destruction he hath brought upon the earth.'
           '009': 'He maketh wars to cease in all the world; * he breaketh the bow{dc}{wc}, and knappeth the spear in sunder{dc}, and burneth the chariots in the fire.'
           '010': 'Be still then{dc}, and know that I am God: * I will be exalted among the nations{HN #1.2}{dc}, and I will be exalted in the earth.'
           '011': The <SC>Lord</SC> of hosts is with us; * the God of Jacob is our refuge.
@@ -1417,8 +1417,8 @@ psalm:
           '006': Thou dost break the ships of the sea * through the east-wind.
           '007': 'Like as we have heard{dc}, so have we seen in the city of the <SC>Lord</SC> of hosts, in the city of our God; * God upholdeth the same for ever.'
           '008': 'We wait for thy loving-kindness{dc}{wc}, O God{dc}, * in the midst of thy temple.'
-          '009': "O God{dc}{wc} according to thy Name{dc}, so is thy praise unto the world's end; * thy right hand is full of righteousness."
-          '010': 'Let the mount Sion rejoice{dc}{wc} and the daughters of Judah be glad{dc}, * because of thy judgments.'
+          '009': "O God{dc}{wc}, according to thy Name{dc}, so is thy praise unto the world's end; * thy right hand is full of righteousness."
+          '010': 'Let the mount Sion rejoice{dc}{wc}, and the daughters of Judah be glad{dc}, * because of thy judgments.'
           '011': 'Walk about Sion{dc}{wc}, and go round about her; * and tell the towers thereof.'
           '012': 'Mark well her bulwarks, consider her palaces{dc},{HN v12} * that ye may tell them that come after.'
           '013': 'For this God is our God for ever and ever: * he shall be our guide unto death.'
@@ -1448,7 +1448,7 @@ psalm:
           '011': 'And yet they think that their houses shall continue for ever, and that their dwelling-places shall endure from one generation to another; * and call the lands after their own names.'
           '012': 'Nevertheless{dc}{wc}, man being in honour abideth not, * seeing he may be compared unto the beasts that perish;{HN v12}'
           '013': This their way is very foolishness; * yet their posterity praise their saying{HN v13}.
-          '014': 'They lie in the grave like sheep; death is their shepherd; and the righteous shall have dominion over them in the morning: * their beauty shall consume in the sepulchre{dc}{wc}, and have no abiding.{v14}'
+          '014': 'They lie in the grave like sheep; death is their shepherd; and the righteous shall have dominion over them in the morning: * their beauty shall consume in the sepulchre{dc}{wc}, and have no abiding.{HN v14}'
           '015': But God hath delivered my soul from the power of the grave; * for he shall receive me{HN v15}.
           '016': 'Be not thou afraid{dc}, though one be made rich, * or if the glory of his house be increased;'
           '017': 'For he shall carry nothing away with him when he dieth, * neither shall his pomp follow him.'
@@ -1489,7 +1489,7 @@ psalm:
           '012': 'If I be hungry{dc}, I will not tell thee; * for the whole world is mine{dc}{wc}, and all that is therein.'
           '013': "Thinkest thou that I will eat bulls' flesh{dc}, * and drink the blood of goats?"
           '014': 'Offer unto God thanksgiving, * and pay thy vows unto the Most Highest.'
-          '015': 'And call upon me in the time of trouble; * so will I hear thee{dc}{wc} and thou shalt praise me.'
+          '015': 'And call upon me in the time of trouble; * so will I hear thee{dc}{wc}, and thou shalt praise me.'
           '016': 'But unto the ungodly saith{HN #2} God, * Why dost thou preach my laws{dc}{wc}, and takest my covenant in thy mouth;'
           '017': 'Whereas thou hatest to be reformed{dc}, * and hast cast my words behind thee?'
           '018': 'When thou sawest a thief{dc}{wc}, thou consentedst unto him; * and hast been partaker with the adulterers.'
@@ -1971,7 +1971,7 @@ psalm:
           '013': 'Though ye have lain{HN #1} among the sheep-folds{HN #2}, yet shall ye be as the wings of a dove * that is covered with silver wings{dc}, and her feathers like gold.'
           '014': 'When the Almighty scattered kings for their sake, * then were they as white as snow in Salmon.'
           '015': "As the hill of Bashan{HN #3}{dc}{wc}, so is God's hill; * even an high hill{dc}{wc}, as the hill of Bashan{HN #3}."
-          '016': "Why mock{HN #4} ye so{dc}, ye high hills? this is God's hill{dc}{wc}, in the which it pleaseth him to dwell; * yea{dc} the <SC>Lord</SC> will abide in it for ever."
+          '016': "Why mock{HN #4} ye so{dc}, ye high hills? this is God's hill{dc}{wc}, in the which it pleaseth him to dwell; * yea{dc}, the <SC>Lord</SC> will abide in it for ever."
           '017': 'The chariots of God are twenty thousand, even thousands of angels; * and the Lord is among them as in the holy place of Sinai.'
           '018': 'Thou art gone up on high, thou hast led captivity captive, and received gifts from{HN #5} men; * yea{dc}{wc}, even from thine enemies{dc}, that the <SC>Lord</SC> God might dwell among them.'
           '019': 'Praised be the Lord daily, * even the God who helpeth us{dc}{wc}, and poureth his benefits upon us.'
@@ -2085,7 +2085,7 @@ psalm:
         tone:
           from_dunstan: ''
         verse:
-          '001': 'IN thee{dc}{wc}, O <SC>Lord</SC>{dc}{wc} have I put my trust; let me never be put to confusion, * but rid me and deliver me in thy righteousness; incline thine ear unto me{dc}{wc}, and save me.'
+          '001': 'IN thee{dc}{wc}, O <SC>Lord</SC>{dc}{wc}, have I put my trust; let me never be put to confusion, * but rid me and deliver me in thy righteousness; incline thine ear unto me{dc}{wc}, and save me.'
           '002': 'Be thou my stronghold{dc}{wc}, whereunto I may alway resort: * thou hast promised to help me{dc}, for thou art my house of defence{dc}{wc}, and my castle.'
           '003': 'Deliver me{dc}{wc}, O my God{dc}, out of the hand of the ungodly{dc}, * out of the hand of the unrighteous and cruel man.'
           '004': 'For thou{dc}{wc}, O Lord <SC>God</SC>{dc}, art the thing that I long for: * thou art my hope{dc}, even from my youth.'
@@ -2100,7 +2100,7 @@ psalm:
           '013': 'As for me{dc}, I will patiently abide alway{dc}, * and will praise thee more and more.'
           '014': My mouth shall daily speak of thy righteousness and salvation; * for I know no end thereof.
           '015': 'I will go forth in the strength of the Lord <SC>God</SC>{dc}, * and will make mention of thy righteousness only.'
-          '016': 'Thou{dc}{wc} O God{dc}{wc}, hast taught me from my youth up until now; * therefore will I tell of thy wondrous works.'
+          '016': 'Thou{dc}{wc}, O God{dc}{wc}, hast taught me from my youth up until now; * therefore will I tell of thy wondrous works.'
           '017': 'Forsake me not{dc}{wc}, O God{dc}{wc}, in mine old age{dc}, when I am gray-headed{dc}, * until I have showed thy strength unto this generation{dc}, and thy power to all them that are yet for to come.'
           '018': 'Thy righteousness{dc}{wc}, O God{dc}{wc}, is very high, * and great things are they that thou hast done<DS @>:</DS> O God{dc}, who is like unto thee!'
           '019': 'O what great troubles and adversities hast thou showed me! and yet didst thou turn and refresh me; * yea{dc}{wc}, and broughtest me from the deep of the earth again.'
@@ -2128,7 +2128,7 @@ psalm:
           '003': 'The mountains also shall bring peace, * and the little hills righteousness unto the people.'
           '004': 'He shall keep the simple folk by their right, * defend the children of the poor{dc}, and punish the wrong doer.'
           '005': 'They shall fear thee{dc}{wc}, as long as the sun and moon endureth{dc}, * from one generation to another.'
-          '006': 'He shall come down like the rain <SD into a fleece + of wool>upon the mown grass</DS>{HN #6}{dc}, * even as the drops that water the earth.'
+          '006': 'He shall come down like the rain <DS into a fleece + of wool>upon the mown grass</DS>{HN #6}{dc}, * even as the drops that water the earth.'
           '007': 'In his time shall the righteous flourish; * yea{dc}{wc}, and abundance of peace{dc}, so long as the moon endureth.'
           '008': "His dominion shall be also from the one sea to the other{dc}, * and from the River{HN #3} unto the world's end."
           '009': They that dwell in the wilderness shall kneel before him; * his enemies shall lick the dust.
@@ -2139,7 +2139,7 @@ psalm:
           '014': He shall deliver their souls from falsehood and wrong; * and dear shall their blood be in his sight.
           '015': 'He shall live{dc}, and unto him shall be given of the gold of Arabia; * prayer shall be made ever unto him{dc}, and daily shall he be praised.'
           '016': 'There shall be an heap of corn in the earth{dc}, high upon the hills ; the fruit thereof shall shake like Lebanon: * and they of the city shall flourish like grass upon the earth.{HN v16}'
-          '017': 'His Name shall endure for ever; his Name shall remain under the sun among{HN #4#2} the posterities{dc}{wc}, which shall be blessed in{HN #5} him; * and all the nations{HN #6} shall praise him.'
+          '017': 'His Name shall endure for ever; his Name shall remain under the sun among{HN #4.2} the posterities{dc}{wc}, which shall be blessed in{HN #5} him; * and all the nations{HN #6} shall praise him.'
           '018': 'Blessed be the <SC>Lord</SC> God{dc}, even the God of Israel{dc}, * which only doeth wondrous things;'
           '019': 'And blessed be the Name of his majesty for ever: * and all the earth shall be filled with his majesty. Amen, Amen.'
         verse_history_refs:
@@ -2344,7 +2344,7 @@ psalm:
           '013': 'Marvellous things did he in the sight of our forefathers{dc}, in the land of Egypt, * even in the field of Zoan.'
           '014': 'He divided the sea{dc}{wc}, and let them go through; * he made the waters to stand on an heap.'
           '015': 'In the day-time also he led them with a cloud{dc}, * and all the night through with a light of fire.'
-          '016': 'He clave the hard rocks in the wilderness{dc}, * and gave them drink thereof{dc}[wc], as it had been out of the great depth.'
+          '016': 'He clave the hard rocks in the wilderness{dc}, * and gave them drink thereof{dc}{wc}, as it had been out of the great depth.'
           '017': 'He brought waters out of the stony rock{dc}, * so that it gushed out like the rivers.'
           '018': 'Yet for all this they sinned more against him{dc}, * and provoked the Most Highest in the wilderness.'
           '019': 'They tempted God in their hearts{dc}, * and required meat for their lust.'
@@ -2522,7 +2522,7 @@ psalm:
           '005': 'They know not{dc}, neither do they understand, but{HN v5} walk on still in darkness: * all the foundations of the earth are out of course.'
           '006': 'I have said{dc}, Ye are gods, * and ye are all the children of the Most Highest.'
           '007': 'But ye shall die like men{dc}, * and fall like one of the princes.'
-          '008': 'Arise{dc}, O God{dc}, and judge thou the earth; * for thou shalt take all nations{HN#1} to thine inheritance.'
+          '008': 'Arise{dc}, O God{dc}, and judge thou the earth; * for thou shalt take all nations{HN #1} to thine inheritance.'
         verse_history_refs:
           'v5': 'They will not be learned, nor understand, but ... | until 1928'
           '#1': 'heathen | until 1928'
@@ -2662,7 +2662,7 @@ psalm:
           '003': 'I will make mention of Egypt and Babylon, * among them that know me.{HN v3}'
           '004': 'Behold{HN #1}{dc}, Philistia also; and Tyre{dc}, with Ethiopia; * lo{dc}, in Sion were they born.{HN v4}'
           '005': 'Yea{dc}, of Sion it shall be reported, this one and that one were born in her; * and the Most High shall stablish her.{HN v5}'
-          '006': 'The <SC>Lord</SC> shall record it{dc}, when he writeth up the peoples; * lo{dc}, in Sion were they born.{HM v6}'
+          '006': 'The <SC>Lord</SC> shall record it{dc}, when he writeth up the peoples; * lo{dc}, in Sion were they born.{HN v6}'
           '007': 'The singers also and trumpeters shall make answer: * All my fresh springs are in thee.{HN v7}'
         verse_history_refs:
           'v3': '3. I will think upon Rahab and Babylon : with them that know me. | until 1928'
@@ -4057,7 +4057,7 @@ psalm:
         tone:
           from_dunstan: ''
         verse:
-          '145': 'I CALL with my whole heart; * hear me{dc}, O <SC>Lord</SC><DS ,>;</SD> I will keep thy statutes.'
+          '145': 'I CALL with my whole heart; * hear me{dc}, O <SC>Lord</SC><DS @>;</DS> I will keep thy statutes.'
           '146': 'Yea{dc}, even unto thee do I call; * help me{dc}, and I shall keep thy testimonies.'
           '147': Early in the morning do I cry unto thee; * for in thy word is my trust.
           '148': 'Mine eyes prevent the night watches; * that I might be occupied in thy word{HN #6}.'
@@ -4756,7 +4756,7 @@ psalm:
         tone:
           from_dunstan: ''
         verse:
-          '001': 'PRAISE the <SC>Lord</SC>{dc}, O my soul<DS ,>:</DS> while I live{dc}, will I praise the <SC>Lord</SC>; * yea{dc}, as long as I have any being{dc}, I will sing praises unto my God.'
+          '001': 'PRAISE the <SC>Lord</SC>{dc}, O my soul<DS @>:</DS> while I live{dc}, will I praise the <SC>Lord</SC>; * yea{dc}, as long as I have any being{dc}, I will sing praises unto my God.'
           '002': 'O put not your trust in princes{dc}, nor in any child of man; * for there is no help in them.'
           '003': 'For when the breath of man goeth forth{dc}, he shall turn again to his earth, * and then all his thoughts perish.'
           '004': 'Blessed is he that hath the God of Jacob for his help, * and whose hope is in the <SC>Lord</SC> his God:'
@@ -4814,7 +4814,7 @@ psalm:
           '002': 'Praise him{dc}, all ye angels of his: * praise him{dc}, all his host{HN #1}.'
           '003': 'Praise him{dc}, sun and moon: * praise him{dc}, all ye stars and light.'
           '004': 'Praise him{dc}, all ye heavens, * and ye waters that are above the heavens.'
-          '005': 'Let them praise the Name of the <SC>Lord</SC>: * for he spake the word{dc}, and they were made<DS ,>;</DS> he commanded{dc}, and they were created.'
+          '005': 'Let them praise the Name of the <SC>Lord</SC>: * for he spake the word{dc}, and they were made<DS @>;</DS> he commanded{dc}, and they were created.'
           '006': 'He hath made them fast for ever and ever: * he hath given them a law which shall not be broken.'
           '007': 'Praise the <SC>Lord</SC> from the earth{dc},{HN v7} * ye dragons and all deeps;'
           '008': 'Fire and hail, snow and vapours, * wind and storm{dc}, fulfilling his word;'
