@@ -2016,42 +2016,42 @@ psalm:
         tone:
           from_dunstan: ''
         verse:
-          '001': 'SAVE me{dc}, O God; * for the waters are come in{dc}, even unto my soul.'
-          '002': 'I stick fast in the deep mire{dc}, where no ground is; * I am come into deep waters{dc}, so that the floods run over me.'
+          '001': 'SAVE me{dc}{wc}, O God; * for the waters are come in{dc}, even unto my soul.'
+          '002': 'I stick fast in the deep mire{dc}{wc}, where no ground is; * I am come into deep waters{dc}{wc}, so that the floods run over me.'
           '003': I am weary of crying; my throat is dry; * my sight faileth me for waiting so long upon my God.
-          '004': 'They that hate me without a cause are more than the hairs of my head; * they that are mine enemies{dc}, and would destroy me guiltless{dc}, are mighty.'
+          '004': 'They that hate me without a cause are more than the hairs of my head; * they that are mine enemies{dc}{wc}, and would destroy me guiltless{dc}{wc}, are mighty.'
           '005': 'I paid them the things that I never took: * God{dc}, thou knowest my simpleness{dc}, and my faults are not hid from thee.'
-          '006': 'Let not them that trust in thee{dc}, O Lord <SC>God</SC> of hosts{dc}, be ashamed for my cause; * let not those that seek thee be confounded through me{dc}, O Lord God of Israel.'
+          '006': 'Let not them that trust in thee{dc}{wc}, O Lord <SC>God</SC> of hosts{dc}, be ashamed for my cause; * let not those that seek thee be confounded through me{dc}, O Lord God of Israel.'
           '007': 'And why? for thy sake have I suffered reproof; * shame hath covered my face.'
           '008': "I am become a stranger unto my brethren, * even an alien unto my mother's children."
           '009': For the zeal of thine house hath even eaten me; * and the rebukes of them that rebuked thee are fallen upon me.
-          '010': 'I wept{dc}, and chastened myself with fasting, * and that was turned to my reproof.'
+          '010': 'I wept{dc}{wc}, and chastened myself with fasting, * and that was turned to my reproof.'
           '011': 'I put on sackcloth also, * and they jested upon me.'
           '012': 'They that sit in the gate speak against me, * and the drunkards make songs upon me.'
-          '013': 'But{dc}, <SC>Lord</SC>{dc}, I make my prayer unto thee * in an acceptable time.'
-          '014': 'Hear me{dc}, O God{dc}, in the multitude of thy mercy{dc}, * even in the truth of thy salvation.'
-          '015': 'Take me out of the mire{dc}, that I sink not; * O let me be delivered from them that hate me{dc}, and out of the deep waters.'
+          '013': 'But{dc}{wc}, <SC>Lord</SC>{dc}, I make my prayer unto thee * in an acceptable time.'
+          '014': 'Hear me{dc}{wc}, O God{dc}{wc}, in the multitude of thy mercy{dc}, * even in the truth of thy salvation.'
+          '015': 'Take me out of the mire{dc}{wc}, that I sink not; * O let me be delivered from them that hate me{dc}, and out of the deep waters.'
           '016': 'Let not the water-flood drown me, neither let the deep swallow me up; * and let not the pit shut her mouth upon me.'
-          '017': 'Hear me{dc}, O <SC>Lord</SC>{dc}, for thy loving-kindness is comfortable; * turn thee unto me according to the multitude of thy mercies.'
-          '018': 'And hide not thy face from thy servant; for I am in trouble: * O haste thee{dc}, and hear me.'
-          '019': 'Draw nigh unto my soul{dc}, and save it; * O deliver me{dc}, because of mine enemies.'
-          '020': 'Thou hast known my reproach{HN #1}, my shame, and my dishonour: * mine adversaries are all in thy sight.'
+          '017': 'Hear me{dc}{wc}, O <SC>Lord</SC>{dc}, for thy loving-kindness is comfortable; * turn thee unto me according to the multitude of thy mercies.'
+          '018': 'And hide not thy face from thy servant; for I am in trouble: * O haste thee{dc}{wc}, and hear me.'
+          '019': 'Draw nigh unto my soul{dc}{wc}, and save it; * O deliver me{dc}{wc}, because of mine enemies.'
+          '020': 'Thou hast known my reproach{HN #1}, my shame{wc}, and my dishonour: * mine adversaries are all in thy sight.'
           '021': 'Reproach hath broken{HN v21} my heart; I am full of heaviness: * I looked for some to have pity on me{dc}, but there was no man{dc}, neither found I any to comfort me. &nbsp;<br>'
           '022': They gave me gall to eat; * and when I was thirsty they gave me vinegar to drink.
           '023': Let their table be made a snare to take themselves withal; * and let the things that should have been for their wealth be unto them an occasion of falling.
-          '024': 'Let their eyes be blinded{dc}, that they see not; * and ever bow thou down their backs.'
+          '024': 'Let their eyes be blinded{dc}{wc}, that they see not; * and ever bow thou down their backs.'
           '025': 'Pour out thine indignation upon them, * and let thy wrathful displeasure take hold of them.'
           '026': 'Let their habitation be void, * and no man to dwell in their tents.'
           '027': For they persecute him whom thou hast smitten; * and they talk how they may vex them whom thou hast wounded.
           '028': 'Let them fall from one wickedness to another{dc}, * and not come into thy righteousness.'
           '029': 'Let them be wiped out of the book of the living{dc}, * and not be written among the righteous.'
-          '030': 'As for me{dc}, when I am poor and in heaviness, * thy help{dc}, O God{dc}, shall lift me up.'
+          '030': 'As for me{dc}, when I am poor and in heaviness, * thy help{dc}{wc}, O God{dc}{wc}, shall lift me up.'
           '031': 'I will praise the Name of God with a song{dc}, * and magnify it with thanksgiving.'
           '032': This also shall please the <SC>Lord</SC> * better than a bullock that hath horns and hoofs.
-          '033': 'The humble shall consider this{dc}, and be glad: * seek ye after God{dc}, and your soul shall live.'
+          '033': 'The humble shall consider this{dc}{wc}, and be glad: * seek ye after God{dc}{wc}, and your soul shall live.'
           '034': 'For the <SC>Lord</SC> heareth the poor{dc}, * and despiseth not his prisoners.'
-          '035': 'Let heaven and earth praise him: * the sea{dc}, and all that moveth therein.'
-          '036': 'For God will save Sion{dc}, and build the cities of Judah{dc}, * that men may dwell there{dc}, and have it in possession.'
+          '035': 'Let heaven and earth praise him: * the sea{dc}{wc}, and all that moveth therein.'
+          '036': 'For God will save Sion{dc}, and build the cities of Judah{dc}, * that men may dwell there{dc}{wc}, and have it in possession.'
           '037': The posterity also of his servants shall inherit it; * and they that love his Name shall dwell therein.
         verse_history_refs:
           '#1': 'reproof | until 1928'
@@ -2067,12 +2067,12 @@ psalm:
         tone:
           from_dunstan: ''
         verse:
-          '001': 'HASTE thee{dc}, O God{dc}, to deliver me; * make haste to help me{dc}, O <SC>Lord</SC>.'
+          '001': 'HASTE thee{dc}{wc}, O God{dc}{wc}, to deliver me; * make haste to help me{dc}{wc}, O <SC>Lord</SC>.'
           '002': Let them be ashamed and confounded that seek after my soul; * let them be turned backward and put to confusion that wish me evil.
-          '003': 'Let them for their reward be soon brought to shame{dc}, * that cry over me{dc}, There! there!'
+          '003': 'Let them for their reward be soon brought to shame{dc}, * that cry over me{dc}{wc}, There! there!'
           '004': 'But let all those that seek thee be joyful and glad in thee: * and let all such as delight in thy salvation say alway{dc}, The Lord be praised.'
-          '005': 'As for me{dc}, I am poor and in misery: * haste thee unto me{dc}, O God.'
-          '006': 'Thou art my helper{dc}, and my redeemer: * O <SC>Lord</SC>{dc}, make no long tarrying.'
+          '005': 'As for me{dc}, I am poor and in misery: * haste thee unto me{dc}{wc}, O God.'
+          '006': 'Thou art my helper{dc}{wc}, and my redeemer: * O <SC>Lord</SC>{dc}{wc}, make no long tarrying.'
         verse_history_refs: {}
         verse_meta:
           '001':
