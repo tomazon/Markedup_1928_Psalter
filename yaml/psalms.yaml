@@ -3128,28 +3128,28 @@ psalm:
         tone:
           from_dunstan: ''
         verse:
-          '001': 'PRAISE the <SC>Lord</SC>{dc}, O my soul; * and all that is within me{dc}, praise his holy Name.'
+          '001': 'PRAISE the <SC>Lord</SC>{dc}, O my soul; * and all that is within me{dc}{wc}, praise his holy Name.'
           '002': 'Praise the <SC>Lord</SC>{dc}, O my soul, * and forget not all his benefits:'
           '003': 'Who forgiveth all thy sin{dc}, * and healeth all thine infirmities;'
           '004': 'Who saveth thy life from destruction{dc}, * and crowneth thee with mercy and loving-kindness;'
           '005': 'Who satisfieth thy mouth with good things{dc}, * making thee young and lusty as an eagle.'
           '006': The <SC>Lord</SC> executeth righteousness and judgment * for all them that are oppressed with wrong.
           '007': 'He showed his ways unto Moses, * his works unto the children of Israel.'
-          '008': 'The <SC>Lord</SC> is full of compassion and mercy, * long-suffering{dc}, and of great goodness.'
+          '008': 'The <SC>Lord</SC> is full of compassion and mercy, * long-suffering{dc}{wc}, and of great goodness.'
           '009': He will not alway be chiding; * neither keepeth he his anger for ever.
           '010': He hath not dealt with us after our sins; * nor rewarded us according to our wickednesses.
           '011': For look how high the heaven is in comparison of the earth; * so great is his mercy also toward them that fear him.
           '012': Look how wide also the east is from the west; * so far hath he set our sins from us.
-          '013': 'Yea{dc}, like as a father pitieth his own children; * even so is the <SC>Lord</SC> merciful unto them that fear him.'
+          '013': 'Yea{dc}{wc}, like as a father pitieth his own children; * even so is the <SC>Lord</SC> merciful unto them that fear him.'
           '014': For he knoweth whereof we are made; * he remembereth that we are but dust.
           '015': The days of man are but as grass; * for he flourisheth as a flower of the field.
           '016': 'For as soon as the wind goeth over it, it is gone; * and the place thereof shall know it no more.'
           '017': But the merciful goodness of the <SC>Lord</SC> endureth for ever and ever upon them that fear him; * and his righteousness upon children's children;
           '018': 'Even upon such as keep his covenant{dc}, * and think upon his commandments to do them.'
           '019': 'The <SC>Lord</SC> hath prepared his seat in heaven, * and his kingdom ruleth over all.'
-          '020': 'O praise the <SC>Lord</SC>{dc}, ye angels of his, ye that excel in strength; * ye that fulfil his commandment{dc}, and hearken unto the voice of his word{HN #1}.'
-          '021': 'O praise the <SC>Lord</SC>{dc}, all ye his hosts; * ye servants of his that do his pleasure.'
-          '022': 'O speak good of the <SC>Lord</SC>{dc}, all ye works of his{dc}, in all places of his dominion: * praise thou the <SC>Lord</SC>{dc}, O my soul.'
+          '020': 'O praise the <SC>Lord</SC>{dc}{wc}, ye angels of his, ye that excel in strength; * ye that fulfil his commandment{dc}{wc}, and hearken unto the voice of his word{HN #1}.'
+          '021': 'O praise the <SC>Lord</SC>{dc}{wc}, all ye his hosts; * ye servants of his that do his pleasure.'
+          '022': 'O speak good of the <SC>Lord</SC>{dc}{wc}, all ye works of his{dc}, in all places of his dominion: * praise thou the <SC>Lord</SC>{dc}{wc}, O my soul.'
         verse_history_refs:
           '#1': 'words | until 1845 and in 1892 Book'
         verse_meta:
@@ -3163,15 +3163,15 @@ psalm:
         tone:
           from_dunstan: ''
         verse:
-          '001': 'PRAISE the <SC>Lord</SC>{dc}, O my soul: * O <SC>Lord</SC> my God{dc}, thou art become exceeding glorious; thou art clothed with majesty and honour.'
+          '001': 'PRAISE the <SC>Lord</SC>{dc}{wc} O my soul: * O <SC>Lord</SC> my God{dc}, thou art become exceeding glorious; thou art clothed with majesty and honour.'
           '002': 'Thou deckest thyself with light as it were with a garment{dc}, * and spreadest out the heavens like a curtain.'
           '003': 'Who layeth the beams of his chambers in the waters{dc}, * and maketh the clouds his chariot{dc}, and walketh upon the wings of the wind.'
           '004': 'He maketh his angels winds{dc}, * and his ministers a flaming fire.'
           '005': 'He laid the foundations of the earth{dc}, * that it never should move at any time.'
           '006': Thou coveredst it with the deep like as with a garment; * the waters stand above the hills.
           '007': At thy rebuke they flee; * at the voice of thy thunder they haste away.
-          '008': 'They go up as high as the hills{dc}, and down to the valleys beneath; * even unto the place which thou hast appointed for them.'
-          '009': 'Thou hast set them their bounds{dc}, which they shall not pass, * neither turn again to cover the earth.'
+          '008': 'They go up as high as the hills{dc}{wc}, and down to the valleys beneath; * even unto the place which thou hast appointed for them.'
+          '009': 'Thou hast set them their bounds{dc}{wc}, which they shall not pass, * neither turn again to cover the earth.'
           '010': 'He sendeth the springs into the rivers{dc}, * which run among the hills.'
           '011': 'All beasts{HN #1} of the field drink thereof, * and the wild asses quench their thirst.'
           '012': 'Beside them shall the fowls of the air have their habitation{dc}, * and sing among the branches.'
@@ -3183,22 +3183,22 @@ psalm:
           '018': The high hills are a refuge for the wild goats; * and so are the stony rocks for the conies.
           '019': 'He appointed the moon for certain seasons, * and the sun knoweth his going down.'
           '020': 'Thou makest darkness that it may be night; * wherein all the beasts of the forest{HN #3} do move.'
-          '021': 'The lions{dc}, roaring after their prey{dc}, * do seek their meat from God.'
-          '022': 'The sun ariseth{dc}, and they get them away together{dc}, * and lay them down in their dens.'
+          '021': 'The lions{dc}{wc}, roaring after their prey{dc}, * do seek their meat from God.'
+          '022': 'The sun ariseth{dc}{wc}, and they get them away together{dc}, * and lay them down in their dens.'
           '023': 'Man goeth forth to his work{dc}, and to his labour{dc}, * until the evening. &nbsp;<br>'
           '024': 'O <SC>Lord</SC>{dc}, how manifold are thy works! * in wisdom hast thou made them all; the earth is full of thy riches.'
           '025': 'So is the great and wide sea also; * wherein are things creeping innumerable{dc}, both small and great beasts.'
           '026': 'There go the ships{dc}, and there is that leviathan{dc}, * whom thou hast made to take his pastime therein.'
           '027': 'These wait all upon thee{dc}, * that thou mayest give them meat in due season.'
-          '028': 'When thou givest it them{dc}, they gather it; * and when thou openest thy hand{dc}, they are filled with good.'
-          '029': 'When thou hidest thy face{dc}, they are troubled: * when thou takest away their breath{dc}, they die{dc}, and are turned again to their dust.'
-          '030': 'When thou lettest thy breath go forth{dc}, they shall be made; * and thou shalt renew the face of the earth.'
+          '028': 'When thou givest it them{dc}{wc}, they gather it; * and when thou openest thy hand{dc}{wc}, they are filled with good.'
+          '029': 'When thou hidest thy face{dc}{wc}, they are troubled: * when thou takest away their breath{dc}{wc}, they die{dc}, and are turned again to their dust.'
+          '030': 'When thou lettest thy breath go forth{dc}{wc}, they shall be made; * and thou shalt renew the face of the earth.'
           '031': The glorious majesty of the <SC>Lord</SC> shall endure for ever; * the <SC>Lord</SC> shall rejoice in his works.
-          '032': 'The earth shall tremble at the look of him; * if he do but touch the hills{dc}, they shall smoke.'
+          '032': 'The earth shall tremble at the look of him; * if he do but touch the hills{dc}{wc}, they shall smoke.'
           '033': I will sing unto the <SC>Lord</SC> as long as I live; * I will praise my God while I have my being.
           '034': 'And so shall my words please him: * my joy shall be in the <SC>Lord</SC>.'
-          '035': 'As for sinners{dc}, they shall be consumed out of the earth, * and the ungodly shall come to an end.{HN v35}'
-          '036': 'Praise thou the <SC>Lord</SC>{dc}, O my soul. * Praise the <SC>Lord</SC>.'
+          '035': 'As for sinners{dc}{wc}, they shall be consumed out of the earth, * and the ungodly shall come to an end.{HN v35}'
+          '036': 'Praise thou the <SC>Lord</SC>{dc}{wc}, O my soul. * Praise the <SC>Lord</SC>.'
         verse_history_refs: 
           '#1': 'All the beasts | 1822-1892'
           '#2': 'Libanus | until 1928'
