@@ -2924,16 +2924,16 @@ psalm:
         tone:
           from_dunstan: ''
         verse:
-          '001': 'O COME{dc}, let us sing unto the <SC>Lord</SC>; * let us heartily rejoice in the strength of our salvation.'
+          '001': 'O COME{dc}{wc}, let us sing unto the <SC>Lord</SC>; * let us heartily rejoice in the strength of our salvation.'
           '002': Let us come before his presence with thanksgiving; * and show ourselves glad in him with psalms.
           '003': For the <SC>Lord</SC> is a great God; * and a great King above all gods.
           '004': In his hand are all the corners of the earth; * and the strength of the hills is his also.
-          '005': 'The sea is his{dc}, and he made it; * and his hands prepared the dry land.'
-          '006': 'O come{dc}, let us worship and fall down, * and kneel before the <SC>Lord</SC> our Maker.'
-          '007': 'For he is the Lord our God; * and we are the people of his pasture{dc}, and the sheep of his hand.'
-          '008': 'To-day if ye will hear his voice{dc}, harden not your hearts * as in the provocation{dc}, and as in the day of temptation in the wilderness;'
-          '009': 'When your fathers tempted me, * proved me{dc}, and saw my works.'
-          '010': 'Forty years long was I grieved with this generation{dc}, and said, * It is a people that do err in their hearts{dc}, for they have not known my ways:'
+          '005': 'The sea is his{dc}{wc}, and he made it; * and his hands prepared the dry land.'
+          '006': 'O come{dc}{wc}, let us worship and fall down, * and kneel before the <SC>Lord</SC> our Maker.'
+          '007': 'For he is the Lord our God; * and we are the people of his pasture{dc}{wc}, and the sheep of his hand.'
+          '008': 'To-day if ye will hear his voice{dc}{wc}, harden not your hearts * as in the provocation{dc}, and as in the day of temptation in the wilderness;'
+          '009': 'When your fathers tempted me, * proved me{dc}{wc}, and saw my works.'
+          '010': 'Forty years long was I grieved with this generation{dc}{wc}, and said, * It is a people that do err in their hearts{dc}, for they have not known my ways:'
           '011': 'Unto whom I sware in my wrath, * that they should not enter into my rest.'
         verse_history_refs: {}
         verse_meta:
@@ -2947,18 +2947,18 @@ psalm:
         tone:
           from_dunstan: ''
         verse:
-          '001': 'O SING unto the <SC>Lord</SC> a new song; * sing unto the <SC>Lord</SC>{dc}, all the whole earth.'
-          '002': 'Sing unto the <SC>Lord</SC>{dc}, and praise his Name; * be telling of his salvation from day to day.'
+          '001': 'O SING unto the <SC>Lord</SC> a new song; * sing unto the <SC>Lord</SC>{dc}{wc}, all the whole earth.'
+          '002': 'Sing unto the <SC>Lord</SC>{dc}{wc}, and praise his Name; * be telling of his salvation from day to day.'
           '003': 'Declare his honour unto the heathen, * and his wonders unto all peoples.'
-          '004': 'For the <SC>Lord</SC> is great{dc}, and cannot worthily be praised;* he is more to be feared than all gods.'
-          '005': 'As for all the gods of the heathen{dc}, they are but idols; * but it is the <SC>Lord</SC> that made the heavens.'
+          '004': 'For the <SC>Lord</SC> is great{dc}{wc}, and cannot worthily be praised;* he is more to be feared than all gods.'
+          '005': 'As for all the gods of the heathen{dc}{wc}, they are but idols; * but it is the <SC>Lord</SC> that made the heavens.'
           '006': Glory and worship are before him; * power and honour are in his sanctuary.
-          '007': 'Ascribe unto the <SC>Lord</SC>{dc}, O ye kindreds of the peoples, * ascribe unto the <SC>Lord</SC> worship and power.'
-          '008': 'Ascribe unto the <SC>Lord</SC> the honour due unto his Name; * bring presents{dc}, and come into his courts.'
+          '007': 'Ascribe unto the <SC>Lord</SC>{dc}{wc}, O ye kindreds of the peoples, * ascribe unto the <SC>Lord</SC> worship and power.'
+          '008': 'Ascribe unto the <SC>Lord</SC> the honour due unto his Name; * bring presents{dc}{wc}, and come into his courts.'
           '009': O worship the <SC>Lord</SC> in the beauty of holiness; * let the whole earth stand in awe of him.
-          '010': 'Tell it out among the heathen{dc}, that the <SC>Lord</SC> is King, and that it is he who hath made the round world so fast that it cannot be moved; * and how that he shall judge the peoples righteously.'
-          '011': 'Let the heavens rejoice{dc}, and let the earth be glad; * let the sea make a noise{dc}, and all that therein is.'
-          '012': 'Let the field be joyful{dc}, and all that is in it; * then shall all the trees of the wood rejoice before the <SC>Lord</SC>.'
+          '010': 'Tell it out among the heathen{dc}{wc}, that the <SC>Lord</SC> is King, and that it is he who hath made the round world so fast that it cannot be moved; * and how that he shall judge the peoples righteously.'
+          '011': 'Let the heavens rejoice{dc}{wc}, and let the earth be glad; * let the sea make a noise{dc}{wc}, and all that therein is.'
+          '012': 'Let the field be joyful{dc}{wc}, and all that is in it; * then shall all the trees of the wood rejoice before the <SC>Lord</SC>.'
           '013': 'For he cometh, for he cometh to judge the earth; * and with righteousness to judge the world{dc}, and the peoples{HN #1} with his truth.'
         verse_history_refs:
           '#1': 'people | until 1928'
@@ -2973,18 +2973,18 @@ psalm:
         tone:
           from_dunstan: ''
         verse:
-          '001': 'THE <SC>Lord</SC> is King, the earth may be glad thereof; * yea{dc}, the multitude of the isles may be glad thereof.'
+          '001': 'THE <SC>Lord</SC> is King, the earth may be glad thereof; * yea{dc}{wc}, the multitude of the isles may be glad thereof.'
           '002': 'Clouds and darkness are round about him: * righteousness and judgment are the habitation of his seat.'
           '003': 'There shall go a fire before him, * and burn up his enemies on every side.'
-          '004': 'His lightnings gave shine unto the world: * the earth saw it{dc}, and was afraid.'
+          '004': 'His lightnings gave shine unto the world: * the earth saw it{dc}{wc}, and was afraid.'
           '005': The hills melted like wax at the presence of the <SC>Lord</SC>; * at the presence of the Lord of the whole earth.
           '006': 'The heavens have declared his righteousness, * and all the peoples have seen his glory.'
-          '007': 'Confounded be all they that worship carved images, and that delight in vain gods: * worship him{dc}, all ye gods.'
-          '008': 'Sion heard of it{dc}, and rejoiced; and the daughters of Judah were glad, * because of thy judgments{dc}, O <SC>Lord</SC>.'
-          '009': 'For thou{dc}, <SC>Lord</SC>{dc}, art higher than all that are in the earth: * thou art exalted far above all gods.'
+          '007': 'Confounded be all they that worship carved images, and that delight in vain gods: * worship him{dc}{wc}, all ye gods.'
+          '008': 'Sion heard of it{dc}{wc}, and rejoiced; and the daughters of Judah were glad, * because of thy judgments{dc}{wc}, O <SC>Lord</SC>.'
+          '009': 'For thou{dc}{wc}, <SC>Lord</SC>{dc}, art higher than all that are in the earth: * thou art exalted far above all gods.'
           '010': 'O ye that love the <SC>Lord</SC>{dc}, see that ye hate the thing which is evil: * the Lord preserveth the souls of his saints; he shall deliver them from the hand of the ungodly.'
           '011': 'There is sprung up a light for the righteous, * and joyful gladness for such as are true-hearted.'
-          '012': 'Rejoice in the <SC>Lord</SC>{dc}, ye righteous; * and give thanks for a remembrance of his holiness.'
+          '012': 'Rejoice in the <SC>Lord</SC>{dc}{wc}, ye righteous; * and give thanks for a remembrance of his holiness.'
         verse_history_refs: {}
         verse_meta:
           '001':
@@ -2998,13 +2998,13 @@ psalm:
           from_dunstan: ''
         verse:
           '001': O SING unto the <SC>Lord</SC> a new song; * for he hath done marvellous things.
-          '002': 'With his own right hand{dc}, and with his holy arm{dc}, * hath he gotten himself the victory.'
+          '002': 'With his own right hand{dc}{wc}, and with his holy arm{dc}, * hath he gotten himself the victory.'
           '003': The <SC>Lord</SC> declared his salvation; * his righteousness hath he openly showed in the sight of the heathen.
           '004': He hath remembered his mercy and truth toward the house of Israel; * and all the ends of the world have seen the salvation of our God.
-          '005': 'Show yourselves joyful unto the <SC>Lord</SC>{dc}, all ye lands; * sing{dc}, rejoice{dc}, and give thanks.'
+          '005': 'Show yourselves joyful unto the <SC>Lord</SC>{dc}, all ye lands; * sing{dc}{wc}, rejoice{dc}{wc}, and give thanks.'
           '006': Praise the <SC>Lord</SC> upon the harp; * sing to the harp with a psalm of thanksgiving.
-          '007': 'With trumpets also and shawms, * O show yourselves joyful before the <SC>Lord</SC>{dc}, the King.'
-          '008': 'Let the sea make a noise{dc}, and all that therein is; * the round world{dc}, and they that dwell therein.'
+          '007': 'With trumpets also and shawms, * O show yourselves joyful before the <SC>Lord</SC>{dc}{wc}, the King.'
+          '008': 'Let the sea make a noise{dc}{wc}, and all that therein is; * the round world{dc}{wc}, and they that dwell therein.'
           '009': 'Let the floods clap their hands{dc}, and let the hills be joyful together before the <SC>Lord</SC>; * for he is come to judge the earth.'
           '010': 'With righteousness shall he judge the world{dc}, * and the peoples{HN #1} with equity.'
         verse_history_refs:
@@ -3022,12 +3022,12 @@ psalm:
         verse:
           '001': 'THE <SC>Lord</SC> is King{dc}, be the people never so impatient; * he sitteth between the Cherubim{HN #1}{dc}, be the earth never so unquiet.'
           '002': 'The <SC>Lord</SC> is great in Sion{dc}, * and high above all people.'
-          '003': 'They shall give thanks unto thy Name, * which is great, wonderful, and holy.'
+          '003': 'They shall give thanks unto thy Name, * which is great, wonderful{wc}, and holy.'
           '004': "The King's power loveth judgment; thou hast prepared equity, * thou hast executed judgment and righteousness in Jacob."
           '005': 'O magnify the <SC>Lord</SC> our God{dc}, and fall down before his footstool; * for he is holy.'
-          '006': 'Moses and Aaron among his priests<DP ;>{dc}, and Samuel among such as call upon his Name: * these called upon the <SC>Lord</SC>{dc}, and he heard them.'
-          '007': 'He spake unto them out of the cloudy pillar; * for they kept his testimonies{dc}, and the law that he gave them.'
-          '008': 'Thou heardest them{dc}, O <SC>Lord</SC> our God; * thou forgavest them{dc}, O God{dc}, though thou didst punish their wicked doings.{HN v8}'
+          '006': 'Moses and Aaron among his priests<DP ;>{dc}, and Samuel among such as call upon his Name: * these called upon the <SC>Lord</SC>{dc}{wc}, and he heard them.'
+          '007': 'He spake unto them out of the cloudy pillar; * for they kept his testimonies{dc}{wc}, and the law that he gave them.'
+          '008': 'Thou heardest them{dc}{wc}, O <SC>Lord</SC> our God; * thou forgavest them{dc}{wc}, O God{dc}, though thou didst punish their wicked doings.{HN v8}'
           '009': 'O magnify the <SC>Lord</SC> our God{dc}, and worship him upon his holy hill; * for the <SC>Lord</SC> our God is holy.'
         verse_history_refs:
           '#1': 'Cherubims | before 1793'
@@ -3044,8 +3044,8 @@ psalm:
           from_dunstan: ''
         verse:
           '001': 'O BE{HN #1} joyful in the <SC>Lord</SC>{dc}, all ye lands: * serve the <SC>Lord</SC> with gladness{dc}, and come before his presence with a song.'
-          '002': 'Be ye sure that the <SC>Lord</SC> he is God; it is he that hath made us{dc}, and not we ourselves; * we are his people{dc}, and the sheep of his pasture.'
-          '003': 'O go your way into his gates with thanksgiving, and into his courts with praise; * be thankful unto him{dc}, and speak good of his Name.'
+          '002': 'Be ye sure that the <SC>Lord</SC> he is God; it is he that hath made us{dc}{wc}, and not we ourselves; * we are his people{dc}{wc}, and the sheep of his pasture.'
+          '003': 'O go your way into his gates with thanksgiving, and into his courts with praise; * be thankful unto him{dc}{wc}, and speak good of his Name.'
           '004': 'For the <SC>Lord</SC> is gracious, his mercy is everlasting; * and his truth endureth from generation to generation.'
         verse_history_refs:
           '#1': 'O BE ye | 1822-1871'
@@ -3060,7 +3060,7 @@ psalm:
         tone:
           from_dunstan: ''
         verse:
-          '001': 'MY song shall be of mercy and judgment; * unto thee{dc}, O <SC>Lord</SC>{dc}, will I sing.'
+          '001': 'MY song shall be of mercy and judgment; * unto thee{dc}{wc}, O <SC>Lord</SC>{dc}{wc}, will I sing.'
           '002': O let me have understanding * in the way of godliness!
           '003': 'When wilt thou come unto me? * I will walk in my house with a perfect heart.'
           '004': I will take no wicked thing in hand; I hate the sins of unfaithfulness; * there shall no such cleave unto me.
@@ -3085,33 +3085,33 @@ psalm:
         tone:
           from_dunstan: ''
         verse:
-          '001': 'HEAR my prayer{dc}, O <SC>Lord</SC>{dc}, * and let my crying come unto thee.'
-          '002': 'Hide not thy face from me in the time of my trouble; * incline thine ear unto me when I call; O hear me{dc}, and that right soon.'
+          '001': 'HEAR my prayer{dc}{wc}, O <SC>Lord</SC>{dc}, * and let my crying come unto thee.'
+          '002': 'Hide not thy face from me in the time of my trouble; * incline thine ear unto me when I call; O hear me{dc}{wc}, and that right soon.'
           '003': 'For my days are consumed away like smoke, * and my bones are burnt up as it were a firebrand.'
-          '004': 'My heart is smitten down{dc}, and withered like grass; * so that I forget to eat my bread.'
+          '004': 'My heart is smitten down{dc}{wc}, and withered like grass; * so that I forget to eat my bread.'
           '005': 'For the voice of my groaning, * my bones will scarce cleave to my flesh.'
           '006': 'I am become like a pelican in the wilderness, * and like an owl that is in the desert.'
-          '007': 'I have watched{dc}, and am even as it were a sparrow, * that sitteth alone upon the housetop.'
+          '007': 'I have watched{dc}{wc}, and am even as it were a sparrow, * that sitteth alone upon the housetop.'
           '008': Mine enemies revile me all the day long; * and they that are mad upon me are sworn together against me.
           '009': 'For I have eaten ashes as it were bread{dc}, * and mingled my drink with weeping;'
-          '010': 'And that{dc}, because of thine indignation and wrath; * for thou hast taken me up{dc}, and cast me down.'
+          '010': 'And that{dc}, because of thine indignation and wrath; * for thou hast taken me up{dc}{wc}, and cast me down.'
           '011': 'My days are gone like a shadow, * and I am withered like grass.'
-          '012': 'But thou{dc}, O <SC>Lord</SC>{dc}, shalt endure for ever, * and thy remembrance throughout all generations.'
-          '013': 'Thou shalt arise{dc}, and have mercy upon Sion; * for it is time that thou have mercy upon her, yea{dc}, the time is come.'
+          '012': 'But thou{dc}{wc}, O <SC>Lord</SC>{dc}, shalt endure for ever, * and thy remembrance throughout all generations.'
+          '013': 'Thou shalt arise{dc}{wc}, and have mercy upon Sion; * for it is time that thou have mercy upon her, yea{dc}{wc}, the time is come.'
           '014': 'And why? thy servants think upon her stones, * and it pitieth them to see her in the dust.'
-          '015': 'The nations{HN #1} shall fear thy Name{dc}, O <SC>Lord</SC>; * and all the kings of the earth thy majesty;'
+          '015': 'The nations{HN #1} shall fear thy Name{dc}{wc}, O <SC>Lord</SC>; * and all the kings of the earth thy majesty;'
           '016': 'When the <SC>Lord</SC> shall build up Sion, * and when his glory shall appear;'
           '017': 'When he turneth him unto the prayer of the poor destitute, * and despiseth not their desire.'
           '018': 'This shall be written for those that come after, * and the people which shall be born shall praise the <SC>Lord</SC>.'
           '019': For he hath looked down from his sanctuary; * out of the heaven did the <SC>Lord</SC> behold the earth;
           '020': 'That he might hear the mournings{HN #2} of such as are in captivity, * and deliver them that are appointed unto death;'
           '021': 'That they may declare the Name of the <SC>Lord</SC> in Sion, * and his worship at Jerusalem;'
-          '022': 'When the peoples{HN #3} are gathered together{dc}, * and the kingdoms also{dc}, to serve the <SC>Lord</SC>.'
+          '022': 'When the peoples{HN #3} are gathered together{dc}, * and the kingdoms also{dc}{wc}, to serve the <SC>Lord</SC>.'
           '023': 'He brought down my strength in my journey{dc}, * and shortened my days.'
           '024': 'But I said{dc}, O my God{dc}, take me not away in the midst of mine age; * as for thy years{dc}, they endure throughout all generations.'
-          '025': 'Thou{dc}, Lord{dc}, in the beginning hast laid the foundation of the earth, * and the heavens are the work of thy hands.'
-          '026': 'They shall perish{dc}, but thou shalt endure: * they all shall wax old as doth a garment;'
-          '027': 'And as a vesture shalt thou change them{dc}, and they shall be changed; * but thou art the same{dc}, and thy years shall not fail.'
+          '025': 'Thou{dc}{wc}, Lord{dc}, in the beginning hast laid the foundation of the earth, * and the heavens are the work of thy hands.'
+          '026': 'They shall perish{dc}{wc}, but thou shalt endure: * they all shall wax old as doth a garment;'
+          '027': 'And as a vesture shalt thou change them{dc}{wc}, and they shall be changed; * but thou art the same{dc}{wc}, and thy years shall not fail.'
           '028': 'The children of thy servants shall continue, * and their seed shall stand fast in thy sight.'
         verse_history_refs:
           '#1': 'heathen until | 1928'
