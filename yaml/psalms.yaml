@@ -4723,25 +4723,25 @@ psalm:
         tone:
           from_dunstan: ''
         verse:
-          '001': 'I WILL magnify thee{dc}, O God{dc}, my King; * and I will praise thy Name for ever and ever.'
+          '001': 'I WILL magnify thee{dc}{wc}, O God{dc}{wc}, my King; * and I will praise thy Name for ever and ever.'
           '002': Every day will I give thanks unto thee; * and praise thy Name for ever and ever.
           '003': 'Great is the <SC>Lord</SC>{dc}, and marvellous worthy to be praised; * there is no end of his greatness.'
           '004': 'One generation shall praise thy works unto another{dc}, * and declare thy power.'
-          '005': 'As for me{dc}, I will be talking of thy worship, * thy glory, thy praise, and wondrous works;'
+          '005': 'As for me{dc}{wc}, I will be talking of thy worship, * thy glory{wc}, thy praise{wc}, and wondrous works;'
           '006': So that men shall speak of the might of thy marvellous acts; * and I will also tell of thy greatness.
           '007': The memorial of thine abundant kindness shall be showed; * and men shall sing of thy righteousness.
-          '008': 'The <SC>Lord</SC> is gracious and merciful; * long-suffering{dc}, and of great goodness.'
+          '008': 'The <SC>Lord</SC> is gracious and merciful; * long-suffering{dc}{wc}, and of great goodness.'
           '009': The <SC>Lord</SC> is loving unto every man; * and his mercy is over all his works.
-          '010': 'All thy works praise thee{dc}, O <SC>Lord</SC>; * and thy saints give thanks unto thee.'
+          '010': 'All thy works praise thee{dc}{wc}, O <SC>Lord</SC>; * and thy saints give thanks unto thee.'
           '011': 'They show the glory of thy kingdom{dc}, * and talk of thy power;'
-          '012': 'That thy power, thy glory, and mightiness of thy kingdom{dc}, * might be known unto men.'
+          '012': 'That thy power, thy glory{wc}, and mightiness of thy kingdom{dc}, * might be known unto men.'
           '013': 'Thy kingdom is an everlasting kingdom, * and thy dominion endureth throughout all ages.'
           '014': 'The <SC>Lord</SC> upholdeth all such as fall{dc}, * and lifteth up all those that are down.'
-          '015': 'The eyes of all wait upon thee{dc}, O Lord; * and thou givest them their meat in due season.'
+          '015': 'The eyes of all wait upon thee{dc}{wc}, O Lord; * and thou givest them their meat in due season.'
           '016': 'Thou openest thine hand{dc}, * and fillest all things living with plenteousness.'
           '017': 'The <SC>Lord</SC> is righteous in all his ways{dc}, * and holy in all his works.'
-          '018': 'The <SC>Lord</SC> is nigh unto all them that call upon him; * yea{dc}, all such as call upon him faithfully.'
-          '019': 'He will fulfil the desire of them that fear him; * he also will hear their cry{dc}, and will help them.'
+          '018': 'The <SC>Lord</SC> is nigh unto all them that call upon him; * yea{dc}{wc}, all such as call upon him faithfully.'
+          '019': 'He will fulfil the desire of them that fear him; * he also will hear their cry{dc}{wc}, and will help them.'
           '020': The <SC>Lord</SC> preserveth all them that love him; * but scattereth abroad all the ungodly.
           '021': My mouth shall speak the praise of the <SC>Lord</SC>; * and let all flesh give thanks unto his holy Name for ever and ever.
         verse_history_refs: {}
@@ -4756,7 +4756,7 @@ psalm:
         tone:
           from_dunstan: ''
         verse:
-          '001': 'PRAISE the <SC>Lord</SC>{dc}, O my soul<DS @>:</DS> while I live{dc}, will I praise the <SC>Lord</SC>; * yea{dc}, as long as I have any being{dc}, I will sing praises unto my God.'
+          '001': 'PRAISE the <SC>Lord</SC>{dc}, O my soul<DS @>:</DS> while I live{dc}{wc}, will I praise the <SC>Lord</SC>; * yea{dc}{wc}, as long as I have any being{dc}, I will sing praises unto my God.'
           '002': 'O put not your trust in princes{dc}, nor in any child of man; * for there is no help in them.'
           '003': 'For when the breath of man goeth forth{dc}, he shall turn again to his earth, * and then all his thoughts perish.'
           '004': 'Blessed is he that hath the God of Jacob for his help, * and whose hope is in the <SC>Lord</SC> his God:'
@@ -4765,7 +4765,7 @@ psalm:
           '007': The <SC>Lord</SC> looseth men out of prison; * the <SC>Lord</SC> giveth sight to the blind.
           '008': The <SC>Lord</SC> helpeth them that are fallen; * the <SC>Lord</SC> careth for the righteous.
           '009': 'The <SC>Lord</SC> careth for the strangers; he defendeth the fatherless and widow: * as for the way of the ungodly{dc}, he turneth it upside down.'
-          '010': 'The <SC>Lord</SC> thy God{dc}, O Sion{dc}, shall be King for evermore{dc}, * and throughout all generations.'
+          '010': 'The <SC>Lord</SC> thy God{dc}{wc}, O Sion{dc}{wc}, shall be King for evermore{dc}{wc}, * and throughout all generations.'
         verse_history_refs: {}
         verse_meta:
           '001':
@@ -4778,11 +4778,11 @@ psalm:
         tone:
           from_dunstan: ''
         verse:
-          '001': 'O PRAISE the <SC>Lord</SC>{dc}, for it is a good thing to sing praises unto our God; * yea{dc}, a joyful and pleasant thing it is to be thankful.'
+          '001': 'O PRAISE the <SC>Lord</SC>{dc}, for it is a good thing to sing praises unto our God; * yea{dc}{wc}, a joyful and pleasant thing it is to be thankful.'
           '002': 'The <SC>Lord</SC> doth build up Jerusalem{dc}, * and gather together the outcasts of Israel.'
           '003': 'He healeth those that are broken in heart{dc}, * and giveth medicine to heal their sickness.'
           '004': 'He telleth the number of the stars{dc}, * and calleth them all by their names.'
-          '005': 'Great is our Lord{dc}, and great is his power; * yea{dc}, and his wisdom is infinite.'
+          '005': 'Great is our Lord{dc}{wc}, and great is his power; * yea{dc}{wc}, and his wisdom is infinite.'
           '006': 'The <SC>Lord</SC> setteth up the meek{dc}, * and bringeth the ungodly down to the ground.'
           '007': 'O sing unto the <SC>Lord</SC> with thanksgiving; * sing praises upon the harp unto our God:'
           '008': 'Who covereth the heaven with clouds, and prepareth rain for the earth; * and maketh the grass to grow upon the mountains{dc}, and herb for the use of men;'
@@ -4795,7 +4795,7 @@ psalm:
           '015': 'He sendeth forth his commandment upon earth, * and his word runneth very swiftly.'
           '016': 'He giveth snow like wool{dc}, * and scattereth the hoarfrost like ashes.'
           '017': 'He casteth forth his ice like morsels: * who is able to abide his frost?'
-          '018': 'He sendeth out his word{dc}, and melteth them: * he bloweth with his wind{dc}, and the waters flow.'
+          '018': 'He sendeth out his word{dc}{wc}, and melteth them: * he bloweth with his wind{dc}{wc}, and the waters flow.'
           '019': 'He showeth his word unto Jacob, * his statutes and ordinances unto Israel.'
           '020': He hath not dealt so with any nation; * neither have the heathen knowledge of his laws.
         verse_history_refs: {}
@@ -4811,16 +4811,16 @@ psalm:
           from_dunstan: ''
         verse:
           '001': 'O PRAISE the <SC>Lord</SC> from the heavens: * praise him in the heights.{HN v1}'
-          '002': 'Praise him{dc}, all ye angels of his: * praise him{dc}, all his host{HN #1}.'
-          '003': 'Praise him{dc}, sun and moon: * praise him{dc}, all ye stars and light.'
-          '004': 'Praise him{dc}, all ye heavens, * and ye waters that are above the heavens.'
-          '005': 'Let them praise the Name of the <SC>Lord</SC>: * for he spake the word{dc}, and they were made<DS @>;</DS> he commanded{dc}, and they were created.'
+          '002': 'Praise him{dc}{wc}, all ye angels of his: * praise him{dc}{wc}, all his host{HN #1}.'
+          '003': 'Praise him{dc}{wc}, sun and moon: * praise him{dc}{wc}, all ye stars and light.'
+          '004': 'Praise him{dc}{wc}, all ye heavens, * and ye waters that are above the heavens.'
+          '005': 'Let them praise the Name of the <SC>Lord</SC>: * for he spake the word{dc}{wc}, and they were made<DS @>;</DS> he commanded{dc}{wc}, and they were created.'
           '006': 'He hath made them fast for ever and ever: * he hath given them a law which shall not be broken.'
           '007': 'Praise the <SC>Lord</SC> from the earth{dc},{HN v7} * ye dragons and all deeps;'
-          '008': 'Fire and hail, snow and vapours, * wind and storm{dc}, fulfilling his word;'
+          '008': 'Fire and hail{wc}, snow and vapours, * wind and storm{dc}{wc}, fulfilling his word;'
           '009': Mountains and all hills; * fruitful trees and all cedars;
           '010': Beasts and all cattle; * creeping things and flying fowls{HN v10};
-          '011': 'Kings of the earth{dc}, and all peoples{HN #2}; * princes{dc}, and all judges of the world;'
+          '011': 'Kings of the earth{dc}{wc}, and all peoples{HN #2}; * princes{dc}{wc}, and all judges of the world;'
           '012': 'Young men and maidens{dc}, old men and children, praise the Name of the <SC>Lord</SC>: * for his Name only is excellent{dc}, and his praise above heaven and earth.'
           '013': 'He shall exalt the horn of his people: all his saints shall praise him; * even the children of Israel{dc}, even the people that serveth him.'
         verse_history_refs: 
