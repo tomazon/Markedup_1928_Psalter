@@ -1806,7 +1806,7 @@ psalm:
         verse:
           '001': MY soul truly waiteth still upon God; * for of him cometh my salvation.
           '002': 'He verily is my strength and my salvation; * he is my defence{dc}, so that I shall not greatly fall.'
-          '003': 'How long will ye imagine mischief against every man? * Ye shall be slain all the sort of you; yea{wc}, as a tottering wall shall ye be{dc}{wc}, and like a broken hedge.'
+          '003': 'How long will ye imagine mischief against every man? * Ye shall be slain all the sort of you<DS @>;</DS> yea{wc}, as a tottering wall shall ye be{dc}{wc}, and like a broken hedge.'
           '004': 'Their device is only how to put him out whom God will exalt; * their delight is in lies; they give good words with their mouth{dc}{wc}, but curse with their heart.'
           '005': 'Nevertheless{dc}{wc}, my soul{dc}, wait thou still upon God; * for my hope is in him.'
           '006': 'He truly is my strength and my salvation; * he is my defence{dc}{wc}, so that I shall not fall.'
@@ -2162,7 +2162,7 @@ psalm:
           from_dunstan: ''
         verse:
           '001': 'TRULY God is loving unto Israel: * even unto such as are of a clean heart.'
-          '002': 'Nevertheless{dc}{wc}, my feet were almost gone{wc}, * my treadings had well-nigh slipt.'
+          '002': 'Nevertheless{dc}{wc}, my feet were almost gone, * my treadings had well-nigh slipt.'
           '003': 'And why? I was grieved at the wicked: * I do also see the ungodly in such prosperity.'
           '004': For they are in no peril of death; * but are lusty and strong.
           '005': They come in no misfortune like other folk; * neither are they plagued like other men.
@@ -2178,7 +2178,7 @@ psalm:
           '015': 'Yea{dc}{wc}, and I had almost said even as they; * but lo{dc}, then I should have condemned the generation of thy children.'
           '016': 'Then thought I to understand this; * but it was too hard for me,'
           '017': 'Until I went into the sanctuary of God: * then understood I the end of these men;'
-          '018': 'Namely{dc}{wc}, how thou dost set them in slippery places{wc}, * and castest them down{dc}{wc}, and destroyest them.'
+          '018': 'Namely{dc}{wc}, how thou dost set them in slippery places, * and castest them down{dc}{wc}, and destroyest them.'
           '019': 'O how suddenly do they consume, * perish{dc}{wc}, and come to a fearful end!'
           '020': 'Yea{dc}, even like as a dream when one awaketh; * so shalt thou make their image to vanish out of the city.'
           '021': 'Thus my heart was grieved, * and it went even through my reins.'
@@ -3163,7 +3163,7 @@ psalm:
         tone:
           from_dunstan: ''
         verse:
-          '001': 'PRAISE the <SC>Lord</SC>{dc}{wc} O my soul: * O <SC>Lord</SC> my God{dc}, thou art become exceeding glorious; thou art clothed with majesty and honour.'
+          '001': 'PRAISE the <SC>Lord</SC>{dc}{wc}, O my soul: * O <SC>Lord</SC> my God{dc}, thou art become exceeding glorious; thou art clothed with majesty and honour.'
           '002': 'Thou deckest thyself with light as it were with a garment{dc}, * and spreadest out the heavens like a curtain.'
           '003': 'Who layeth the beams of his chambers in the waters{dc}, * and maketh the clouds his chariot{dc}, and walketh upon the wings of the wind.'
           '004': 'He maketh his angels winds{dc}, * and his ministers a flaming fire.'
@@ -3677,7 +3677,7 @@ psalm:
           '025': 'Help me now{dc}{wc}, O <SC>Lord</SC>: * O <SC>Lord</SC>{dc}, send us now prosperity.'
           '026': 'Blessed be he that cometh in the Name of the <SC>Lord</SC>: * we have wished you good luck{dc}, we{HN #1} that are of the house of the <SC>Lord</SC>.'
           '027': 'God is the <SC>Lord</SC>{dc}{wc}, who hath showed us light: * bind the sacrifice with cords{dc}, yea{dc}{wc}, even unto the horns of the altar.'
-          '028': 'Thou art my God{dc}{wc} and I will thank thee; * thou art my God{dc}{wc}, and I will praise thee.'
+          '028': 'Thou art my God{dc}{wc}, and I will thank thee; * thou art my God{dc}{wc}, and I will praise thee.'
           '029': 'O give thanks unto the <SC>Lord</SC>; for he is gracious{dc}, * and his mercy endureth for ever.'
         verse_history_refs: 
           '#1': 'ye | until 1928'
@@ -4335,7 +4335,7 @@ psalm:
         tone:
           from_dunstan: ''
         verse:
-          '001': 'OUT of the deep have I called unto thee{dc}{wc}, O <SC>Lord</SC>; * Lord{wc}, hear my voice.'
+          '001': 'OUT of the deep have I called unto thee{dc}{wc}, O <SC>Lord</SC>; * Lord{dc}{wc}, hear my voice.'
           '002': O let thine ears consider well * the voice of my complaint.
           '003': 'If thou{dc}{wc}, <SC>Lord</SC>{dc}{wc}, wilt be extreme to mark what is done amiss{dc}, * O Lord{dc}, who may abide it?'
           '004': For there is mercy with thee; * therefore shalt thou be feared.
