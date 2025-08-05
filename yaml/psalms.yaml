@@ -3215,46 +3215,46 @@ psalm:
         tone:
           from_dunstan: ''
         verse:
-          '001': 'O GIVE thanks unto the <SC>Lord</SC>{dc}, and call upon his Name; * tell the people what things he hath done.'
-          '002': 'O let your songs be of him{dc}, and praise him; * and let your talking be of all his wondrous works.'
+          '001': 'O GIVE thanks unto the <SC>Lord</SC>{dc}{wc}, and call upon his Name; * tell the people what things he hath done.'
+          '002': 'O let your songs be of him{dc}{wc}, and praise him; * and let your talking be of all his wondrous works.'
           '003': Rejoice in his holy Name; * let the heart of them rejoice that seek the <SC>Lord</SC>.
           '004': Seek the <SC>Lord</SC> and his strength; * seek his face evermore.
-          '005': 'Remember the marvellous works that he hath done; * his wonders{dc}, and the judgments of his mouth;'
+          '005': 'Remember the marvellous works that he hath done; * his wonders{dc}{wc}, and the judgments of his mouth;'
           '006': 'O ye seed of Abraham his servant, * ye children of Jacob his chosen.'
           '007': He is the <SC>Lord</SC> our God; * his judgments are in all the world.
           '008': 'He hath been alway mindful of his covenant and promise{dc}, * that he made to a thousand generations;'
           '009': Even the covenant that he made with Abraham; * and the oath that he sware unto Isaac;
-          '010': 'And appointed the same unto Jacob for a law{dc}, * and to Israel for an everlasting testament;'
+          '010': 'And appointed the same unto Jacob for a law{dc}{wc}, * and to Israel for an everlasting testament;'
           '011': 'Saying{dc}, Unto thee will I give the land of Canaan, * the lot of your inheritance:'
           '012': 'When there were yet but a few of them{dc}, * and they strangers in the land;'
           '013': 'What time as they went from one nation to another{dc}, * from one kingdom to another people;'
           '014': 'He suffered no man to do them wrong{dc}, * but reproved even kings for their sakes;'
           '015': 'Touch not mine anointed, * and do my prophets no harm.'
-          '016': 'Moreover{dc}, he called for a dearth upon the land{dc}, * and destroyed all the provision of bread.'
-          '017': 'But he had sent a man before them, * even Joseph{dc}, who was sold to be a bond-servant;'
+          '016': 'Moreover{dc}{wc}, he called for a dearth upon the land{dc}, * and destroyed all the provision of bread.'
+          '017': 'But he had sent a man before them, * even Joseph{dc}{wc}, who was sold to be a bond-servant;'
           '018': Whose feet they hurt in the stocks; * the iron entered into his soul;
           '019': 'Until the time came that his cause was known: * the word of the <SC>Lord</SC> tried him.'
-          '020': 'The king sent{dc}, and delivered him; * the prince of the people let him go free.'
+          '020': 'The king sent{dc}{wc}, and delivered him; * the prince of the people let him go free.'
           '021': 'He made him lord also of his house{dc}, * and ruler of all his substance;'
           '022': 'That he might inform his princes after his will{dc}, * and teach his senators wisdom. &nbsp;<br>'
           '023': 'Israel also came into Egypt, * and Jacob was a stranger in the land of Ham.'
           '024': 'And he increased his people exceedingly{dc}, * and made them stronger than their enemies;'
-          '025': 'Whose heart turned so{dc}, that they hated his people{dc}, * and dealt untruly with his servants.'
+          '025': 'Whose heart turned so{dc}{wc}, that they hated his people{dc}, * and dealt untruly with his servants.'
           '026': 'Then sent he Moses his servant{dc}, * and Aaron whom he had chosen.'
           '027': 'And these showed his tokens among them{dc}, * and wonders in the land of Ham.'
-          '028': 'He sent darkness{dc}, and it was dark; * and they were not obedient unto his word.'
+          '028': 'He sent darkness{dc}{wc}, and it was dark; * and they were not obedient unto his word.'
           '029': 'He turned their waters into blood{dc}, * and slew their fish.'
-          '030': "Their land brought forth frogs; * yea{dc}, even in their kings' chambers."
-          '031': 'He spake the word{dc}, and there came all manner of flies{dc}, * and lice in all their quarters.'
+          '030': "Their land brought forth frogs; * yea{dc}{wc}, even in their kings' chambers."
+          '031': 'He spake the word{dc}{wc}, and there came all manner of flies{dc}, * and lice in all their quarters.'
           '032': He gave them hailstones for rain; * and flames of fire in their land.
           '033': He smote their vines also and fig-trees; * and destroyed the trees that were in their coasts.
-          '034': 'He spake the word{dc}, and the grasshoppers came{dc}, and caterpillars innumerable{dc}, * and did eat up all the grass in their land{dc}, and devoured the fruit of their ground.'
+          '034': 'He spake the word{dc}{wc}, and the grasshoppers came{dc}, and caterpillars innumerable{dc}, * and did eat up all the grass in their land{dc}, and devoured the fruit of their ground.'
           '035': He smote all the firstborn in their land; * even the chief of all their strength.
           '036': He brought them forth also with silver and gold; * there was not one feeble person among their tribes.
           '037': Egypt was glad at their departing; * for they were afraid of them.
           '038': 'He spread out a cloud to be a covering{dc}, * and fire to give light in the night season.'
           '039': At their desire he brought quails; * and he filled them with the bread of heaven.
-          '040': 'He opened the rock of stone{dc}, and the waters flowed out{dc}, * so that rivers ran in the dry places.'
+          '040': 'He opened the rock of stone{dc}{wc}, and the waters flowed out{dc}, * so that rivers ran in the dry places.'
           '041': 'For why? he remembered his holy promise; * and Abraham his servant.'
           '042': 'And he brought forth his people with joy{dc}, * and his chosen with gladness;'
           '043': And gave them the lands of the heathen; * and they took the labours of the people in possession;
