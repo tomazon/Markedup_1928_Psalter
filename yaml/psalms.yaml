@@ -770,16 +770,16 @@ psalm:
         tone:
           from_dunstan: ''
         verse:
-          '001': 'UNTO thee will I cry, O <SC>Lord</SC>, my strength: * think no scorn of me; lest, if thou make as though thou hearest not{wc}, I become like them that go down into the pit.'
-          '002': 'Hear the voice of my humble petitions, when I cry unto thee; * when I hold up my hands towards the mercy-seat of thy holy temple.'
-          '003': 'O pluck me not away{wc}, neither destroy me with the ungodly and wicked doers{wc}, * which speak friendly to their neighbours{wc}, but imagine mischief in their hearts.'
-          '004': 'Reward them according to their deeds{wc}, * and according to the wickedness of their own inventions.'
-          '005': Recompense them after the work of their hands; * pay them that they have deserved.
-          '006': 'For they regard not in their mind the works of the <SC>Lord</SC>{dc}{wc}, nor the operation of his hands; * therefore shall he break them down, and not build them up.'
-          '007': Praised be the <SC>Lord</SC>; * for he hath heard the voice of my humble petitions.
-          '008': 'The <SC>Lord</SC> is my strength, and my shield<DS {dc}>;</DS> my heart hath trusted in him, and I am helped; * therefore my heart danceth for joy{wc}, and in my song will I praise him.'
-          '009': 'The <SC>Lord</SC> is my strength{wc}, * and he is the wholesome defence of his anointed.'
-          '010': 'O save thy people, and give thy blessing unto thine inheritance: * feed them, and set them up for ever.'
+          '001': 'UNTO thee will I cry, O + <SC>Lord</SC>, my strength: * think no scorn of me; lest, if thou make as though thou hearest not{wc}, I become like them that + go down into the pit.'
+          '002': 'Hear the voice of my humble petitions, when I cry + unto thee; * when I hold up my hands towards the mercy-seat of + thy holy temple.'
+          '003': 'O pluck me not away{wc}, neither destroy me with the ungodly and wicked + doers{wc}, * which speak friendly to their neighbours{wc}, but ima+gine mischief in their hearts.'
+          '004': 'Reward them according + to their deeds{wc}, * and according to the wickedness of + their own inventions.'
+          '005': Recompense them after the work + of their hands; * pay them that + they have deserv=ed.
+          '006': 'For they regard not in their mind the works of the <SC>L_ord</SC>{dc}{wc}, {df} nor the operation + of his hands; * therefore shall he break them + down, and not build them up.'
+          '007': Prai=sed + be the <SC>Lord</SC>; * for he hath heard the voice of my + humble petitions.
+          '008': 'The <SC>Lord</SC> is my strength, and my shield<DS {dc}>;</DS> my heart hath trusted in him, and + I am help=ed; * therefore my heart danceth for joy{wc}, and in my + song will I praise him.'
+          '009': 'The <SC>Lord</SC> + is my strength{wc}, * and he is the wholesome defence + of his anointed.'
+          '010': 'O save thy people, and give thy blessing unto + thine inheritance: * feed them, and set + them up for ever.'
         verse_history_refs: {}
         verse_meta:
           '001':
@@ -792,16 +792,16 @@ psalm:
         tone:
           from_dunstan: ''
         verse:
-          '001': 'ASCRIBE unto the <SC>Lord</SC>, O ye mighty{dc}{wc}, * ascribe unto the <SC>Lord</SC> worship and strength.{HN v1}'
-          '002': 'Ascribe unto the <SC>Lord</SC> the honour due unto his Name; * worship the <SC>Lord</SC> with holy worship.{HN v2}'
-          '003': 'The voice of the <SC>Lord</SC> is upon the waters; * it is the glorious God that maketh the thunder.{HN v3}'
-          '004': It is the <SC>Lord</SC> that ruleth the sea; the voice of the <SC>Lord</SC> is mighty in operation; * the voice of the <SC>Lord</SC> is a glorious voice.
-          '005': 'The voice of the <SC>Lord</SC> breaketh the cedar-trees; * yea, the <SC>Lord</SC> breaketh the cedars of Lebanon{HN #1}.'
-          '006': 'He maketh them also to skip like a calf; * Lebanon{HN x1} also, and Sirion, like a young unicorn.'
-          '007': 'The voice of the <SC>Lord</SC> divideth the flames of fire; the voice of the <SC>Lord</SC> shaketh the wilderness; * yea, the <SC>Lord</SC> shaketh the wilderness of Kadesh{HN #2}.'
-          '008': 'The voice of the <SC>Lord</SC> maketh the hinds to bring forth young{dc}{wc}, and strippeth bare the forests: * in his temple{HN v8} doth every thing speak of his honour.'
-          '009': 'The <SC>Lord</SC> sitteth above the water-flood{wc}, * and the <SC>Lord</SC> remaineth a King for ever.'
-          '010': The <SC>Lord</SC> shall give strength unto his people; * the <SC>Lord</SC> shall give his people the blessing of peace.
+          '001': '<DS BRING>ASCRIBE</DS> unto the <SC>Lord</SC>, O ye migh^^ty{dc}{wc}, <DP {df} bring young rams unto + the Lord:> ??? * ascribe unto the <SC>Lord</SC> + worship and strength.{HN v1}'
+          '002': 'Ascribe unto the <SC>Lord</SC> the honour due unto his + Name; * worship the <SC>Lord</SC> with + holy worship.{HN v2}'
+          '003': 'The voice of the <SC>Lord</SC> is upon the + waters; * it is the glorious God that mak+eth the thunder.{HN v3}'
+          '004': It is the <SC>Lord</SC> that ruleth the sea; the voice of the <SC>Lord</SC> is mighty in oper+ation; * the voice of the <SC>Lord</SC> + is a glorious voice.
+          '005': 'The voice of the <SC>Lord</SC> breaketh the + cedar-trees; * yea, the <SC>Lord</SC> breaketh the ce+dars of Lebanon{HN #1}.'
+          '006': 'He maketh them also to skip like a + calf; * Lebanon{HN x1} also, and Sirion, like + a young unicorn.'
+          '007': 'The voice of the <SC>Lord</SC> divideth the flames of f__ire; {df} the voice of the <SC>Lord</SC> shaketh the + wilderness; * yea, the <SC>Lord</SC> shaketh the wilder+ness of Kadesh{HN #2}.'
+          '008': 'The voice of the <SC>Lord</SC> maketh the hinds to bring forth y__oung{dc}{wc}, {df} and strippeth bare the + forests: * in his temple{HN v8} doth every thing speak + of his honour.'
+          '009': 'The <SC>Lord</SC> sitteth above the + water-flood{wc}, * and the <SC>Lord</SC> remaineth a + King for ever.'
+          '010': The <SC>Lord</SC> shall give strength unto his + people; * the <SC>Lord</SC> shall give his people the + blessing of peace.
         verse_history_refs:
           '#1': Libanus | until 1928
           '#2': Cades until | 1928
@@ -821,19 +821,19 @@ psalm:
         tone:
           from_dunstan: ''
         verse:
-          '001': 'I WILL magnify thee, O <SC>Lord</SC>; for thou hast set me up{wc}, * and not made my foes to triumph over me.'
-          '002': 'O <SC>Lord</SC> my God, I cried unto thee; * and thou hast healed me.'
-          '003': 'Thou, <SC>Lord</SC>, hast brought my soul out of hell: * thou hast kept my life, that I should not go down into the pit.{HN v3}'
-          '004': 'Sing praises unto the <SC>Lord</SC>, O ye saints of his; * and give thanks unto him, for a remembrance of his holiness.'
-          '005': 'For his wrath endureth but the twinkling of an eye{wc}, and in his pleasure is life; * heaviness may endure for a night{wc}, but joy cometh in the morning.'
-          '006': 'And in my prosperity I said{wc}, I shall never be removed: * thou, <SC>Lord</SC>, of thy goodness, hast made my hill so strong.'
-          '007': 'Thou didst turn thy face from me{dc}{wc}, * and I was troubled.'
-          '008': 'Then cried I unto thee, O <SC>Lord</SC>; * and gat me to my <SC>Lord</SC> right humbly.'
-          '009': 'What profit is there in my blood{wc}, * when I go down into the pit?'
-          '010': 'Shall the dust give thanks unto thee? * or shall it declare thy truth?'
-          '011': 'Hear, O <SC>Lord</SC>, and have mercy upon me; * <SC>Lord</SC>, be thou my helper.'
-          '012': 'Thou hast turned my heaviness into joy; * thou hast put off my sackcloth, and girded me with gladness:'
-          '013': 'Therefore shall every good man sing of thy praise without ceasing<DS {dc}>.<DS> * O my God, I will give thanks unto thee for ever.'
+          '001': 'I WILL magnify thee, O <SC>Lord</SC>; for + thou hast set me up{wc}, * and not made my foes to + triumph over me.'
+          '002': 'O <SC>Lord</SC> my God, I + cri=ed unto thee; * and + thou hast heal=ed me.'
+          '003': 'Thou, <SC>Lord</SC>, hast brought my + soul out of hell: * thou hast kept my life, <DS from them that + go down to> that I should not ??? go down into</DS> the pit.{HN v3}'
+          '004': 'Sing praises unto the <SC>Lord</SC>, + O ye saints of his; * and give thanks unto him, for a remembrance + of his holiness.'
+          '005': 'For his wrath endureth but the twinkling of an eye{wc}, and in his + pleasure is life; * heaviness may endure for a night{wc}, but joy + cometh in the morning.'
+          '006': 'And in my prosperity I said{wc}, I shall never + be remov=ed: * thou, <SC>Lord</SC>, of thy goodness, hast + made my hill so strong.'
+          '007': 'Thou didst + turn thy face from me{dc}{wc}, * and + I was trou=bl=ed.'
+          '008': 'Then cri=ed I + unto thee, O <SC>Lord</SC>; * and gat me to my + <SC>Lord</SC> right humbly.'
+          '009': 'What profit + is there in my blood{wc}, * when I go + down into the pit?'
+          '010': 'Shall the dust give + thanks unto thee? * or shall + it declare thy truth?'
+          '011': 'Hear, O <SC>Lord</SC>, and have + mercy upon me; * <SC>Lord</SC>, be + thou my helper.'
+          '012': 'Thou hast turn=ed my + heaviness into joy; * thou hast put off my sackcloth, and girded + me with gladness:'
+          '013': 'Therefore shall every good man sing of thy + praise without ceasing<DS {dc}>.<DS> * O my God, I will give thanks unto + thee for ever.'
         verse_history_refs:
           v3: ... my life from them that go down into the pit. | until 1928
         verse_meta:
