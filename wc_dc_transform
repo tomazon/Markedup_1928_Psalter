@@ -25,6 +25,8 @@ my %ansi = (
 
 
 my $data = YAML::LoadFile('./yaml/psalms.yaml');
+my $log_file = "./wc_dc_transform.log";
+open (my $log_fh, ">$log_file") || die "Can't open $log_file for writing: $!\n";
 
 for my $psalm_num (sort keys %{$data->{psalm}}) {
     my $psalm = $data->{psalm}->{$psalm_num};
@@ -33,7 +35,7 @@ for my $psalm_num (sort keys %{$data->{psalm}}) {
         for my $verse_num (sort keys %{$part->{verse}}) {
             my $verse = $part->{verse}->{$verse_num};
             next unless $verse =~ /,/;
-            say join(' | ', $psalm_num, $part_num, $verse_num);
+            log_it($log_fh, join(' | ', $psalm_num, $part_num, $verse_num));
             my $new = transform_verse($verse);
             my $diff = String::Diff::diff($verse, $new,
                 remove_open =>  "$ansi{red}",
@@ -41,8 +43,8 @@ for my $psalm_num (sort keys %{$data->{psalm}}) {
                 append_open =>  "$ansi{green}",
                 append_close => "$ansi{reset}",
             );
-            say '     - ' . $diff->[0];
-            say '     + ' . $diff->[1];
+            log_it($log_fh, "     -  $diff->[0]");
+            log_it($log_fh, "     +  $diff->[1]");
             store_verse($data, $psalm_num, $part_num, $verse_num, $new);
         }
     }
@@ -53,6 +55,12 @@ say YAML::DumpFile('/tmp/psalms_transformed.yaml', $data);
 
 ####################################################################################################
 
+sub log_it {
+    my ($log_fh, $text) = @_;
+    print $log_fh "$text\n" || die "Error writing to $log_fh\n";
+    print STDERR  "$text\n";
+}
+
 sub transform_verse {
     my ($text) = @_;
 
@@ -62,9 +70,9 @@ sub transform_verse {
     $text =~ s/,/[C:S]/g;
 
     $text =~ s/\[C:D:W:S\]/,/g;
-    $text =~ s/\[C:D:S\]/{WC},/g;
-    $text =~ s/\[C:W:S\]/{DC},/g;
-    $text =~ s/\[C:S\]/{DC}{WC},/g;
+    $text =~ s/\[C:D:S\]/{wc},/g;
+    $text =~ s/\[C:W:S\]/{dc},/g;
+    $text =~ s/\[C:S\]/{dc}{wc},/g;
 
     $text;
 }
