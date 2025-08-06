@@ -35,7 +35,7 @@ for my $psalm_num (sort keys %{$data->{psalm}}) {
         for my $verse_num (sort keys %{$part->{verse}}) {
             my $verse = $part->{verse}->{$verse_num};
             next unless $verse =~ /,/;
-            log_it($log_fh, join(' | ', $psalm_num, $part_num, $verse_num));
+            log_it($log_fh, join(':', $psalm_num, $verse_num));
             my $new = transform_verse($verse);
             my $diff = String::Diff::diff($verse, $new,
                 remove_open =>  "$ansi{red}",
