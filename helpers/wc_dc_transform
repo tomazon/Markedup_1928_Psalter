@@ -54,6 +54,8 @@ for my $psalm_num (sort keys %{$data->{psalm}}) {
 
 }
 
+$YAML::QuoteNumericStrings = 1;
+$YAML::Stringify = 1;
 say YAML::DumpFile($out_file, $data);
 
 ####################################################################################################
@@ -82,5 +84,5 @@ sub transform_verse {
 
 sub store_verse {
     my ($data, $psalm_num, $part_num, $verse_num, $text) = @_;
-    $data->{psalm}->{$psalm_num}->{part}->{$part_num}->{verse}->{$verse_num} = $text;
+    $data->{psalm}->{"$psalm_num"}->{part}->{"$part_num"}->{verse}->{"$verse_num"} = "$text";
 }
