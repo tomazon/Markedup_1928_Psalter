@@ -1,0 +1,75 @@
+#! env perl
+
+use strict;
+use warnings;
+
+use File::Slurp;
+use String::Diff qw( diff );
+use YAML;
+
+use feature 'say';
+
+
+my %ansi = (
+    red          => "\e[0;31m",
+    green        => "\e[0;32m",
+    yellow       => "\e[0;33m",
+    blue         => "\e[0;34m",
+    bright_red   => "\e[1;31m",
+    bright_green => "\e[1;32m",
+    on_red       => "\e[1;41m",
+    on_green     => "\e[1;42m",
+    on_yellow    => "\e[1;43m",
+    reset        => "\e[0m",
+);
+
+
+my $data = YAML::LoadFile('./yaml/psalms.yaml');
+
+for my $psalm_num (sort keys %{$data->{psalm}}) {
+    my $psalm = $data->{psalm}->{$psalm_num};
+    for my $part_num (sort keys %{$psalm->{part}}) {
+        my $part = $psalm->{part}->{$part_num};
+        for my $verse_num (sort keys %{$part->{verse}}) {
+            my $verse = $part->{verse}->{$verse_num};
+            next unless $verse =~ /,/;
+            say join(' | ', $psalm_num, $part_num, $verse_num);
+            my $new = transform_verse($verse);
+            my $diff = String::Diff::diff($verse, $new,
+                remove_open =>  "$ansi{red}",
+                remove_close => "$ansi{reset}",
+                append_open =>  "$ansi{green}",
+                append_close => "$ansi{reset}",
+            );
+            say '     - ' . $diff->[0];
+            say '     + ' . $diff->[1];
+            store_verse($data, $psalm_num, $part_num, $verse_num, $new);
+        }
+    }
+
+}
+
+say YAML::DumpFile('/tmp/psalms_transformed.yaml', $data);
+
+####################################################################################################
+
+sub transform_verse {
+    my ($text) = @_;
+
+    $text =~ s/\{dc}\{wc},/[C:D:W:S]/g;
+    $text =~ s/{dc},/[C:D:S]/g;
+    $text =~ s/{wc},/[C:W:S]/g;
+    $text =~ s/,/[C:S]/g;
+
+    $text =~ s/\[C:D:W:S\]/,/g;
+    $text =~ s/\[C:D:S\]/{WC},/g;
+    $text =~ s/\[C:W:S\]/{DC},/g;
+    $text =~ s/\[C:S\]/{DC}{WC},/g;
+
+    $text;
+}
+
+sub store_verse {
+    my ($data, $psalm_num, $part_num, $verse_num, $text) = @_;
+    $data->{psalm}->{$psalm_num}->{part}->{$part_num}->{verse}->{$verse_num} = $text;
+}

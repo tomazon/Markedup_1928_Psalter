@@ -23,6 +23,9 @@ for my $line (@lines) {
     say "$line_no | no {dc}   | $line" if $line =~ /[^d][^c][^}]\{wc\}/;
     say "$line_no | no , or } | $line" if $line =~ /\{dc\}[^,{]/;
     say "$line_no | yea{}     | $line" if $line =~ /yea\[/i;
+    say "$line_no | {,}       | $line" if $line =~ /\{[^}]*\,[^]]*}/i;
+    say "$line_no | <,>       | $line" if $line =~ /<[^>]*\,[^>]*>/i;
+    #say "$line_no | <@>       | $line" if $line =~ /<[^>]*\@[^>]*>/i;
     #say "$line_no | <DS>      | $line" if $line =~ /DS/;
     #say "$line_no | <__>      | $line" if $line =~ m{</*[^DS]};
     #say "$line_no | <__>      | $line" if $line =~ /<\/?[^DS][^SCA][^\s>]/;
@@ -32,6 +35,9 @@ for my $line (@lines) {
     show_invalid_angle_tags($line);
     show_invalid_curly_tags($line);
 }
+
+say "Checking for YAML errors...\n";
+YAML::Load(join("\n", @lines));
 
 sub show_invalid_angle_tags {
     my ($line) = @_;
@@ -50,7 +56,7 @@ sub show_invalid_curly_tags {
     my $tmp = $line;
 
     $tmp =~ s/\{HN [v#x][\d\.]+\}/%%%/g;
-    for my $tag (qw( d\. dc d- wc wp df dv d_ d- )) {
+    for my $tag (qw( d\. dc d- wc wp df dv d_ d- \. dx - )) {
         $tmp =~ s/\{$tag\}/%%%/g;
     }
     say "$line_no | {__}     | $tmp" if $tmp =~ /{/ || $tmp =~ /}/;

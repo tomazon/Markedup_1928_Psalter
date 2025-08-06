@@ -228,3 +228,4 @@ by the provisions of the Apostolic Constitution Anglicanorum cœtibus.
 * Dunstan 14:6-8 in appendix???
 * Can we build both numbering systems by chunking?
   * 147 -> 146 & 147
+* Is a comma?  W:60:10
