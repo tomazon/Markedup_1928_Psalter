@@ -23,9 +23,12 @@ my %ansi = (
     reset        => "\e[0m",
 );
 
+my $in_file  = "./yaml/psalms.yaml";
+my $out_file = "./helpers/wc_dc_transform.out.yaml";
+my $log_file = "./helpers/wc_dc_transform.log";
 
-my $data = YAML::LoadFile('./yaml/psalms.yaml');
-my $log_file = "./wc_dc_transform.log";
+
+my $data = YAML::LoadFile($in_file);
 open (my $log_fh, ">$log_file") || die "Can't open $log_file for writing: $!\n";
 
 for my $psalm_num (sort keys %{$data->{psalm}}) {
@@ -51,7 +54,7 @@ for my $psalm_num (sort keys %{$data->{psalm}}) {
 
 }
 
-say YAML::DumpFile('/tmp/psalms_transformed.yaml', $data);
+say YAML::DumpFile($out_file, $data);
 
 ####################################################################################################
 
