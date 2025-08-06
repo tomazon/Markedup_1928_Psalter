@@ -742,22 +742,22 @@ psalm:
         tone:
           from_dunstan: ''
         verse:
-          '001': 'THE <SC>Lord</SC> is my light and my salvation; whom then shall I fear? * the <SC>Lord</SC> is the strength of my life<DS {dc}>;</DS> of whom then shall I be afraid?'
-          '002': 'When the wicked, even mine enemies and my foes{dc}{wc}, came upon me to eat up my flesh{wc}, * they stumbled and fell.'
-          '003': 'Though an host of men were laid against me{dc}{wc}, yet shall not my heart be afraid; * and though there rose up war against me{wc}, yet will I put my trust in him.'
-          '004': 'One thing have I desired of the <SC>Lord</SC>, which I will require; * even that I may dwell in the house of the <SC>Lord</SC> all the days of my life{wc}, to behold the fair beauty of the <SC>Lord</SC>, and to visit his temple.'
-          '005': 'For in the time of trouble he shall hide me in his tabernacle; * yea, in the secret place of his dwelling shall he hide me{wc}, and set me up upon a rock of stone.'
-          '006': And now shall he lift up mine head * above mine enemies round about me.
-          '007': 'Therefore will I offer in his dwelling an oblation, with great gladness: * I will sing and speak praises unto the <SC>Lord</SC>.'
-          '008': 'Hearken unto my voice, O <SC>Lord</SC>{wc}, when I cry unto thee; * have mercy upon me, and hear me.'
-          '009': 'My heart hath talked of thee, Seek ye my face: * Thy face, <SC>Lord</SC>, will I seek.'
-          '010': 'O hide not thou thy face from me{wc}, * nor cast thy servant away in displeasure.'
-          '011': 'Thou hast been my succour; * leave me not, neither forsake me{wc}, O God of my salvation.'
-          '012': 'When my father and my mother forsake me{wc}, * the <SC>Lord</SC> taketh me up.'
-          '013': 'Teach me thy way, O <SC>Lord</SC>{wc}, * and lead me in the right way{wc}, because of mine enemies.'
-          '014': 'Deliver me not over into the will of mine adversaries: * for there are false witnesses risen up against me{wc}, and such as speak wrong.'
-          '015': 'I should utterly have fainted{wc}, * but that I believe verily to see the goodness of the <SC>Lord</SC> in the land of the living.'
-          '016': "O tarry thou the <SC>Lord</SC>'s leisure; * be strong, and he shall comfort thine heart; and put thou thy trust in the <SC>Lord</SC>."
+          '001': 'THE <SC>Lord</SC> is my light and my + salvation; whom then shall I fear? * the <SC>Lord</SC> is the strength of my life<DS {dc}>;</DS> of whom then + shall I be afraid?'
+          '002': 'When the wicked, even mine enemies and my f__oes{dc}{wc}, {df} came upon me to + eat up my flesh{wc}, * they + stum=bl=ed and fell.'
+          '003': 'Though an host of men were laid against ^me{dc}{wc}, {df} yet shall not my + heart be afraid; * and though there rose up war against me{wc}, yet will I + put my trust in him.'
+          '004': 'One thing have I desir=ed of the <SC>Lord</SC>, + which I will require; * even that I may dwell in the house of the <SC>Lord</SC> all the days of my life{wc}, to behold the fair beauty of the <SC>Lord</SC>, and to + visit his temple.'
+          '005': 'For in the time of trouble he shall hide me in his + tabernacle; * yea, in the secret place of his dwelling shall he hide me{wc}, and set me up up+on a rock of stone.'
+          '006': And now shall he + lift up mine head * above mine enemies + round about me.
+          '007': 'Therefore will I offer in his dwelling an oblation, + with great gladness: * I will sing and speak praises + unto the <SC>Lord</SC>.'
+          '008': 'Hearken unto my voice, O <SC>Lord</SC>{wc}, when I + cry unto thee; * have mercy up+on me, and hear me.'
+          '009': 'My heart hath talk=ed of thee, + Seek ye my face: * Thy + face, <SC>Lord</SC>, will I seek.'
+          '010': 'O hide not + thou thy face from me{wc}, * nor cast thy servant a+way in displeasure.'
+          '011': 'Thou hast + been my succour; * leave me not, neither forsake me{wc}, O God of + my salvation.'
+          '012': 'When my father and my + mother forsake me{wc}, * the <SC>Lord</SC> + taketh me up.'
+          '013': '+ Teach me thy way, O <SC>Lord</SC>{wc}, * and lead me in the right way{wc}, be+cause of mine enemies.'
+          '014': 'Deliver me not over into the will of mine + adversaries: * for there are false witnesses risen up against me{wc}, and + such as speak wrong.'
+          '015': 'I should utter+ly have fainted{wc}, * but that I believe verily to see the goodness of the <SC>Lord</SC> in the + land of the living.'
+          '016': "O tarry + thou the <SC>Lord</SC>'s leisure; * be strong, and he shall comfort thine heart; and put thou thy + trust in the <SC>Lord</SC>."
         verse_history_refs: {}
         verse_meta:
           '001':
