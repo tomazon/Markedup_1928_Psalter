@@ -20,8 +20,8 @@ for my $line (@lines) {
     next if $line =~ /verse_history_refs:/;
 
     say "$line_no | no comma  | $line" if $line =~ /\{wc\}[^,]/;
-    say "$line_no | no {dc}   | $line" if $line =~ /[^d][^c][^}]\{wc\}/;
-    say "$line_no | no , or } | $line" if $line =~ /\{dc\}[^,{]/;
+    #say "$line_no | no {dc}   | $line" if $line =~ /[^d][^c][^}]\{wc\}/;
+    say "$line_no | no , or } | $line" if $line =~ /\{wc\}[^,{]/;
     say "$line_no | yea{}     | $line" if $line =~ /yea\[/i;
     say "$line_no | {,}       | $line" if $line =~ /\{[^}]*\,[^]]*}/i;
     say "$line_no | <,>       | $line" if $line =~ /<[^>]*\,[^>]*>/i;
