@@ -685,27 +685,27 @@ psalm:
         tone:
           from_dunstan: ''
         verse:
-          '001': 'UNTO thee, O <SC>Lord</SC>{wc}, will I lift up my soul; my God, I have put my trust in thee: * O let me not be confounded{wc}, neither let mine enemies triumph over me.'
-          '002': For all they that hope in thee shall not be ashamed; * but such as transgress without a cause shall be put to confusion.
-          '003': 'Show me thy ways, O <SC>Lord</SC>{wc}, * and teach me thy paths.'
-          '004': 'Lead me forth in thy truth, and learn me: * for thou art the God of my salvation; in thee hath been my hope all the day long.'
-          '005': 'Call to remembrance, O <SC>Lord</SC>{wc}, thy tender mercies{wc}, * and thy loving-kindnesses{wc}, which have been ever of old.'
-          '006': 'O remember not the sins and offences of my youth; * but according to thy mercy think thou upon me, O <SC>Lord</SC>, for thy goodness.'
-          '007': Gracious and righteous is the <SC>Lord</SC>; * therefore will he teach sinners in the way.
-          '008': 'Them that are meek shall he guide in judgment; * and such as are gentle{wc}, them shall he learn his way.'
-          '009': 'All the paths of the <SC>Lord</SC> are mercy and truth{wc}, * unto such as keep his covenant and his testimonies.'
-          '010': "For thy Name's sake, O <SC>Lord</SC>{wc}, * be merciful unto my sin; for it is great."
-          '011': 'What man is he that feareth the <SC>Lord</SC>? * him shall he teach in the way that he shall choose.'
-          '012': 'His soul shall dwell at ease{dc}{wc}, * and his seed shall inherit the land.'
-          '013': The secret of the <SC>Lord</SC> is among them that fear him; * and he will show them his covenant.
-          '014': Mine eyes are ever looking unto the <SC>Lord</SC>; * for he shall pluck my feet out of the net.
-          '015': 'Turn thee unto me, and have mercy upon me; * for I am desolate, and in misery.'
-          '016': 'The sorrows of my heart are enlarged: * O bring thou me out of my troubles.'
-          '017': 'Look upon my adversity and misery{wc}, * and forgive me all my sin.'
-          '018': 'Consider mine enemies{wc}, how many they are; * and they bear a tyrannous hate against me.'
-          '019': 'O keep my soul, and deliver me: * let me not be confounded{wc}, for I have put my trust in thee.'
-          '020': Let perfectness and righteous dealing wait upon me; * for my hope hath been in thee.
-          '021': 'Deliver Israel, O God{wc}, * out of all his troubles.'
+          '001': 'UNTO thee, O <SC>Lord</SC>{wc}, will I lift up my s__oul; {df} my God, I have put my trust + in thee: * O let me not be confounded{wc}, neither let mine enemies + triumph over me.'
+          '002': For all they that hope in thee shall not be a+sham=ed; * but such as transgress without a cause shall be put + to confusion.
+          '003': 'Show me thy ways, + O <SC>Lord</SC>{wc}, * and + teach me thy paths.'
+          '004': 'Lead me forth in thy truth, and + learn me: * for thou art the God of my salvation<DS {dc}>;</DS> in thee hath been my hope + all the day long.'
+          '005': 'Call to remembrance, O <SC>Lord</SC>{wc}, thy tender + mercies{wc}, * and thy loving-kindnesses{wc}, which have been + ever of old.'
+          '006': 'O remember not the sins and offences of + my youth; * but according to thy mercy think thou upon me, O + <SC>Lord</SC>, for thy goodness.'
+          '007': Gracious and righteous is + the <SC>Lord</SC>; * therefore will he teach + sinners in the way.
+          '008': 'Them that are meek shall he guide in + judgment; * and such as are gentle{wc}, + them shall he learn his way.'
+          '009': 'All the paths of the <SC>Lord</SC> are mercy + and truth{wc}, * unto such as keep his covenant and his + testimonies.'
+          '010': "For thy Name's sake, + O <SC>Lord</SC>{wc}, * be merciful unto my + sin; for it is great."
+          '011': 'What man is he that feareth + the <SC>Lord</SC>? * him shall he teach in the + way that he shall choose.'
+          '012': 'His soul shall dwell + at ease{dc}{wc}, * and his seed shall in+herit the land.'
+          '013': The secret of the <SC>Lord</SC> is among them that + fear him; * and he will show + them his covenant.
+          '014': Mine eyes are ever looking unto + the <SC>Lord</SC>; * for he shall pluck my feet + out of the net.
+          '015': 'Turn thee unto me, and have mercy up+on me; * for I am desolate, + and in misery.'
+          '016': 'The sorrows of my heart are en+larg=ed: * O bring thou me out + of my troubles.'
+          '017': 'Look upon my adversity and mise+ry{wc}, * and for+give me all my sin.'
+          '018': 'Consider mine enemies{wc}, how many + they are; * and they bear a tyrannous + hate against me.'
+          '019': 'O keep my soul, and deliv+er me: * let me not be confounded{wc}, for I have + put my trust in thee.'
+          '020': Let perfectness and righteous dealing wait up+on me; * for my + hope hath been in thee.
+          '021': 'Deliver Israel, + O God{wc}, * out of + all his troubles.'
         verse_history_refs: {}
         verse_meta:
           '001':
@@ -718,18 +718,18 @@ psalm:
         tone:
           from_dunstan: ''
         verse:
-          '001': 'BE thou my Judge, O <SC>Lord</SC>{wc}, for I have walked innocently: * my trust hath been also in the <SC>Lord</SC>{dc}{wc}, therefore shall I not fall.'
-          '002': 'Examine me, O <SC>Lord</SC>, and prove me; * try out my reins and my heart.'
-          '003': For thy loving-kindness is ever before mine eyes; * and I will walk in thy truth.
-          '004': I have not dwelt with vain persons; * neither will I have fellowship with the deceitful.
-          '005': I have hated the congregation of the wicked; * and will not sit among the ungodly.
-          '006': 'I will wash my hands in innocency, O <SC>Lord</SC>; * and so will I go to thine altar;'
-          '007': 'That I may show the voice of thanksgiving{wc}, * and tell of all thy wondrous works.'
-          '008': '<SC>Lord</SC>, I have loved the habitation of thy house{wc}, * and the place where thine honour dwelleth.'
-          '009': 'O shut not up my soul with the sinners{wc}, * nor my life with the blood-thirsty;'
-          '010': 'In whose hands is wickedness{dc}{wc}, * and their right hand is full of gifts.'
-          '011': 'But as for me{wc}, I will walk innocently: * O deliver me, and be merciful unto me.'
-          '012': 'My foot standeth right: * I will praise the <SC>Lord</SC> in the congregations.'
+          '001': 'BE thou my Judge, O <SC>Lord</SC>{wc}, for I have walk=ed + innocently: * my trust hath been also in the <SC>Lord</SC>{dc}{wc}, therefore + shall I not fall.'
+          '002': 'Examine me, O + <SC>Lord</SC>, and prove me; * try out + my reins and my heart.'
+          '003': For thy loving-kindness is + ever before mine eyes; * and I + will walk in thy truth.
+          '004': I have not + dwelt with vain persons; * neither will I have fellowship with + the deceitful.
+          '005': I have hated the congregation + of the wicked; * and will not sit among + the ungodly.
+          '006': 'I will wash my hands in + innocency, O <SC>Lord</SC>; * and so will I go + to thine altar;'
+          '007': 'That I may show the + voice of thanksgiving{wc}, * and tell of + all thy wondrous works.'
+          '008': '<SC>Lord</SC>, I have lov=ed the habi+tation of thy house{wc}, * and the place where thine + honour dwelleth.'
+          '009': 'O shut not up my + soul with the sinners{wc}, * nor my life with + the blood-thirsty;'
+          '010': 'In whose + hands is wickedness{dc}{wc}, * and their right + hand is full of gifts.'
+          '011': 'But as for me{wc}, I will walk + innocently: * O deliver me, and be mer+ciful unto me.'
+          '012': 'My + foot standeth right: * I will praise the <SC>Lord</SC> in the + congregations.'
         verse_history_refs: {}
         verse_meta:
           '001':
