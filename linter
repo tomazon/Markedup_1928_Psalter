@@ -8,6 +8,66 @@ use YAML;
 
 use feature 'say';
 
+
+my $in_file  = "./yaml/psalms.yaml";
+my $data = YAML::LoadFile($in_file);
+my $current_psalm_num = 34;
+
+
+for my $psalm_num (sort keys %{$data->{psalm}}) {
+    my $psalm = $data->{psalm}->{$psalm_num};
+    for my $part_num (sort keys %{$psalm->{part}}) {
+        my $part = $psalm->{part}->{$part_num};
+        for my $verse_num (sort keys %{$part->{verse}}) {
+            check_verse($data, $psalm_num, $part_num, $verse_num);
+        }
+    }
+
+}
+
+################################################################################
+
+sub check_verse {
+    my ($data, $psalm_num, $part_num, $verse_num) = @_;
+    my $text = fetch_verse_text($data, $psalm_num, $part_num, $verse_num);
+    #say "$psalm_num:$verse_num - $text";
+    show_invalid_angle_tags($psalm_num, $verse_num, $text);
+    check_ed_issues($psalm_num, $verse_num, $text);
+}
+
+sub fetch_verse_text {
+    my ($data, $psalm_num, $part_num, $verse_num) = @_;
+    $data->{psalm}->{$psalm_num}->{part}->{$part_num}->{verse}->{$verse_num};
+}
+
+
+sub show_invalid_angle_tags {
+    my ($psalm_num, $verse_num, $text) = @_;
+    my $tmp = $text;;
+
+    for my $tag (qw( SC DS DA BR br DP TETRAGRAMMATON DIGRAMMATON )) {
+        $tmp =~ s/<${tag}>/%%%/g;
+        $tmp =~ s/<${tag} [^>]+>/%%%/g;
+        $tmp =~ s/<\/${tag}>/%%%/g;
+    }
+    report ($psalm_num, $verse_num, '<__>', $tmp) if $tmp =~ /[<>]/;
+}
+
+sub check_ed_issues {
+    my ($psalm_num, $verse_num, $text) = @_;
+
+    report ($psalm_num, $verse_num, '_ed', $text) if $text =~ /_ed/;
+    ##report ($psalm_num, $verse_num, '*ed', $text) if $text =~ /[a-z]ed\b/ && $psalm_num < $current_psalm_num;
+}
+
+sub report {
+    my ($psalm_num, $verse_num, $issue, $text) = @_;
+
+    say sprintf ("%3s:%3s | %-10s | %s\n", $psalm_num, $verse_num, $issue, $text);
+}
+
+__END__
+
 my @lines;
 while (my $line = (<>)) {
     $line =~ s/\s+$//;
