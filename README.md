@@ -168,6 +168,10 @@ Which Psalms to read when:
   * https://www.stpetersaoc.org/Info/1928Lectionary.pdf
 
 
+How to sing / plain chant:
+  * http://www.stutler.cc/russ/sing_psalms.html
+    * http://www.stutler.cc/russ/5_simple_psalm_tones.pdf
+  
 Reviews of multiple Psalters:
   * https://russellstutler.com/russ/psalter_reviews.html
 

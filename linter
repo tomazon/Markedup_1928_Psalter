@@ -53,10 +53,12 @@ sub show_invalid_angle_tags {
     report ($psalm_num, $verse_num, '<__>', $tmp) if $tmp =~ /[<>]/;
 }
 
+
 sub check_ed_issues {
     my ($psalm_num, $verse_num, $text) = @_;
 
     report ($psalm_num, $verse_num, '_ed', $text) if $text =~ /_ed/;
+    report ($psalm_num, $verse_num, '???', $text) if $text =~ /\?\?/;
     ##report ($psalm_num, $verse_num, '*ed', $text) if $text =~ /[a-z]ed\b/ && $psalm_num < $current_psalm_num;
 }
 
